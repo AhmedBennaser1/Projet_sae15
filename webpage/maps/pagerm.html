@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Parkings de Montpellier</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" crossorigin=""/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="/webpage/maps/mapstyle.css">
+    <style>
+        html, body {
+            margin: 0;
+        }
+        .content-box {
+    		position: relative;
+    		max-width: 90%;
+    		margin: 0 auto; 
+        
+     
+        #map {
+            height: 100%; 
+            width: 100% ; 
+           
+            
+        }
+    
+        #refresh-button {
+    	position: absolute;
+    	top: 2%;
+    	right: 10px;
+    	padding: 10px;
+    	background-color: #4CAF50;
+    	color: white;
+    	border: none;
+    	cursor: pointer;
+    	z-index: 1000;
+		}
+        .legend {
+    	position: absolute; 
+    	bottom: 5%;
+    	left: 3px;
+    	width: 130px;
+    	height: auto;
+    	border: 2px solid grey;
+    	z-index: 9999;
+    	font-size: 14px;
+    	background-color: white;
+    	padding: 10px;
+		}		
+        @media screen and (max-width: 600px) {
+            .legend {
+                font-size: 10px;
+            }
+        }
+        .custom-icon {
+            font-size: 20px; 
+            width: 40px;
+            height: 40px;
+            line-height: 40px; 
+            text-align: center; 
+            border-radius: 50%;
+            color: white; 
+            background: inherit; 
+        }
+        #occup {
+    	position: absolute; /* Change to absolute positioning */
+    	bottom: 5%;
+    	left: 50%;
+    	transform: translateX(-45%);
+    	padding: 6px;
+    	background-color: white;
+    	color: black;
+    	font-size: 14px;
+    	border-radius: 5px;
+    	border: solid black 2px;
+    	width: 80%;
+   		max-width: 500px;
+    	text-align: center;
+    	display: flex;
+    	justify-content: space-around;
+    	align-items: center;
+    	z-index: 9999;
+		}
+
+        @media (max-width: 600px) {
+            #occup {
+                width: 50%; 
+                transform: translate(50%);
+                font-size: 10px;
+                z-index: 9999; 
+            }
+        }
+    </style>
+</head>
+<body>
+    <ul class="navbar-nav">
+        <li class="nav-item"><a href="/webpage/mainpage.html">Accueil</a></li>
+        <li class="nav-item">
+            <div class="select-wrapper">
+                <select onchange="location = this.value;" id="chartSelect">
+                    <option value="#" selected disabled hidden>Live Map</option>
+                    <option value="/webpage/maps/mapsshow.html" style="color: black;font-size:14px;text-align: center;">Historique</option>
+                    <option value="/webpage//maps/pagerm.html" style="color: black;font-size:14px;">Live</option>
+                </select>
+            </div>
+        </li>
+        <li class="nav-item">
+            <div class="select-wrapper">
+                <select onchange="location = this.value;" id="chartSelect">
+                    <option value="#" selected disabled hidden>Graphiques</option>
+                    <option value="/webpage/charts/charts.html" style="color: black;font-size:14px;text-align: center;">Occupation</option>
+                    <option value="/webpage//charts/charts_remplissage.html" style="color: black;font-size:14px;">Moyenne</option>
+                </select>
+            </div>
+        </li>
+        <li class="nav-item"><a href="/webpage/analyse/analyse.html">Analyse</a></li>
+    </ul>
+    <br><br>
+    <h1>Map de l'état des parkings de montpellier en Temps réél</h1>
+    <br><br>
+    <div class="content-box">
+        <div id="map"></div>
+        <button id="refresh-button">Rafraîchir la Carte</button>
+        <div class="legend">
+            &nbsp; Parking voiture &nbsp; <i class="fa fa-car" style="color:red"></i><br>
+            &nbsp; Parking vélo &nbsp; <i class="fa fa-bicycle" style="color:blue"></i><br>
+            &nbsp; Taux d'occupation des parkings voitures : <br>
+            &nbsp; <i class="fa fa-square" style="color:green"></i>&nbsp; < 40% (Faible) <br>
+            &nbsp; <i class="fa fa-square" style="color:orange"></i>&nbsp; 40% - 80% (Moyen) <br>
+            &nbsp; <i class="fa fa-square" style="color:red"></i>&nbsp; > 80% (Élevé) <br>
+            &nbsp; Taux d'occupation des parkings vélo : <br>
+            &nbsp; <i class="fa fa-square" style="color:#00CED1"></i>&nbsp; < 40% (Faible) <br>
+            &nbsp; <i class="fa fa-square" style="color:blue"></i>&nbsp; 40% - 80% (Moyen) <br>
+            &nbsp; <i class="fa fa-square" style="color:purple"></i>&nbsp; > 80% (Élevé) <br>
+        </div>
+        <div id="occup">
+            <!-- Contenu pour l'occupation ici -->
+        </div>
+    </div>
+    <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js" 
+            integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA=="
+            crossorigin=""></script>
+    <script>
+        const URL_CARS = "https://portail-api-data.montpellier3m.fr/offstreetparking?limit=1000";
+        const URL_BIKES = "https://portail-api-data.montpellier3m.fr/bikestation?limit=1000";
+        const carOccupationList = [];
+        const bikeOccupationList = [];
+        let map;
+        let markersLayer = new L.LayerGroup();
+
+        document.addEventListener('DOMContentLoaded', function() {
+            initMap();
+            document.getElementById('refresh-button').addEventListener('click', refreshMap);
+            refreshMap(); 
+        });
+
+        function initMap() {
+            map = L.map('map').setView([43.61, 3.87], 12.5);
+            L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+                maxZoom: 19,
+                attribution: '© OpenStreetMap'
+            }).addTo(map);
+
+            markersLayer.addTo(map);
+        }
+
+        function refreshMap() {
+            markersLayer.clearLayers(); 
+            fetchDataAndAddPoints(URL_CARS, 'car');
+            fetchDataAndAddPoints(URL_BIKES, 'bike');
+        }
+
+        function fetchDataAndAddPoints(url, type) {
+        fetch(url)
+        .then(response => response.json())
+        .then(data => {
+            addPoints(data, type);
+
+            const averageCarOccupancyRate = calculateAverageOccupancyRate(carOccupationList);
+            const averageBikeOccupancyRate = calculateAverageOccupancyRate(bikeOccupationList);
+            
+            displayAverageOccupancyRates(averageCarOccupancyRate, averageBikeOccupancyRate, 'occup');
+        })
+        .catch(error => console.error('Error:', error));
+        }
+
+
+        function addPoints(data, type) {
+            data.forEach(i => {
+                let placesdispo, placestotal, taux, coordinates, label, color;
+
+                if (type === 'car') {
+                    placesdispo = i.availableSpotNumber.value;
+                    placestotal = i.totalSpotNumber.value;
+                    coordinates = i.location.value.coordinates;
+                    if (placestotal-placesdispo==0){
+                            taux=100}
+                    else{
+                    	taux = Math.round(((placestotal - placesdispo) / placestotal) * 100 * 100) / 100; 
+                            }
+                    label = `Parking voiture : ${i.name.value}<br>Places dispo : ${placesdispo}<br>Places totales : ${placestotal}<br>Taux d'occupation : ${taux}%`;
+                    color = getColorForOccupancyRate(taux, 'car');
+
+                    carOccupationList.push({ name: i.name.value, placesDispo: placesdispo, placesTotal: placestotal, taux: taux });
+                } else if (type === 'bike') {
+                    placesdispo = i.totalSlotNumber.value - i.availableBikeNumber.value;
+                    placestotal = i.totalSlotNumber.value;
+                    coordinates = i.location.value.coordinates;
+                    if (placestotal-placesdispo==0){
+                            taux=100}
+                    else{
+                    	taux = Math.round(((placestotal - placesdispo) / placestotal) * 100 * 100) / 100; 
+                            }
+                    
+                    label = `Parking vélo : ${i.address.value.streetAddress}<br>Places dispo : ${placesdispo}<br>Places totales : ${placestotal}<br>Nombre de vélo dispo : ${i.availableBikeNumber.value}<br>Taux d'occupation : ${taux}%`;
+                    color = getColorForOccupancyRate(taux, 'bike');
+
+                    bikeOccupationList.push({ streetAddress: i.address.value.streetAddress, placesDispo: placesdispo, placesTotal: placestotal, bikeDispo: i.availableBikeNumber.value, taux: taux });
+                }
+
+                const marker = L.marker([coordinates[1], coordinates[0]], {
+                    icon: L.divIcon({
+                        className: 'custom-icon',
+                        html: `<i class="fa ${type === 'car' ? 'fa-car' : 'fa-bicycle'}" style="color:${color};"></i>`,
+                        iconSize: [25, 25],
+                        iconAnchor: [12, 25],
+                        popupAnchor: [0, -25]
+                    })
+                }).bindPopup(label);
+                markersLayer.addLayer(marker);
+            });
+        }
+
+        function calculateAverageOccupancyRate(occupationList) {
+            if (occupationList.length === 0) {
+                return 0; // Avoid division by zero
+            }
+
+            // Sum up all occupancy rates
+            const sumOccupancyRates = occupationList.reduce((sum, entry) => sum + entry.taux, 0);
+
+            // Calculate average occupancy rate
+            const averageOccupancyRate = sumOccupancyRates / occupationList.length;
+
+            return averageOccupancyRate;
+        }
+
+        function displayAverageOccupancyRates(averageCarOccupancyRate, averageBikeOccupancyRate, targetDivId) {
+    const displayArea = document.getElementById(targetDivId);
+
+    // Create HTML content
+    const content = `
+        <p style="margin:0">Average Car Occupancy Rate: ${parseFloat(averageCarOccupancyRate.toFixed(2))}%</p>
+        <p style="margin:0">Average Bike Occupancy Rate: ${parseFloat(averageBikeOccupancyRate.toFixed(2))}%</p>
+    `;
+
+    // Set the content to the display area
+    displayArea.innerHTML = content;
+}
+
+
+        function getColorForOccupancyRate(taux, type) {
+            if (taux > 80) {
+                return type === 'car' ? 'red' : 'purple';
+            } else if (taux > 40 && taux<80) {
+                return type === 'car' ? 'orange' : 'blue';
+            } else {
+                return type === 'car' ? 'green' : '#00CED1';
+            }
+        }
+    </script>
+</body>
+</html>

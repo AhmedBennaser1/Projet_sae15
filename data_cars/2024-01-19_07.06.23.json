@@ -1,0 +1,255 @@
+[
+    {
+        "id": "urn:ngsi-ld:parking:001",
+        "status": "Open",
+        "totalSpotNumber": 239,
+        "name": "Antigone",
+        "availableSpotNumber": 119,
+        "localisation": [
+            3.88881893,
+            43.60871606
+        ]
+    },
+    {
+        "id": "urn:ngsi-ld:parking:003",
+        "status": "Open",
+        "totalSpotNumber": 735,
+        "name": "Comedie",
+        "availableSpotNumber": 528,
+        "localisation": [
+            3.87976196,
+            43.60856092
+        ]
+    },
+    {
+        "id": "urn:ngsi-ld:parking:004",
+        "status": "Open",
+        "totalSpotNumber": 310,
+        "name": "Corum",
+        "availableSpotNumber": 297,
+        "localisation": [
+            3.88225773,
+            43.61388821
+        ]
+    },
+    {
+        "id": "urn:ngsi-ld:parking:005",
+        "status": "Open",
+        "totalSpotNumber": 591,
+        "name": "Europa",
+        "availableSpotNumber": 472,
+        "localisation": [
+            3.89253074,
+            43.60784971
+        ]
+    },
+    {
+        "id": "urn:ngsi-ld:parking:006",
+        "status": "Open",
+        "totalSpotNumber": 646,
+        "name": "Foch",
+        "availableSpotNumber": 305,
+        "localisation": [
+            3.87657084,
+            43.61074912
+        ]
+    },
+    {
+        "id": "urn:ngsi-ld:parking:007",
+        "status": "Open",
+        "totalSpotNumber": 452,
+        "name": "Gambetta",
+        "availableSpotNumber": 214,
+        "localisation": [
+            3.87137436,
+            43.60695138
+        ]
+    },
+    {
+        "id": "urn:ngsi-ld:parking:008",
+        "status": "Open",
+        "totalSpotNumber": 656,
+        "name": "Gare",
+        "availableSpotNumber": 362,
+        "localisation": [
+            3.87891,
+            43.604024
+        ]
+    },
+    {
+        "id": "urn:ngsi-ld:parking:009",
+        "status": "Open",
+        "totalSpotNumber": 434,
+        "name": "Triangle",
+        "availableSpotNumber": 375,
+        "localisation": [
+            3.88184418,
+            43.60923384
+        ]
+    },
+    {
+        "id": "urn:ngsi-ld:parking:010",
+        "status": "Open",
+        "totalSpotNumber": 587,
+        "name": "Pitot",
+        "availableSpotNumber": 423,
+        "localisation": [
+            3.87019117,
+            43.61224494
+        ]
+    },
+    {
+        "id": "urn:ngsi-ld:parking:011",
+        "status": "Open",
+        "totalSpotNumber": 1200,
+        "name": "Circe",
+        "availableSpotNumber": 1174,
+        "localisation": [
+            3.9178495,
+            43.60495377
+        ]
+    },
+    {
+        "id": "urn:ngsi-ld:parking:012",
+        "status": "Open",
+        "totalSpotNumber": 395,
+        "name": "Garcia Lorca",
+        "availableSpotNumber": 365,
+        "localisation": [
+            3.8907158,
+            43.59098509
+        ]
+    },
+    {
+        "id": "urn:ngsi-ld:parking:013",
+        "status": "Open",
+        "totalSpotNumber": 350,
+        "name": "Mosson",
+        "availableSpotNumber": 314,
+        "localisation": [
+            3.81966554,
+            43.61623716
+        ]
+    },
+    {
+        "id": "urn:ngsi-ld:parking:014",
+        "status": "Open",
+        "totalSpotNumber": 220,
+        "name": "Sabines",
+        "availableSpotNumber": 178,
+        "localisation": [
+            3.8602246,
+            43.58383263
+        ]
+    },
+    {
+        "id": "urn:ngsi-ld:parking:015",
+        "status": "Open",
+        "totalSpotNumber": 372,
+        "name": "Sablassou",
+        "availableSpotNumber": 210,
+        "localisation": [
+            3.92229536,
+            43.63419194
+        ]
+    },
+    {
+        "id": "urn:ngsi-ld:parking:016",
+        "status": "Open",
+        "totalSpotNumber": 285,
+        "name": "Saint Jean Le Sec",
+        "availableSpotNumber": 114,
+        "localisation": [
+            3.8379312,
+            43.57082225
+        ]
+    },
+    {
+        "id": "urn:ngsi-ld:parking:017",
+        "status": "Open",
+        "totalSpotNumber": 255,
+        "name": "Euromedecine",
+        "availableSpotNumber": 148,
+        "localisation": [
+            3.82772365,
+            43.63895359
+        ]
+    },
+    {
+        "id": "urn:ngsi-ld:parking:018",
+        "status": "Open",
+        "totalSpotNumber": 615,
+        "name": "Occitanie",
+        "availableSpotNumber": 569,
+        "localisation": [
+            3.84859796,
+            43.63456232
+        ]
+    },
+    {
+        "id": "urn:ngsi-ld:parking:019",
+        "status": "Open",
+        "totalSpotNumber": 75,
+        "name": "Vicarello",
+        "availableSpotNumber": 49,
+        "localisation": [
+            3.898411,
+            43.63286
+        ]
+    },
+    {
+        "id": "urn:ngsi-ld:parking:020",
+        "status": "Open",
+        "totalSpotNumber": 109,
+        "name": "Gaumont EST",
+        "availableSpotNumber": 99,
+        "localisation": [
+            3.91529,
+            43.604526
+        ]
+    },
+    {
+        "id": "urn:ngsi-ld:parking:021",
+        "status": "Open",
+        "totalSpotNumber": 250,
+        "name": "Gaumont OUEST",
+        "availableSpotNumber": 216,
+        "localisation": [
+            3.914158,
+            43.604824
+        ]
+    },
+    {
+        "id": "urn:ngsi-ld:parking:022",
+        "status": "Open",
+        "totalSpotNumber": 260,
+        "name": "Charles de Gaulle",
+        "availableSpotNumber": 99,
+        "localisation": [
+            3.8977621,
+            43.6285421
+        ]
+    },
+    {
+        "id": "urn:ngsi-ld:parking:024",
+        "status": "Open",
+        "totalSpotNumber": 1911,
+        "name": "Polygone",
+        "availableSpotNumber": 1648,
+        "localisation": [
+            3.88515,
+            43.607697
+        ]
+    },
+    {
+        "id": "urn:ngsi-ld:parking:002",
+        "status": "Open",
+        "totalSpotNumber": 440,
+        "name": "Arc de Triomphe",
+        "availableSpotNumber": 142,
+        "localisation": [
+            3.8732007,
+            43.61100267
+        ]
+    }
+]

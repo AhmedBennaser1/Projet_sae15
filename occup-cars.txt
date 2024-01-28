@@ -1,0 +1,1127 @@
+Antigone:49.37:00h00
+Comedie:50.61:00h00
+Corum:12.9:00h00
+Europa:19.29:00h00
+Foch:74.46:00h00
+Gambetta:58.19:00h00
+Gare:41.16:00h00
+Triangle:19.59:00h00
+Pitot:36.8:00h00
+Circe:2.33:00h00
+Garcia Lorca:5.82:00h00
+Mosson:3.71:00h00
+Sabines:11.36:00h00
+Sablassou:42.47:00h00
+Saint Jean Le Sec:57.19:00h00
+Euromedecine:40.39:00h00
+Occitanie:6.67:00h00
+Vicarello:34.67:00h00
+Gaumont EST:9.17:00h00
+Gaumont OUEST:13.6:00h00
+Charles de Gaulle:62.31:00h00
+Polygone:15.49:00h00
+Arc de Triomphe:72.27:00h00
+Antigone:49.37:00h35
+Comedie:43.95:00h35
+Corum:11.61:00h35
+Europa:19.29:00h35
+Foch:65.94:00h35
+Gambetta:56.86:00h35
+Gare:41.01:00h35
+Triangle:18.2:00h35
+Pitot:33.39:00h35
+Circe:1.75:00h35
+Garcia Lorca:5.82:00h35
+Mosson:3.43:00h35
+Sabines:11.36:00h35
+Sablassou:42.47:00h35
+Saint Jean Le Sec:56.84:00h35
+Euromedecine:40.39:00h35
+Occitanie:6.02:00h35
+Vicarello:34.67:00h35
+Gaumont EST:9.17:00h35
+Gaumont OUEST:13.6:00h35
+Charles de Gaulle:62.31:00h35
+Polygone:13.97:00h35
+Arc de Triomphe:70.23:00h35
+Antigone:49.37:01h05
+Comedie:39.32:01h05
+Corum:8.71:01h05
+Europa:19.29:01h05
+Foch:60.99:01h05
+Gambetta:55.53:01h05
+Gare:39.79:01h05
+Triangle:17.28:01h05
+Pitot:31.35:01h05
+Circe:1.67:01h05
+Garcia Lorca:5.82:01h05
+Mosson:3.43:01h05
+Sabines:11.82:01h05
+Sablassou:42.2:01h05
+Saint Jean Le Sec:56.84:01h05
+Euromedecine:40.39:01h05
+Occitanie:5.53:01h05
+Vicarello:34.67:01h05
+Gaumont EST:9.17:01h05
+Gaumont OUEST:13.6:01h05
+Charles de Gaulle:62.31:01h05
+Polygone:13.61:01h05
+Arc de Triomphe:69.55:01h05
+Antigone:49.37:01h35
+Comedie:33.61:01h35
+Corum:9.68:01h35
+Europa:19.29:01h35
+Foch:58.2:01h35
+Gambetta:54.87:01h35
+Gare:39.33:01h35
+Triangle:15.9:01h35
+Pitot:29.98:01h35
+Circe:1.42:01h35
+Garcia Lorca:6.08:01h35
+Mosson:3.43:01h35
+Sabines:12.27:01h35
+Sablassou:41.94:01h35
+Saint Jean Le Sec:56.84:01h35
+Euromedecine:40.39:01h35
+Occitanie:5.53:01h35
+Vicarello:38.67:01h35
+Gaumont EST:9.17:01h35
+Gaumont OUEST:13.6:01h35
+Charles de Gaulle:62.31:01h35
+Polygone:12.93:01h35
+Arc de Triomphe:69.09:01h35
+Antigone:49.37:02h05
+Comedie:32.79:02h05
+Corum:10.0:02h05
+Europa:19.29:02h05
+Foch:57.59:02h05
+Gambetta:54.65:02h05
+Gare:38.87:02h05
+Triangle:15.67:02h05
+Pitot:29.47:02h05
+Circe:1.5:02h05
+Garcia Lorca:6.08:02h05
+Mosson:3.43:02h05
+Sabines:11.82:02h05
+Sablassou:41.94:02h05
+Saint Jean Le Sec:56.84:02h05
+Euromedecine:40.39:02h05
+Occitanie:5.53:02h05
+Vicarello:37.33:02h05
+Gaumont EST:9.17:02h05
+Gaumont OUEST:13.6:02h05
+Charles de Gaulle:62.31:02h05
+Polygone:12.82:02h05
+Arc de Triomphe:68.64:02h05
+Antigone:49.37:02h35
+Comedie:31.84:02h35
+Corum:10.0:02h35
+Europa:19.29:02h35
+Foch:56.66:02h35
+Gambetta:54.42:02h35
+Gare:35.52:02h35
+Triangle:15.44:02h35
+Pitot:29.13:02h35
+Circe:1.5:02h35
+Garcia Lorca:6.08:02h35
+Mosson:3.43:02h35
+Sabines:11.82:02h35
+Sablassou:41.67:02h35
+Saint Jean Le Sec:56.84:02h35
+Euromedecine:40.39:02h35
+Occitanie:5.53:02h35
+Vicarello:37.33:02h35
+Gaumont EST:9.17:02h35
+Gaumont OUEST:13.6:02h35
+Charles de Gaulle:62.31:02h35
+Polygone:12.14:02h35
+Arc de Triomphe:68.41:02h35
+Antigone:49.37:03h06
+Comedie:30.88:03h06
+Corum:10.0:03h06
+Europa:19.29:03h06
+Foch:55.73:03h06
+Gambetta:53.76:03h06
+Gare:39.94:03h06
+Triangle:15.44:03h06
+Pitot:28.79:03h06
+Circe:1.5:03h06
+Garcia Lorca:6.08:03h06
+Mosson:3.43:03h06
+Sabines:11.36:03h06
+Sablassou:41.67:03h06
+Saint Jean Le Sec:56.84:03h06
+Euromedecine:40.39:03h06
+Occitanie:5.53:03h06
+Vicarello:37.33:03h06
+Gaumont EST:9.17:03h06
+Gaumont OUEST:13.6:03h06
+Charles de Gaulle:62.31:03h06
+Polygone:12.35:03h06
+Arc de Triomphe:68.64:03h06
+Antigone:49.37:03h36
+Comedie:29.66:03h36
+Corum:9.35:03h36
+Europa:19.29:03h36
+Foch:54.8:03h36
+Gambetta:53.76:03h36
+Gare:36.89:03h36
+Triangle:14.98:03h36
+Pitot:28.45:03h36
+Circe:1.5:03h36
+Garcia Lorca:6.08:03h36
+Mosson:3.43:03h36
+Sabines:10.91:03h36
+Sablassou:41.67:03h36
+Saint Jean Le Sec:56.84:03h36
+Euromedecine:40.39:03h36
+Occitanie:5.53:03h36
+Vicarello:37.33:03h36
+Gaumont EST:9.17:03h36
+Gaumont OUEST:13.6:03h36
+Charles de Gaulle:62.31:03h36
+Polygone:12.35:03h36
+Arc de Triomphe:68.18:03h36
+Antigone:49.37:04h06
+Comedie:28.84:04h06
+Corum:10.0:04h06
+Europa:19.46:04h06
+Foch:54.02:04h06
+Gambetta:53.54:04h06
+Gare:39.63:04h06
+Triangle:14.06:04h06
+Pitot:28.28:04h06
+Circe:1.5:04h06
+Garcia Lorca:6.08:04h06
+Mosson:3.71:04h06
+Sabines:11.36:04h06
+Sablassou:41.67:04h06
+Saint Jean Le Sec:56.84:04h06
+Euromedecine:40.39:04h06
+Occitanie:5.53:04h06
+Vicarello:37.33:04h06
+Gaumont EST:9.17:04h06
+Gaumont OUEST:13.6:04h06
+Charles de Gaulle:62.31:04h06
+Polygone:11.88:04h06
+Arc de Triomphe:67.95:04h06
+Antigone:49.79:04h36
+Comedie:28.57:04h36
+Corum:9.68:04h36
+Europa:19.46:04h36
+Foch:53.87:04h36
+Gambetta:53.32:04h36
+Gare:39.02:04h36
+Triangle:13.82:04h36
+Pitot:28.45:04h36
+Circe:1.5:04h36
+Garcia Lorca:6.33:04h36
+Mosson:4.29:04h36
+Sabines:11.36:04h36
+Sablassou:41.67:04h36
+Saint Jean Le Sec:56.84:04h36
+Euromedecine:40.39:04h36
+Occitanie:5.53:04h36
+Vicarello:36.0:04h36
+Gaumont EST:9.17:04h36
+Gaumont OUEST:13.6:04h36
+Charles de Gaulle:62.31:04h36
+Polygone:11.83:04h36
+Arc de Triomphe:67.95:04h36
+Antigone:49.79:05h06
+Comedie:28.16:05h06
+Corum:9.68:05h06
+Europa:19.46:05h06
+Foch:54.02:05h06
+Gambetta:53.32:05h06
+Gare:39.18:05h06
+Triangle:13.82:05h06
+Pitot:28.45:05h06
+Circe:1.5:05h06
+Garcia Lorca:6.33:05h06
+Mosson:4.86:05h06
+Sabines:11.82:05h06
+Sablassou:42.2:05h06
+Saint Jean Le Sec:56.84:05h06
+Euromedecine:40.39:05h06
+Occitanie:5.53:05h06
+Vicarello:36.0:05h06
+Gaumont EST:9.17:05h06
+Gaumont OUEST:13.6:05h06
+Charles de Gaulle:62.31:05h06
+Polygone:11.77:05h06
+Arc de Triomphe:68.18:05h06
+Antigone:49.79:05h36
+Comedie:28.16:05h36
+Corum:9.68:05h36
+Europa:19.46:05h36
+Foch:53.72:05h36
+Gambetta:52.65:05h36
+Gare:41.92:05h36
+Triangle:13.82:05h36
+Pitot:28.45:05h36
+Circe:1.5:05h36
+Garcia Lorca:6.33:05h36
+Mosson:5.43:05h36
+Sabines:12.73:05h36
+Sablassou:42.2:05h36
+Saint Jean Le Sec:56.84:05h36
+Euromedecine:40.39:05h36
+Occitanie:5.53:05h36
+Vicarello:36.0:05h36
+Gaumont EST:9.17:05h36
+Gaumont OUEST:13.6:05h36
+Charles de Gaulle:62.31:05h36
+Polygone:11.88:05h36
+Arc de Triomphe:68.18:05h36
+Antigone:49.79:06h06
+Comedie:28.16:06h06
+Corum:9.68:06h06
+Europa:19.63:06h06
+Foch:53.41:06h06
+Gambetta:52.21:06h06
+Gare:43.14:06h06
+Triangle:14.06:06h06
+Pitot:28.28:06h06
+Circe:1.58:06h06
+Garcia Lorca:6.58:06h06
+Mosson:6.0:06h06
+Sabines:14.09:06h06
+Sablassou:42.2:06h06
+Saint Jean Le Sec:56.84:06h06
+Euromedecine:40.78:06h06
+Occitanie:5.53:06h06
+Vicarello:36.0:06h06
+Gaumont EST:9.17:06h06
+Gaumont OUEST:13.6:06h06
+Charles de Gaulle:61.92:06h06
+Polygone:12.19:06h06
+Arc de Triomphe:68.18:06h06
+Antigone:49.79:06h36
+Comedie:27.89:06h36
+Corum:9.68:06h36
+Europa:19.63:06h36
+Foch:53.1:06h36
+Gambetta:52.43:06h36
+Gare:44.66:06h36
+Triangle:14.06:06h36
+Pitot:27.77:06h36
+Circe:1.75:06h36
+Garcia Lorca:7.09:06h36
+Mosson:6.29:06h36
+Sabines:15.45:06h36
+Sablassou:42.2:06h36
+Saint Jean Le Sec:57.19:06h36
+Euromedecine:40.78:06h36
+Occitanie:6.18:06h36
+Vicarello:36.0:06h36
+Gaumont EST:9.17:06h36
+Gaumont OUEST:13.6:06h36
+Charles de Gaulle:62.69:06h36
+Polygone:12.66:06h36
+Arc de Triomphe:67.73:06h36
+Antigone:50.21:07h06
+Comedie:28.16:07h06
+Corum:4.19:07h06
+Europa:20.14:07h06
+Foch:52.79:07h06
+Gambetta:52.65:07h06
+Gare:44.82:07h06
+Triangle:13.59:07h06
+Pitot:27.94:07h06
+Circe:2.17:07h06
+Garcia Lorca:7.59:07h06
+Mosson:10.29:07h06
+Sabines:19.09:07h06
+Sablassou:43.55:07h06
+Saint Jean Le Sec:60.0:07h06
+Euromedecine:41.96:07h06
+Occitanie:7.48:07h06
+Vicarello:34.67:07h06
+Gaumont EST:9.17:07h06
+Gaumont OUEST:13.6:07h06
+Charles de Gaulle:61.92:07h06
+Polygone:13.76:07h06
+Arc de Triomphe:67.73:07h06
+Antigone:50.21:07h36
+Comedie:28.84:07h36
+Corum:4.84:07h36
+Europa:22.5:07h36
+Foch:52.48:07h36
+Gambetta:51.77:07h36
+Gare:45.58:07h36
+Triangle:14.29:07h36
+Pitot:29.98:07h36
+Circe:5.33:07h36
+Garcia Lorca:10.13:07h36
+Mosson:16.29:07h36
+Sabines:24.09:07h36
+Sablassou:47.85:07h36
+Saint Jean Le Sec:61.75:07h36
+Euromedecine:44.71:07h36
+Occitanie:13.98:07h36
+Vicarello:36.0:07h36
+Gaumont EST:9.17:07h36
+Gaumont OUEST:13.6:07h36
+Charles de Gaulle:63.85:07h36
+Polygone:14.23:07h36
+Arc de Triomphe:67.5:07h36
+Antigone:50.63:08h06
+Comedie:29.8:08h06
+Corum:5.16:08h06
+Europa:29.61:08h06
+Foch:53.41:08h06
+Gambetta:51.55:08h06
+Gare:42.99:08h06
+Triangle:20.74:08h06
+Pitot:34.07:08h06
+Circe:9.08:08h06
+Garcia Lorca:14.18:08h06
+Mosson:29.14:08h06
+Sabines:30.45:08h06
+Sablassou:54.84:08h06
+Saint Jean Le Sec:66.67:08h06
+Euromedecine:48.63:08h06
+Occitanie:23.25:08h06
+Vicarello:38.67:08h06
+Gaumont EST:9.17:08h06
+Gaumont OUEST:13.6:08h06
+Charles de Gaulle:65.38:08h06
+Polygone:15.49:08h06
+Arc de Triomphe:67.73:08h06
+Antigone:52.3:08h36
+Comedie:34.29:08h36
+Corum:8.39:08h36
+Europa:38.75:08h36
+Foch:54.49:08h36
+Gambetta:50.88:08h36
+Gare:48.17:08h36
+Triangle:27.19:08h36
+Pitot:40.2:08h36
+Circe:14.08:08h36
+Garcia Lorca:16.46:08h36
+Mosson:38.57:08h36
+Sabines:38.18:08h36
+Sablassou:61.29:08h36
+Saint Jean Le Sec:69.82:08h36
+Euromedecine:52.94:08h36
+Occitanie:31.54:08h36
+Vicarello:38.67:08h36
+Gaumont EST:9.17:08h36
+Gaumont OUEST:13.6:08h36
+Charles de Gaulle:66.92:08h36
+Polygone:18.21:08h36
+Arc de Triomphe:70.68:08h36
+Antigone:53.97:09h06
+Comedie:38.5:09h06
+Corum:11.94:09h06
+Europa:47.72:09h06
+Foch:56.19:09h06
+Gambetta:50.22:09h06
+Gare:47.1:09h06
+Triangle:35.02:09h06
+Pitot:45.83:09h06
+Circe:19.33:09h06
+Garcia Lorca:20.51:09h06
+Mosson:44.29:09h06
+Sabines:45.91:09h06
+Sablassou:66.4:09h06
+Saint Jean Le Sec:71.58:09h06
+Euromedecine:58.43:09h06
+Occitanie:39.35:09h06
+Vicarello:50.67:09h06
+Gaumont EST:9.17:09h06
+Gaumont OUEST:13.6:09h06
+Charles de Gaulle:67.69:09h06
+Polygone:22.19:09h06
+Arc de Triomphe:72.73:09h06
+Antigone:55.65:09h36
+Comedie:44.22:09h36
+Corum:13.55:09h36
+Europa:51.95:09h36
+Foch:59.91:09h36
+Gambetta:53.32:09h36
+Gare:50.76:09h36
+Triangle:42.63:09h36
+Pitot:51.28:09h36
+Circe:22.33:09h36
+Garcia Lorca:22.78:09h36
+Mosson:46.86:09h36
+Sabines:57.27:09h36
+Sablassou:69.35:09h36
+Saint Jean Le Sec:72.63:09h36
+Euromedecine:60.0:09h36
+Occitanie:42.93:09h36
+Vicarello:68.0:09h36
+Gaumont EST:9.17:09h36
+Gaumont OUEST:13.6:09h36
+Charles de Gaulle:73.08:09h36
+Polygone:27.42:09h36
+Arc de Triomphe:75.23:09h36
+Antigone:56.49:10h06
+Comedie:49.8:10h06
+Corum:16.13:10h06
+Europa:51.78:10h06
+Foch:68.89:10h06
+Gambetta:57.08:10h06
+Gare:48.63:10h06
+Triangle:47.93:10h06
+Pitot:54.17:10h06
+Circe:22.92:10h06
+Garcia Lorca:23.54:10h06
+Mosson:50.29:10h06
+Sabines:63.64:10h06
+Sablassou:70.16:10h06
+Saint Jean Le Sec:74.74:10h06
+Euromedecine:62.35:10h06
+Occitanie:46.5:10h06
+Vicarello:73.33:10h06
+Gaumont EST:9.17:10h06
+Gaumont OUEST:13.6:10h06
+Charles de Gaulle:74.62:10h06
+Polygone:35.79:10h06
+Arc de Triomphe:77.27:10h06
+Antigone:56.9:10h36
+Comedie:53.74:10h36
+Corum:19.35:10h36
+Europa:52.62:10h36
+Foch:74.61:10h36
+Gambetta:61.95:10h36
+Gare:51.37:10h36
+Triangle:50.92:10h36
+Pitot:54.51:10h36
+Circe:23.58:10h36
+Garcia Lorca:24.3:10h36
+Mosson:52.57:10h36
+Sabines:60.45:10h36
+Sablassou:72.04:10h36
+Saint Jean Le Sec:76.49:10h36
+Euromedecine:63.92:10h36
+Occitanie:49.27:10h36
+Vicarello:76.0:10h36
+Gaumont EST:9.17:10h36
+Gaumont OUEST:13.6:10h36
+Charles de Gaulle:73.85:10h36
+Polygone:42.96:10h36
+Arc de Triomphe:81.82:10h36
+Antigone:56.49:11h06
+Comedie:55.65:11h06
+Corum:22.26:11h06
+Europa:52.28:11h06
+Foch:78.33:11h06
+Gambetta:63.05:11h06
+Gare:52.44:11h06
+Triangle:54.38:11h06
+Pitot:56.05:11h06
+Circe:23.5:11h06
+Garcia Lorca:24.81:11h06
+Mosson:54.29:11h06
+Sabines:65.45:11h06
+Sablassou:72.85:11h06
+Saint Jean Le Sec:78.6:11h06
+Euromedecine:64.31:11h06
+Occitanie:51.54:11h06
+Vicarello:74.67:11h06
+Gaumont EST:9.17:11h06
+Gaumont OUEST:13.6:11h06
+Charles de Gaulle:75.38:11h06
+Polygone:47.15:11h06
+Arc de Triomphe:82.27:11h06
+Antigone:56.07:11h36
+Comedie:57.01:11h36
+Corum:23.87:11h36
+Europa:51.95:11h36
+Foch:80.34:11h36
+Gambetta:62.83:11h36
+Gare:51.22:11h36
+Triangle:59.22:11h36
+Pitot:56.39:11h36
+Circe:24.75:11h36
+Garcia Lorca:24.05:11h36
+Mosson:56.86:11h36
+Sabines:70.45:11h36
+Sablassou:74.46:11h36
+Saint Jean Le Sec:79.65:11h36
+Euromedecine:63.53:11h36
+Occitanie:52.68:11h36
+Vicarello:73.33:11h36
+Gaumont EST:9.17:11h36
+Gaumont OUEST:13.6:11h36
+Charles de Gaulle:74.23:11h36
+Polygone:50.65:11h36
+Arc de Triomphe:84.55:11h36
+Antigone:56.07:12h06
+Comedie:59.18:12h06
+Corum:25.81:12h06
+Europa:51.78:12h06
+Foch:81.58:12h06
+Gambetta:64.38:12h06
+Gare:51.22:12h06
+Triangle:61.75:12h06
+Pitot:57.75:12h06
+Circe:25.5:12h06
+Garcia Lorca:25.06:12h06
+Mosson:57.14:12h06
+Sabines:71.82:12h06
+Sablassou:74.46:12h06
+Saint Jean Le Sec:79.65:12h06
+Euromedecine:64.31:12h06
+Occitanie:52.68:12h06
+Vicarello:66.67:12h06
+Gaumont EST:9.17:12h06
+Gaumont OUEST:13.6:12h06
+Charles de Gaulle:73.08:12h06
+Polygone:52.22:12h06
+Arc de Triomphe:85.23:12h06
+Antigone:55.65:12h36
+Comedie:64.35:12h36
+Corum:27.1:12h36
+Europa:49.75:12h36
+Foch:83.75:12h36
+Gambetta:63.27:12h36
+Gare:47.56:12h36
+Triangle:61.75:12h36
+Pitot:55.71:12h36
+Circe:25.42:12h36
+Garcia Lorca:25.82:12h36
+Mosson:56.86:12h36
+Sabines:76.82:12h36
+Sablassou:74.46:12h36
+Saint Jean Le Sec:78.6:12h36
+Euromedecine:63.53:12h36
+Occitanie:51.71:12h36
+Vicarello:58.67:12h36
+Gaumont EST:9.17:12h36
+Gaumont OUEST:13.6:12h36
+Charles de Gaulle:76.15:12h36
+Polygone:55.68:12h36
+Arc de Triomphe:86.82:12h36
+Antigone:56.07:13h06
+Comedie:68.84:13h06
+Corum:26.45:13h06
+Europa:49.24:13h06
+Foch:87.46:13h06
+Gambetta:62.61:13h06
+Gare:55.03:13h06
+Triangle:60.37:13h06
+Pitot:54.17:13h06
+Circe:25.17:13h06
+Garcia Lorca:25.06:13h06
+Mosson:57.14:13h06
+Sabines:74.09:13h06
+Sablassou:73.92:13h06
+Saint Jean Le Sec:77.54:13h06
+Euromedecine:63.14:13h06
+Occitanie:50.08:13h06
+Vicarello:66.67:13h06
+Gaumont EST:9.17:13h06
+Gaumont OUEST:13.6:13h06
+Charles de Gaulle:75.38:13h06
+Polygone:55.68:13h06
+Arc de Triomphe:86.59:13h06
+Antigone:56.07:13h36
+Comedie:68.44:13h36
+Corum:26.13:13h36
+Europa:49.24:13h36
+Foch:86.38:13h36
+Gambetta:62.83:13h36
+Gare:47.87:13h36
+Triangle:58.76:13h36
+Pitot:52.13:13h36
+Circe:25.0:13h36
+Garcia Lorca:24.81:13h36
+Mosson:58.0:13h36
+Sabines:75.91:13h36
+Sablassou:74.46:13h36
+Saint Jean Le Sec:77.54:13h36
+Euromedecine:63.14:13h36
+Occitanie:51.22:13h36
+Vicarello:74.67:13h36
+Gaumont EST:9.17:13h36
+Gaumont OUEST:13.6:13h36
+Charles de Gaulle:75.38:13h36
+Polygone:55.73:13h36
+Arc de Triomphe:85.45:13h36
+Antigone:56.9:14h06
+Comedie:69.66:14h06
+Corum:28.06:14h06
+Europa:49.58:14h06
+Foch:86.22:14h06
+Gambetta:62.17:14h06
+Gare:52.44:14h06
+Triangle:57.83:14h06
+Pitot:50.77:14h06
+Circe:25.5:14h06
+Garcia Lorca:25.06:14h06
+Mosson:59.14:14h06
+Sabines:77.27:14h06
+Sablassou:75.81:14h06
+Saint Jean Le Sec:78.95:14h06
+Euromedecine:63.14:14h06
+Occitanie:53.82:14h06
+Vicarello:66.67:14h06
+Gaumont EST:9.17:14h06
+Gaumont OUEST:13.6:14h06
+Charles de Gaulle:77.31:14h06
+Polygone:55.36:14h06
+Arc de Triomphe:85.23:14h06
+Antigone:56.49:14h36
+Comedie:68.03:14h36
+Corum:27.42:14h36
+Europa:49.07:14h36
+Foch:84.06:14h36
+Gambetta:60.62:14h36
+Gare:53.2:14h36
+Triangle:58.99:14h36
+Pitot:50.26:14h36
+Circe:26.25:14h36
+Garcia Lorca:24.3:14h36
+Mosson:58.86:14h36
+Sabines:79.55:14h36
+Sablassou:76.61:14h36
+Saint Jean Le Sec:78.25:14h36
+Euromedecine:63.92:14h36
+Occitanie:54.63:14h36
+Vicarello:74.67:14h36
+Gaumont EST:9.17:14h36
+Gaumont OUEST:13.6:14h36
+Charles de Gaulle:78.08:14h36
+Polygone:57.82:14h36
+Arc de Triomphe:83.86:14h36
+Antigone:56.9:15h06
+Comedie:66.8:15h06
+Corum:26.45:15h06
+Europa:48.05:15h06
+Foch:82.66:15h06
+Gambetta:61.73:15h06
+Gare:53.05:15h06
+Triangle:55.99:15h06
+Pitot:49.06:15h06
+Circe:26.67:15h06
+Garcia Lorca:23.8:15h06
+Mosson:59.14:15h06
+Sabines:76.36:15h06
+Sablassou:75.81:15h06
+Saint Jean Le Sec:80.35:15h06
+Euromedecine:64.31:15h06
+Occitanie:53.5:15h06
+Vicarello:72.0:15h06
+Gaumont EST:9.17:15h06
+Gaumont OUEST:13.6:15h06
+Charles de Gaulle:77.31:15h06
+Polygone:57.72:15h06
+Arc de Triomphe:83.18:15h06
+Antigone:56.9:15h36
+Comedie:66.53:15h36
+Corum:27.1:15h36
+Europa:48.05:15h36
+Foch:79.1:15h36
+Gambetta:61.28:15h36
+Gare:51.07:15h36
+Triangle:55.76:15h36
+Pitot:49.57:15h36
+Circe:26.17:15h36
+Garcia Lorca:23.29:15h36
+Mosson:56.57:15h36
+Sabines:70.91:15h36
+Sablassou:76.08:15h36
+Saint Jean Le Sec:79.3:15h36
+Euromedecine:64.31:15h36
+Occitanie:51.87:15h36
+Vicarello:76.0:15h36
+Gaumont EST:9.17:15h36
+Gaumont OUEST:13.6:15h36
+Charles de Gaulle:78.08:15h36
+Polygone:57.46:15h36
+Arc de Triomphe:81.59:15h36
+Antigone:56.49:16h06
+Comedie:63.13:16h06
+Corum:24.84:16h06
+Europa:47.38:16h06
+Foch:79.26:16h06
+Gambetta:61.5:16h06
+Gare:51.37:16h06
+Triangle:55.3:16h06
+Pitot:49.91:16h06
+Circe:25.17:16h06
+Garcia Lorca:22.28:16h06
+Mosson:55.71:16h06
+Sabines:69.09:16h06
+Sablassou:73.66:16h06
+Saint Jean Le Sec:78.25:16h06
+Euromedecine:62.35:16h06
+Occitanie:50.41:16h06
+Vicarello:78.67:16h06
+Gaumont EST:9.17:16h06
+Gaumont OUEST:13.6:16h06
+Charles de Gaulle:77.31:16h06
+Polygone:54.32:16h06
+Arc de Triomphe:80.91:16h06
+Antigone:56.07:16h37
+Comedie:60.0:16h37
+Corum:22.9:16h37
+Europa:43.15:16h37
+Foch:77.71:16h37
+Gambetta:60.18:16h37
+Gare:50.61:16h37
+Triangle:53.0:16h37
+Pitot:48.38:16h37
+Circe:23.08:16h37
+Garcia Lorca:20.25:16h37
+Mosson:50.86:16h37
+Sabines:58.64:16h37
+Sablassou:69.35:16h37
+Saint Jean Le Sec:75.44:16h37
+Euromedecine:60.39:16h37
+Occitanie:43.9:16h37
+Vicarello:80.0:16h37
+Gaumont EST:9.17:16h37
+Gaumont OUEST:13.6:16h37
+Charles de Gaulle:75.38:16h37
+Polygone:52.43:16h37
+Arc de Triomphe:78.64:16h37
+Antigone:54.81:17h07
+Comedie:56.6:17h07
+Corum:23.55:17h07
+Europa:39.26:17h07
+Foch:79.1:17h07
+Gambetta:58.19:17h07
+Gare:48.93:17h07
+Triangle:51.38:17h07
+Pitot:44.12:17h07
+Circe:19.67:17h07
+Garcia Lorca:18.73:17h07
+Mosson:45.43:17h07
+Sabines:54.09:17h07
+Sablassou:66.94:17h07
+Saint Jean Le Sec:73.68:17h07
+Euromedecine:58.04:17h07
+Occitanie:38.21:17h07
+Vicarello:74.67:17h07
+Gaumont EST:9.17:17h07
+Gaumont OUEST:13.6:17h07
+Charles de Gaulle:74.23:17h07
+Polygone:49.76:17h07
+Arc de Triomphe:76.59:17h07
+Antigone:53.97:17h37
+Comedie:54.69:17h37
+Corum:24.52:17h37
+Europa:33.33:17h37
+Foch:80.03:17h37
+Gambetta:55.53:17h37
+Gare:48.63:17h37
+Triangle:49.08:17h37
+Pitot:41.91:17h37
+Circe:16.33:17h37
+Garcia Lorca:15.95:17h37
+Mosson:33.71:17h37
+Sabines:51.36:17h37
+Sablassou:62.1:17h37
+Saint Jean Le Sec:71.23:17h37
+Euromedecine:54.9:17h37
+Occitanie:35.45:17h37
+Vicarello:78.67:17h37
+Gaumont EST:9.17:17h37
+Gaumont OUEST:13.6:17h37
+Charles de Gaulle:73.85:17h37
+Polygone:49.56:17h37
+Arc de Triomphe:76.82:17h37
+Antigone:51.46:18h07
+Comedie:54.29:18h07
+Corum:25.16:18h07
+Europa:30.12:18h07
+Foch:79.41:18h07
+Gambetta:57.3:18h07
+Gare:43.6:18h07
+Triangle:49.54:18h07
+Pitot:39.86:18h07
+Circe:12.42:18h07
+Garcia Lorca:12.15:18h07
+Mosson:26.29:18h07
+Sabines:43.64:18h07
+Sablassou:56.72:18h07
+Saint Jean Le Sec:65.96:18h07
+Euromedecine:50.2:18h07
+Occitanie:27.48:18h07
+Vicarello:66.67:18h07
+Gaumont EST:9.17:18h07
+Gaumont OUEST:13.6:18h07
+Charles de Gaulle:68.46:18h07
+Polygone:46.73:18h07
+Arc de Triomphe:73.41:18h07
+Antigone:53.14:18h37
+Comedie:54.15:18h37
+Corum:30.0:18h37
+Europa:27.07:18h37
+Foch:78.33:18h37
+Gambetta:56.42:18h37
+Gare:52.29:18h37
+Triangle:43.09:18h37
+Pitot:38.67:18h37
+Circe:10.58:18h37
+Garcia Lorca:10.89:18h37
+Mosson:19.43:18h37
+Sabines:37.73:18h37
+Sablassou:51.34:18h37
+Saint Jean Le Sec:65.26:18h37
+Euromedecine:47.84:18h37
+Occitanie:24.55:18h37
+Vicarello:54.67:18h37
+Gaumont EST:9.17:18h37
+Gaumont OUEST:13.6:18h37
+Charles de Gaulle:68.08:18h37
+Polygone:44.37:18h37
+Arc de Triomphe:72.05:18h37
+Antigone:53.14:19h07
+Comedie:56.6:19h07
+Corum:45.16:19h07
+Europa:25.55:19h07
+Foch:77.71:19h07
+Gambetta:57.52:19h07
+Gare:41.92:19h07
+Triangle:39.17:19h07
+Pitot:39.35:19h07
+Circe:9.33:19h07
+Garcia Lorca:11.14:19h07
+Mosson:13.71:19h07
+Sabines:32.73:19h07
+Sablassou:50.0:19h07
+Saint Jean Le Sec:60.35:19h07
+Euromedecine:45.1:19h07
+Occitanie:17.72:19h07
+Vicarello:40.0:19h07
+Gaumont EST:9.17:19h07
+Gaumont OUEST:13.6:19h07
+Charles de Gaulle:63.85:19h07
+Polygone:41.71:19h07
+Arc de Triomphe:72.27:19h07
+Antigone:53.14:19h37
+Comedie:60.41:19h37
+Corum:53.55:19h37
+Europa:22.67:19h37
+Foch:83.9:19h37
+Gambetta:58.41:19h37
+Gare:49.24:19h37
+Triangle:37.56:19h37
+Pitot:39.69:19h37
+Circe:9.33:19h37
+Garcia Lorca:9.87:19h37
+Mosson:10.0:19h37
+Sabines:31.82:19h37
+Sablassou:47.31:19h37
+Saint Jean Le Sec:58.95:19h37
+Euromedecine:44.71:19h37
+Occitanie:14.8:19h37
+Vicarello:36.0:19h37
+Gaumont EST:9.17:19h37
+Gaumont OUEST:13.6:19h37
+Charles de Gaulle:60.77:19h37
+Polygone:38.67:19h37
+Arc de Triomphe:77.05:19h37
+Antigone:51.46:20h07
+Comedie:70.88:20h07
+Corum:64.84:20h07
+Europa:22.5:20h07
+Foch:89.63:20h07
+Gambetta:59.07:20h07
+Gare:52.9:20h07
+Triangle:37.56:20h07
+Pitot:41.91:20h07
+Circe:10.67:20h07
+Garcia Lorca:9.11:20h07
+Mosson:8.57:20h07
+Sabines:27.27:20h07
+Sablassou:45.97:20h07
+Saint Jean Le Sec:58.95:20h07
+Euromedecine:43.14:20h07
+Occitanie:12.2:20h07
+Vicarello:37.33:20h07
+Gaumont EST:9.17:20h07
+Gaumont OUEST:13.6:20h07
+Charles de Gaulle:63.08:20h07
+Polygone:35.58:20h07
+Arc de Triomphe:84.09:20h07
+Antigone:52.3:20h37
+Comedie:80.27:20h37
+Corum:69.03:20h37
+Europa:22.34:20h37
+Foch:91.18:20h37
+Gambetta:65.04:20h37
+Gare:56.25:20h37
+Triangle:38.25:20h37
+Pitot:46.34:20h37
+Circe:10.83:20h37
+Garcia Lorca:8.35:20h37
+Mosson:8.29:20h37
+Sabines:26.82:20h37
+Sablassou:44.62:20h37
+Saint Jean Le Sec:58.95:20h37
+Euromedecine:42.75:20h37
+Occitanie:12.03:20h37
+Vicarello:36.0:20h37
+Gaumont EST:9.17:20h37
+Gaumont OUEST:13.6:20h37
+Charles de Gaulle:63.46:20h37
+Polygone:31.87:20h37
+Arc de Triomphe:87.73:20h37
+Antigone:51.88:21h07
+Comedie:84.63:21h07
+Corum:61.61:21h07
+Europa:21.83:21h07
+Foch:91.02:21h07
+Gambetta:67.04:21h07
+Gare:62.04:21h07
+Triangle:38.25:21h07
+Pitot:52.47:21h07
+Circe:10.75:21h07
+Garcia Lorca:7.85:21h07
+Mosson:7.71:21h07
+Sabines:25.0:21h07
+Sablassou:44.09:21h07
+Saint Jean Le Sec:58.95:21h07
+Euromedecine:42.75:21h07
+Occitanie:12.03:21h07
+Vicarello:34.67:21h07
+Gaumont EST:9.17:21h07
+Gaumont OUEST:13.6:21h07
+Charles de Gaulle:63.85:21h07
+Polygone:31.03:21h07
+Arc de Triomphe:89.09:21h07
+Antigone:51.88:22h07
+Comedie:81.09:22h07
+Corum:61.29:22h07
+Europa:21.15:22h07
+Foch:90.4:22h07
+Gambetta:65.04:22h07
+Gare:64.79:22h07
+Triangle:35.94:22h07
+Pitot:55.71:22h07
+Circe:9.83:22h07
+Garcia Lorca:7.85:22h07
+Mosson:5.43:22h07
+Sabines:23.64:22h07
+Sablassou:43.01:22h07
+Saint Jean Le Sec:58.25:22h07
+Euromedecine:42.75:22h07
+Occitanie:10.89:22h07
+Vicarello:32.0:22h07
+Gaumont EST:9.17:22h07
+Gaumont OUEST:13.6:22h07
+Charles de Gaulle:62.69:22h07
+Polygone:28.21:22h07
+Arc de Triomphe:90.0:22h07
+Antigone:52.3:22h37
+Comedie:85.71:22h37
+Corum:56.45:22h37
+Europa:20.98:22h37
+Foch:89.32:22h37
+Gambetta:63.5:22h37
+Gare:57.16:22h37
+Triangle:32.03:22h37
+Pitot:53.66:22h37
+Circe:8.75:22h37
+Garcia Lorca:7.59:22h37
+Mosson:5.14:22h37
+Sabines:21.36:22h37
+Sablassou:42.47:22h37
+Saint Jean Le Sec:57.89:22h37
+Euromedecine:42.35:22h37
+Occitanie:10.41:22h37
+Vicarello:32.0:22h37
+Gaumont EST:9.17:22h37
+Gaumont OUEST:13.6:22h37
+Charles de Gaulle:62.69:22h37
+Polygone:24.7:22h37
+Arc de Triomphe:87.95:22h37
+Antigone:51.88:22h37
+Comedie:81.5:22h37
+Corum:61.61:22h37
+Europa:21.15:22h37
+Foch:90.71:22h37
+Gambetta:65.04:22h37
+Gare:63.41:22h37
+Triangle:36.18:22h37
+Pitot:55.03:22h37
+Circe:9.83:22h37
+Garcia Lorca:7.85:22h37
+Mosson:5.43:22h37
+Sabines:23.18:22h37
+Sablassou:43.01:22h37
+Saint Jean Le Sec:58.6:22h37
+Euromedecine:42.75:22h37
+Occitanie:10.73:22h37
+Vicarello:32.0:22h37
+Gaumont EST:9.17:22h37
+Gaumont OUEST:13.6:22h37
+Charles de Gaulle:62.31:22h37
+Polygone:28.05:22h37
+Arc de Triomphe:90.68:22h37
+Antigone:52.3:23h07
+Comedie:80.41:23h07
+Corum:35.16:23h07
+Europa:20.81:23h07
+Foch:86.38:23h07
+Gambetta:62.17:23h07
+Gare:45.43:23h07
+Triangle:28.8:23h07
+Pitot:49.91:23h07
+Circe:8.17:23h07
+Garcia Lorca:7.59:23h07
+Mosson:4.0:23h07
+Sabines:21.36:23h07
+Sablassou:41.67:23h07
+Saint Jean Le Sec:57.89:23h07
+Euromedecine:42.35:23h07
+Occitanie:8.78:23h07
+Vicarello:32.0:23h07
+Gaumont EST:9.17:23h07
+Gaumont OUEST:13.6:23h07
+Charles de Gaulle:60.38:23h07
+Polygone:22.19:23h07
+Arc de Triomphe:83.86:23h07
+Antigone:52.3:23h37
+Comedie:72.65:23h37
+Corum:28.39:23h37
+Europa:20.81:23h37
+Foch:84.52:23h37
+Gambetta:58.85:23h37
+Gare:44.21:23h37
+Triangle:28.57:23h37
+Pitot:46.0:23h37
+Circe:6.08:23h37
+Garcia Lorca:7.34:23h37
+Mosson:3.43:23h37
+Sabines:20.45:23h37
+Sablassou:41.4:23h37
+Saint Jean Le Sec:57.89:23h37
+Euromedecine:41.18:23h37
+Occitanie:8.13:23h37
+Vicarello:32.0:23h37
+Gaumont EST:9.17:23h37
+Gaumont OUEST:13.6:23h37
+Charles de Gaulle:60.38:23h37
+Polygone:19.31:23h37
+Arc de Triomphe:80.91:23h37
+Antigone:52.3:00h07
+Comedie:64.35:00h07
+Corum:19.35:00h07
+Europa:20.81:00h07
+Foch:78.02:00h07
+Gambetta:56.86:00h07
+Gare:41.46:00h07
+Triangle:27.19:00h07
+Pitot:39.86:00h07
+Circe:4.5:00h07
+Garcia Lorca:7.34:00h07
+Mosson:3.14:00h07
+Sabines:18.64:00h07
+Sablassou:41.4:00h07
+Saint Jean Le Sec:57.54:00h07
+Euromedecine:40.78:00h07
+Occitanie:7.48:00h07
+Vicarello:33.33:00h07
+Gaumont EST:9.17:00h07
+Gaumont OUEST:13.6:00h07
+Charles de Gaulle:60.0:00h07
+Polygone:17.74:00h07
+Arc de Triomphe:77.05:00h07

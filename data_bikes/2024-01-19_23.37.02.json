@@ -1,0 +1,629 @@
+[
+    {
+        "id": "urn:ngsi-ld:station:001",
+        "status": "working",
+        "totalSlotNumber": 12,
+        "address": "Rue Jules Ferry - Gare Saint-Roch",
+        "availableBikeNumber": 6,
+        "localisation": [
+            3.881346,
+            43.605366
+        ]
+    },
+    {
+        "id": "urn:ngsi-ld:station:002",
+        "status": "working",
+        "totalSlotNumber": 20,
+        "address": "Com\u00e9die",
+        "availableBikeNumber": 8,
+        "localisation": [
+            3.878778,
+            43.608148
+        ]
+    },
+    {
+        "id": "urn:ngsi-ld:station:004",
+        "status": "working",
+        "totalSlotNumber": 16,
+        "address": "H\u00f4tel de Ville",
+        "availableBikeNumber": 15,
+        "localisation": [
+            3.894866,
+            43.599088
+        ]
+    },
+    {
+        "id": "urn:ngsi-ld:station:005",
+        "status": "working",
+        "totalSlotNumber": 12,
+        "address": "Corum",
+        "availableBikeNumber": 9,
+        "localisation": [
+            3.8816,
+            43.613989
+        ]
+    },
+    {
+        "id": "urn:ngsi-ld:station:006",
+        "status": "working",
+        "totalSlotNumber": 27,
+        "address": "Place Albert 1er - St Charles",
+        "availableBikeNumber": 13,
+        "localisation": [
+            3.873375,
+            43.616768
+        ]
+    },
+    {
+        "id": "urn:ngsi-ld:station:007",
+        "status": "working",
+        "totalSlotNumber": 8,
+        "address": "Foch",
+        "availableBikeNumber": 0,
+        "localisation": [
+            3.873345,
+            43.610989
+        ]
+    },
+    {
+        "id": "urn:ngsi-ld:station:008",
+        "status": "working",
+        "totalSlotNumber": 12,
+        "address": "Halles Castellane",
+        "availableBikeNumber": 3,
+        "localisation": [
+            3.877208,
+            43.609935
+        ]
+    },
+    {
+        "id": "urn:ngsi-ld:station:009",
+        "status": "working",
+        "totalSlotNumber": 8,
+        "address": "Observatoire",
+        "availableBikeNumber": 1,
+        "localisation": [
+            3.87724,
+            43.606301
+        ]
+    },
+    {
+        "id": "urn:ngsi-ld:station:010",
+        "status": "working",
+        "totalSlotNumber": 16,
+        "address": "Rondelet",
+        "availableBikeNumber": 6,
+        "localisation": [
+            3.875796,
+            43.603038
+        ]
+    },
+    {
+        "id": "urn:ngsi-ld:station:011",
+        "status": "working",
+        "totalSlotNumber": 12,
+        "address": "Plan Cabanes",
+        "availableBikeNumber": 4,
+        "localisation": [
+            3.868389,
+            43.608491
+        ]
+    },
+    {
+        "id": "urn:ngsi-ld:station:012",
+        "status": "working",
+        "totalSlotNumber": 12,
+        "address": "Boutonnet",
+        "availableBikeNumber": 8,
+        "localisation": [
+            3.868375,
+            43.622629
+        ]
+    },
+    {
+        "id": "urn:ngsi-ld:station:013",
+        "status": "working",
+        "totalSlotNumber": 8,
+        "address": "Emile Combes",
+        "availableBikeNumber": 5,
+        "localisation": [
+            3.87998,
+            43.616742
+        ]
+    },
+    {
+        "id": "urn:ngsi-ld:station:014",
+        "status": "working",
+        "totalSlotNumber": 16,
+        "address": "Beaux-Arts",
+        "availableBikeNumber": 11,
+        "localisation": [
+            3.884981,
+            43.616698
+        ]
+    },
+    {
+        "id": "urn:ngsi-ld:station:015",
+        "status": "working",
+        "totalSlotNumber": 8,
+        "address": "Les Aubes",
+        "availableBikeNumber": 2,
+        "localisation": [
+            3.893844,
+            43.618692
+        ]
+    },
+    {
+        "id": "urn:ngsi-ld:station:016",
+        "status": "working",
+        "totalSlotNumber": 16,
+        "address": "Antigone centre",
+        "availableBikeNumber": 14,
+        "localisation": [
+            3.890634,
+            43.607942
+        ]
+    },
+    {
+        "id": "urn:ngsi-ld:station:017",
+        "status": "working",
+        "totalSlotNumber": 16,
+        "address": "M\u00e9diath\u00e8que Emile Zola",
+        "availableBikeNumber": 13,
+        "localisation": [
+            3.89314,
+            43.608218
+        ]
+    },
+    {
+        "id": "urn:ngsi-ld:station:018",
+        "status": "working",
+        "totalSlotNumber": 16,
+        "address": "Nombre d Or",
+        "availableBikeNumber": 6,
+        "localisation": [
+            3.886644,
+            43.607859
+        ]
+    },
+    {
+        "id": "urn:ngsi-ld:station:019",
+        "status": "working",
+        "totalSlotNumber": 16,
+        "address": "Louis Blanc",
+        "availableBikeNumber": 10,
+        "localisation": [
+            3.877648,
+            43.614642
+        ]
+    },
+    {
+        "id": "urn:ngsi-ld:station:020",
+        "status": "working",
+        "totalSlotNumber": 8,
+        "address": "Gambetta",
+        "availableBikeNumber": 2,
+        "localisation": [
+            3.870693,
+            43.607106
+        ]
+    },
+    {
+        "id": "urn:ngsi-ld:station:021",
+        "status": "working",
+        "totalSlotNumber": 16,
+        "address": "Port Marianne",
+        "availableBikeNumber": 8,
+        "localisation": [
+            3.89851,
+            43.60032
+        ]
+    },
+    {
+        "id": "urn:ngsi-ld:station:023",
+        "status": "working",
+        "totalSlotNumber": 16,
+        "address": "Les Arceaux",
+        "availableBikeNumber": 8,
+        "localisation": [
+            3.867157,
+            43.611991
+        ]
+    },
+    {
+        "id": "urn:ngsi-ld:station:024",
+        "status": "working",
+        "totalSlotNumber": 8,
+        "address": "Cit\u00e9 Mion",
+        "availableBikeNumber": 2,
+        "localisation": [
+            3.884373,
+            43.601143
+        ]
+    },
+    {
+        "id": "urn:ngsi-ld:station:025",
+        "status": "working",
+        "totalSlotNumber": 8,
+        "address": "Nouveau Saint-Roch",
+        "availableBikeNumber": 7,
+        "localisation": [
+            3.875757,
+            43.599817
+        ]
+    },
+    {
+        "id": "urn:ngsi-ld:station:026",
+        "status": "working",
+        "totalSlotNumber": 8,
+        "address": "Renouvier",
+        "availableBikeNumber": 4,
+        "localisation": [
+            3.867884,
+            43.603553
+        ]
+    },
+    {
+        "id": "urn:ngsi-ld:station:027",
+        "status": "working",
+        "totalSlotNumber": 8,
+        "address": "Odysseum",
+        "availableBikeNumber": 6,
+        "localisation": [
+            3.918979,
+            43.603727
+        ]
+    },
+    {
+        "id": "urn:ngsi-ld:station:028",
+        "status": "working",
+        "totalSlotNumber": 8,
+        "address": "Saint-Denis",
+        "availableBikeNumber": 2,
+        "localisation": [
+            3.875065,
+            43.605021
+        ]
+    },
+    {
+        "id": "urn:ngsi-ld:station:029",
+        "status": "working",
+        "totalSlotNumber": 16,
+        "address": "Richter",
+        "availableBikeNumber": 6,
+        "localisation": [
+            3.899263,
+            43.603424
+        ]
+    },
+    {
+        "id": "urn:ngsi-ld:station:030",
+        "status": "working",
+        "totalSlotNumber": 8,
+        "address": "Charles Flahault",
+        "availableBikeNumber": 7,
+        "localisation": [
+            3.865971,
+            43.618762
+        ]
+    },
+    {
+        "id": "urn:ngsi-ld:station:031",
+        "status": "working",
+        "totalSlotNumber": 8,
+        "address": "Voltaire",
+        "availableBikeNumber": 8,
+        "localisation": [
+            3.888659,
+            43.603767
+        ]
+    },
+    {
+        "id": "urn:ngsi-ld:station:032",
+        "status": "working",
+        "totalSlotNumber": 8,
+        "address": "Pr\u00e9s d Ar\u00e8nes",
+        "availableBikeNumber": 0,
+        "localisation": [
+            3.884611,
+            43.59048
+        ]
+    },
+    {
+        "id": "urn:ngsi-ld:station:033",
+        "status": "working",
+        "totalSlotNumber": 8,
+        "address": "Garcia Lorca",
+        "availableBikeNumber": 8,
+        "localisation": [
+            3.890616,
+            43.590757
+        ]
+    },
+    {
+        "id": "urn:ngsi-ld:station:034",
+        "status": "working",
+        "totalSlotNumber": 16,
+        "address": "Vert Bois",
+        "availableBikeNumber": 7,
+        "localisation": [
+            3.871179397,
+            43.635429956
+        ]
+    },
+    {
+        "id": "urn:ngsi-ld:station:035",
+        "status": "working",
+        "totalSlotNumber": 8,
+        "address": "Malbosc",
+        "availableBikeNumber": 5,
+        "localisation": [
+            3.832861,
+            43.633679
+        ]
+    },
+    {
+        "id": "urn:ngsi-ld:station:036",
+        "status": "working",
+        "totalSlotNumber": 32,
+        "address": "Occitanie",
+        "availableBikeNumber": 10,
+        "localisation": [
+            3.849128,
+            43.634242
+        ]
+    },
+    {
+        "id": "urn:ngsi-ld:station:037",
+        "status": "working",
+        "totalSlotNumber": 24,
+        "address": "FacdesSciences",
+        "availableBikeNumber": 0,
+        "localisation": [
+            3.860697,
+            43.631018
+        ]
+    },
+    {
+        "id": "urn:ngsi-ld:station:038",
+        "status": "working",
+        "totalSlotNumber": 12,
+        "address": "Fac de Lettres",
+        "availableBikeNumber": 7,
+        "localisation": [
+            3.869447,
+            43.627799
+        ]
+    },
+    {
+        "id": "urn:ngsi-ld:station:039",
+        "status": "working",
+        "totalSlotNumber": 8,
+        "address": "Aiguelongue",
+        "availableBikeNumber": 3,
+        "localisation": [
+            3.882492,
+            43.626163
+        ]
+    },
+    {
+        "id": "urn:ngsi-ld:station:040",
+        "status": "working",
+        "totalSlotNumber": 8,
+        "address": "Jeu de Mail des Abb\u00e9s",
+        "availableBikeNumber": 6,
+        "localisation": [
+            3.883831,
+            43.619701
+        ]
+    },
+    {
+        "id": "urn:ngsi-ld:station:041",
+        "status": "working",
+        "totalSlotNumber": 8,
+        "address": "Eurom\u00e9decine",
+        "availableBikeNumber": 2,
+        "localisation": [
+            3.828199,
+            43.639119
+        ]
+    },
+    {
+        "id": "urn:ngsi-ld:station:042",
+        "status": "working",
+        "totalSlotNumber": 8,
+        "address": "Marie Caizergues",
+        "availableBikeNumber": 4,
+        "localisation": [
+            3.873812,
+            43.619871
+        ]
+    },
+    {
+        "id": "urn:ngsi-ld:station:043",
+        "status": "working",
+        "totalSlotNumber": 8,
+        "address": "Sabines",
+        "availableBikeNumber": 4,
+        "localisation": [
+            3.860031,
+            43.584211
+        ]
+    },
+    {
+        "id": "urn:ngsi-ld:station:044",
+        "status": "working",
+        "totalSlotNumber": 8,
+        "address": "Celleneuve",
+        "availableBikeNumber": 0,
+        "localisation": [
+            3.832624,
+            43.61467
+        ]
+    },
+    {
+        "id": "urn:ngsi-ld:station:045",
+        "status": "working",
+        "totalSlotNumber": 8,
+        "address": "Jardin de la Lironde",
+        "availableBikeNumber": 4,
+        "localisation": [
+            3.911576,
+            43.60585
+        ]
+    },
+    {
+        "id": "urn:ngsi-ld:station:046",
+        "status": "working",
+        "totalSlotNumber": 8,
+        "address": "P\u00e8re Soulas",
+        "availableBikeNumber": 8,
+        "localisation": [
+            3.855603,
+            43.621983
+        ]
+    },
+    {
+        "id": "urn:ngsi-ld:station:047",
+        "status": "working",
+        "totalSlotNumber": 8,
+        "address": "Place Viala",
+        "availableBikeNumber": 1,
+        "localisation": [
+            3.855075,
+            43.616812
+        ]
+    },
+    {
+        "id": "urn:ngsi-ld:station:048",
+        "status": "working",
+        "totalSlotNumber": 8,
+        "address": "H\u00f4tel du D\u00e9partement",
+        "availableBikeNumber": 1,
+        "localisation": [
+            3.83477,
+            43.621682
+        ]
+    },
+    {
+        "id": "urn:ngsi-ld:station:049",
+        "status": "working",
+        "totalSlotNumber": 8,
+        "address": "Tonnelles",
+        "availableBikeNumber": 2,
+        "localisation": [
+            3.839466,
+            43.615155
+        ]
+    },
+    {
+        "id": "urn:ngsi-ld:station:050",
+        "status": "working",
+        "totalSlotNumber": 8,
+        "address": "Parvis Jules Ferry - Gare Saint-Roch",
+        "availableBikeNumber": 4,
+        "localisation": [
+            3.879362,
+            43.603889
+        ]
+    },
+    {
+        "id": "urn:ngsi-ld:station:051",
+        "status": "working",
+        "totalSlotNumber": 12,
+        "address": "Pont de Lattes - Gare Saint-Roch",
+        "availableBikeNumber": 4,
+        "localisation": [
+            3.882393,
+            43.606036
+        ]
+    },
+    {
+        "id": "urn:ngsi-ld:station:053",
+        "status": "working",
+        "totalSlotNumber": 8,
+        "address": "Deux Ponts - Gare Saint-Roch",
+        "availableBikeNumber": 2,
+        "localisation": [
+            3.880916,
+            43.604319
+        ]
+    },
+    {
+        "id": "urn:ngsi-ld:station:054",
+        "status": "working",
+        "totalSlotNumber": 8,
+        "address": "Providence - Ovalie",
+        "availableBikeNumber": 4,
+        "localisation": [
+            3.853421,
+            43.588239
+        ]
+    },
+    {
+        "id": "urn:ngsi-ld:station:055",
+        "status": "working",
+        "totalSlotNumber": 68,
+        "address": "P\u00e9rols Etang de l Or",
+        "availableBikeNumber": 52,
+        "localisation": [
+            3.963412,
+            43.558351
+        ]
+    },
+    {
+        "id": "urn:ngsi-ld:station:056",
+        "status": "working",
+        "totalSlotNumber": 12,
+        "address": "Albert 1er - Cath\u00e9drale",
+        "availableBikeNumber": 8,
+        "localisation": [
+            3.873218,
+            43.614005
+        ]
+    },
+    {
+        "id": "urn:ngsi-ld:station:057",
+        "status": "working",
+        "totalSlotNumber": 8,
+        "address": "Saint-Guilhem - Courreau",
+        "availableBikeNumber": 4,
+        "localisation": [
+            3.872752,
+            43.608996
+        ]
+    },
+    {
+        "id": "urn:ngsi-ld:station:059",
+        "status": "working",
+        "totalSlotNumber": 8,
+        "address": "Sud De France",
+        "availableBikeNumber": 7,
+        "localisation": [
+            3.9235,
+            43.59562
+        ]
+    },
+    {
+        "id": "urn:ngsi-ld:station:060",
+        "status": "working",
+        "totalSlotNumber": 8,
+        "address": "Comedie Baudin",
+        "availableBikeNumber": 5,
+        "localisation": [
+            3.880787,
+            43.608717
+        ]
+    },
+    {
+        "id": "urn:ngsi-ld:station:061",
+        "status": "working",
+        "totalSlotNumber": 16,
+        "address": "Jean de Beins",
+        "availableBikeNumber": 2,
+        "localisation": [
+            3.883884,
+            43.609857
+        ]
+    }
+]

@@ -1,0 +1,2249 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_cf1abeaca035e8572c4b93f21afc54e7 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+    <div style="position: fixed; 
+        bottom: 20px; left: 20px; width: 160px; height: 230px; 
+        border:2px solid grey; z-index:9999; font-size:12px;
+        background-color:white; padding:10px">
+        &nbsp; Parking voiture &nbsp; <i class="fa fa-car" style="color:red"></i><br>
+        &nbsp; Parking vélo &nbsp; <i class="fa fa-bicycle" style="color:blue"></i><br>
+        &nbsp; Taux d'occupation des parkings voitures : <br>
+        &nbsp; <i class="fa fa-square" style="color:green"></i>&nbsp; < 40% (Faible) <br>
+        &nbsp; <i class="fa fa-square" style="color:orange"></i>&nbsp; 40% - 80% (Moyen) <br>
+        &nbsp; <i class="fa fa-square" style="color:red"></i>&nbsp; > 80% (Élevé) <br>
+        &nbsp; Taux d'occupation des parkings velo : <br>
+        &nbsp; <i class="fa fa-square" style="color:skyblue"></i>&nbsp; < 40% (Faible) <br>
+        &nbsp; <i class="fa fa-square" style="color:blue"></i>&nbsp; 40% - 80% (Moyen) <br>
+        &nbsp; <i class="fa fa-square" style="color:purple"></i>&nbsp; > 80% (Élevé) <br>
+    </div>
+    
+    
+            <div class="folium-map" id="map_cf1abeaca035e8572c4b93f21afc54e7" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_cf1abeaca035e8572c4b93f21afc54e7 = L.map(
+                "map_cf1abeaca035e8572c4b93f21afc54e7",
+                {
+                    center: [43.61, 3.87],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 12.5,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_16ddc493a4e1c44ed7de7ed8b09afdda = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors", "detectRetina": false, "maxNativeZoom": 19, "maxZoom": 19, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            );
+        
+    
+            tile_layer_16ddc493a4e1c44ed7de7ed8b09afdda.addTo(map_cf1abeaca035e8572c4b93f21afc54e7);
+        
+    
+            var marker_aff8ccf8bb26a66dccb53910b55d8b48 = L.marker(
+                [43.60871606, 3.88881893],
+                {}
+            ).addTo(map_cf1abeaca035e8572c4b93f21afc54e7);
+        
+    
+            var icon_79b6f70e98f7f0faa02d3dbd12190122 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "car", "iconColor": "white", "markerColor": "orange", "prefix": "fa"}
+            );
+            marker_aff8ccf8bb26a66dccb53910b55d8b48.setIcon(icon_79b6f70e98f7f0faa02d3dbd12190122);
+        
+    
+        var popup_65081cb2b1312fc5537ad0c638f9c847 = L.popup({"maxWidth": 450});
+
+        
+            
+                var html_0cf4f41f6dca272dc67a2d6b48b4ad60 = $(`<div id="html_0cf4f41f6dca272dc67a2d6b48b4ad60" style="width: 100.0%; height: 100.0%;">parking voiture : Antigone<br>places dispo : 121<br>places totales : 239<br>le taux d'occupation : 49.37%</div>`)[0];
+                popup_65081cb2b1312fc5537ad0c638f9c847.setContent(html_0cf4f41f6dca272dc67a2d6b48b4ad60);
+            
+        
+
+        marker_aff8ccf8bb26a66dccb53910b55d8b48.bindPopup(popup_65081cb2b1312fc5537ad0c638f9c847)
+        ;
+
+        
+    
+    
+            var marker_6461d5491b8e77a694c7ce01bd928e39 = L.marker(
+                [43.60856092, 3.87976196],
+                {}
+            ).addTo(map_cf1abeaca035e8572c4b93f21afc54e7);
+        
+    
+            var icon_01f8f5c975f0ed4e2bd7073b2b025cfd = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "car", "iconColor": "white", "markerColor": "orange", "prefix": "fa"}
+            );
+            marker_6461d5491b8e77a694c7ce01bd928e39.setIcon(icon_01f8f5c975f0ed4e2bd7073b2b025cfd);
+        
+    
+        var popup_eeae4d4c2f781fab6951d897b1248143 = L.popup({"maxWidth": 450});
+
+        
+            
+                var html_ec5385fd7e03f53ba7b4bd4936cdb1a2 = $(`<div id="html_ec5385fd7e03f53ba7b4bd4936cdb1a2" style="width: 100.0%; height: 100.0%;">parking voiture : Comedie<br>places dispo : 363<br>places totales : 735<br>le taux d'occupation : 50.61%</div>`)[0];
+                popup_eeae4d4c2f781fab6951d897b1248143.setContent(html_ec5385fd7e03f53ba7b4bd4936cdb1a2);
+            
+        
+
+        marker_6461d5491b8e77a694c7ce01bd928e39.bindPopup(popup_eeae4d4c2f781fab6951d897b1248143)
+        ;
+
+        
+    
+    
+            var marker_e0d7dc20f0fce2aebbb934b26199824d = L.marker(
+                [43.61388821, 3.88225773],
+                {}
+            ).addTo(map_cf1abeaca035e8572c4b93f21afc54e7);
+        
+    
+            var icon_5a1101cca68ae747f57c0ec34bb72834 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "car", "iconColor": "white", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_e0d7dc20f0fce2aebbb934b26199824d.setIcon(icon_5a1101cca68ae747f57c0ec34bb72834);
+        
+    
+        var popup_ab226b23d2472ced69bb200d636129be = L.popup({"maxWidth": 450});
+
+        
+            
+                var html_d76e851470dcd6fae8dc197255353e8c = $(`<div id="html_d76e851470dcd6fae8dc197255353e8c" style="width: 100.0%; height: 100.0%;">parking voiture : Corum<br>places dispo : 270<br>places totales : 310<br>le taux d'occupation : 12.9%</div>`)[0];
+                popup_ab226b23d2472ced69bb200d636129be.setContent(html_d76e851470dcd6fae8dc197255353e8c);
+            
+        
+
+        marker_e0d7dc20f0fce2aebbb934b26199824d.bindPopup(popup_ab226b23d2472ced69bb200d636129be)
+        ;
+
+        
+    
+    
+            var marker_1324645cc8b068302568c1987fc8a34f = L.marker(
+                [43.60784971, 3.89253074],
+                {}
+            ).addTo(map_cf1abeaca035e8572c4b93f21afc54e7);
+        
+    
+            var icon_0de63f276bd88fc6b6a006670c970dbe = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "car", "iconColor": "white", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_1324645cc8b068302568c1987fc8a34f.setIcon(icon_0de63f276bd88fc6b6a006670c970dbe);
+        
+    
+        var popup_a8a4e505292f554b1a39e7458abbf2ca = L.popup({"maxWidth": 450});
+
+        
+            
+                var html_290d64cf4a5dc4f587d5894e2d4f11dd = $(`<div id="html_290d64cf4a5dc4f587d5894e2d4f11dd" style="width: 100.0%; height: 100.0%;">parking voiture : Europa<br>places dispo : 477<br>places totales : 591<br>le taux d'occupation : 19.29%</div>`)[0];
+                popup_a8a4e505292f554b1a39e7458abbf2ca.setContent(html_290d64cf4a5dc4f587d5894e2d4f11dd);
+            
+        
+
+        marker_1324645cc8b068302568c1987fc8a34f.bindPopup(popup_a8a4e505292f554b1a39e7458abbf2ca)
+        ;
+
+        
+    
+    
+            var marker_fbda8a063cbb27916de7b94266487a65 = L.marker(
+                [43.61074912, 3.87657084],
+                {}
+            ).addTo(map_cf1abeaca035e8572c4b93f21afc54e7);
+        
+    
+            var icon_5787d4088a5edfe755931117ced98726 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "car", "iconColor": "white", "markerColor": "orange", "prefix": "fa"}
+            );
+            marker_fbda8a063cbb27916de7b94266487a65.setIcon(icon_5787d4088a5edfe755931117ced98726);
+        
+    
+        var popup_b140a8422f51a48821538c22e15b0470 = L.popup({"maxWidth": 450});
+
+        
+            
+                var html_f2933721d00d6e1deb34fa246a7b8a37 = $(`<div id="html_f2933721d00d6e1deb34fa246a7b8a37" style="width: 100.0%; height: 100.0%;">parking voiture : Foch<br>places dispo : 165<br>places totales : 646<br>le taux d'occupation : 74.46%</div>`)[0];
+                popup_b140a8422f51a48821538c22e15b0470.setContent(html_f2933721d00d6e1deb34fa246a7b8a37);
+            
+        
+
+        marker_fbda8a063cbb27916de7b94266487a65.bindPopup(popup_b140a8422f51a48821538c22e15b0470)
+        ;
+
+        
+    
+    
+            var marker_d629458a02f5751845fceef463885544 = L.marker(
+                [43.60695138, 3.87137436],
+                {}
+            ).addTo(map_cf1abeaca035e8572c4b93f21afc54e7);
+        
+    
+            var icon_58f6fe4e09f7ae8eba90434c616a710e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "car", "iconColor": "white", "markerColor": "orange", "prefix": "fa"}
+            );
+            marker_d629458a02f5751845fceef463885544.setIcon(icon_58f6fe4e09f7ae8eba90434c616a710e);
+        
+    
+        var popup_d1d9175bb135f640d9d1faeb33675d42 = L.popup({"maxWidth": 450});
+
+        
+            
+                var html_35d060f68b7b62f5320d53a1c4b553d7 = $(`<div id="html_35d060f68b7b62f5320d53a1c4b553d7" style="width: 100.0%; height: 100.0%;">parking voiture : Gambetta<br>places dispo : 189<br>places totales : 452<br>le taux d'occupation : 58.19%</div>`)[0];
+                popup_d1d9175bb135f640d9d1faeb33675d42.setContent(html_35d060f68b7b62f5320d53a1c4b553d7);
+            
+        
+
+        marker_d629458a02f5751845fceef463885544.bindPopup(popup_d1d9175bb135f640d9d1faeb33675d42)
+        ;
+
+        
+    
+    
+            var marker_5b0f0ee9884d4472b48065324ae618de = L.marker(
+                [43.604024, 3.87891],
+                {}
+            ).addTo(map_cf1abeaca035e8572c4b93f21afc54e7);
+        
+    
+            var icon_085f0274b13f93a3c7e1941bae15cdbe = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "car", "iconColor": "white", "markerColor": "orange", "prefix": "fa"}
+            );
+            marker_5b0f0ee9884d4472b48065324ae618de.setIcon(icon_085f0274b13f93a3c7e1941bae15cdbe);
+        
+    
+        var popup_ded5868df0a604343353d9f3b616f873 = L.popup({"maxWidth": 450});
+
+        
+            
+                var html_0b6924a1f82bb188bf928746e5b11ba3 = $(`<div id="html_0b6924a1f82bb188bf928746e5b11ba3" style="width: 100.0%; height: 100.0%;">parking voiture : Gare<br>places dispo : 386<br>places totales : 656<br>le taux d'occupation : 41.16%</div>`)[0];
+                popup_ded5868df0a604343353d9f3b616f873.setContent(html_0b6924a1f82bb188bf928746e5b11ba3);
+            
+        
+
+        marker_5b0f0ee9884d4472b48065324ae618de.bindPopup(popup_ded5868df0a604343353d9f3b616f873)
+        ;
+
+        
+    
+    
+            var marker_4c17e4ba171afbcb98e75075f14f2919 = L.marker(
+                [43.60923384, 3.88184418],
+                {}
+            ).addTo(map_cf1abeaca035e8572c4b93f21afc54e7);
+        
+    
+            var icon_fcf14258fda00b77506b7530124f9710 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "car", "iconColor": "white", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_4c17e4ba171afbcb98e75075f14f2919.setIcon(icon_fcf14258fda00b77506b7530124f9710);
+        
+    
+        var popup_3af58e61379e4a730cd7f5ff256048fb = L.popup({"maxWidth": 450});
+
+        
+            
+                var html_d459fa3f426a5441de0fa6f3821240a6 = $(`<div id="html_d459fa3f426a5441de0fa6f3821240a6" style="width: 100.0%; height: 100.0%;">parking voiture : Triangle<br>places dispo : 349<br>places totales : 434<br>le taux d'occupation : 19.59%</div>`)[0];
+                popup_3af58e61379e4a730cd7f5ff256048fb.setContent(html_d459fa3f426a5441de0fa6f3821240a6);
+            
+        
+
+        marker_4c17e4ba171afbcb98e75075f14f2919.bindPopup(popup_3af58e61379e4a730cd7f5ff256048fb)
+        ;
+
+        
+    
+    
+            var marker_03ac9c8a7d609a08d16b33c3cc1689f2 = L.marker(
+                [43.61224494, 3.87019117],
+                {}
+            ).addTo(map_cf1abeaca035e8572c4b93f21afc54e7);
+        
+    
+            var icon_f4cab82411184bcc4d2c527f92a60527 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "car", "iconColor": "white", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_03ac9c8a7d609a08d16b33c3cc1689f2.setIcon(icon_f4cab82411184bcc4d2c527f92a60527);
+        
+    
+        var popup_2886e6d8e0a9c5bad7a0b19331b78682 = L.popup({"maxWidth": 450});
+
+        
+            
+                var html_10f7b12bfd74650ec4bf517b869fa1b5 = $(`<div id="html_10f7b12bfd74650ec4bf517b869fa1b5" style="width: 100.0%; height: 100.0%;">parking voiture : Pitot<br>places dispo : 371<br>places totales : 587<br>le taux d'occupation : 36.8%</div>`)[0];
+                popup_2886e6d8e0a9c5bad7a0b19331b78682.setContent(html_10f7b12bfd74650ec4bf517b869fa1b5);
+            
+        
+
+        marker_03ac9c8a7d609a08d16b33c3cc1689f2.bindPopup(popup_2886e6d8e0a9c5bad7a0b19331b78682)
+        ;
+
+        
+    
+    
+            var marker_98f8970dff8507ab407d03766afd007a = L.marker(
+                [43.60495377, 3.9178495],
+                {}
+            ).addTo(map_cf1abeaca035e8572c4b93f21afc54e7);
+        
+    
+            var icon_9c3137ee87b93baf5fffe49c962ddb92 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "car", "iconColor": "white", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_98f8970dff8507ab407d03766afd007a.setIcon(icon_9c3137ee87b93baf5fffe49c962ddb92);
+        
+    
+        var popup_a1f88f47f59deea9983e025f13f76316 = L.popup({"maxWidth": 450});
+
+        
+            
+                var html_d90f2a3f96a2cbb134d663a2efc16986 = $(`<div id="html_d90f2a3f96a2cbb134d663a2efc16986" style="width: 100.0%; height: 100.0%;">parking voiture : Circe<br>places dispo : 1172<br>places totales : 1200<br>le taux d'occupation : 2.33%</div>`)[0];
+                popup_a1f88f47f59deea9983e025f13f76316.setContent(html_d90f2a3f96a2cbb134d663a2efc16986);
+            
+        
+
+        marker_98f8970dff8507ab407d03766afd007a.bindPopup(popup_a1f88f47f59deea9983e025f13f76316)
+        ;
+
+        
+    
+    
+            var marker_431c64acb77d0456add036b8c2ad01b7 = L.marker(
+                [43.59098509, 3.8907158],
+                {}
+            ).addTo(map_cf1abeaca035e8572c4b93f21afc54e7);
+        
+    
+            var icon_61bbebac427337b25eaf62b53ba143fa = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "car", "iconColor": "white", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_431c64acb77d0456add036b8c2ad01b7.setIcon(icon_61bbebac427337b25eaf62b53ba143fa);
+        
+    
+        var popup_9bacacaabfb3d96dee48b6ce76cbb57e = L.popup({"maxWidth": 450});
+
+        
+            
+                var html_4e7e70d66e9c0050f39251379ca62522 = $(`<div id="html_4e7e70d66e9c0050f39251379ca62522" style="width: 100.0%; height: 100.0%;">parking voiture : Garcia Lorca<br>places dispo : 372<br>places totales : 395<br>le taux d'occupation : 5.82%</div>`)[0];
+                popup_9bacacaabfb3d96dee48b6ce76cbb57e.setContent(html_4e7e70d66e9c0050f39251379ca62522);
+            
+        
+
+        marker_431c64acb77d0456add036b8c2ad01b7.bindPopup(popup_9bacacaabfb3d96dee48b6ce76cbb57e)
+        ;
+
+        
+    
+    
+            var marker_5d37464eab971515146c9e843e80683b = L.marker(
+                [43.61623716, 3.81966554],
+                {}
+            ).addTo(map_cf1abeaca035e8572c4b93f21afc54e7);
+        
+    
+            var icon_e8eb0085727629026e6e75266419ce31 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "car", "iconColor": "white", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_5d37464eab971515146c9e843e80683b.setIcon(icon_e8eb0085727629026e6e75266419ce31);
+        
+    
+        var popup_e7f59090bebaaa9f702ea6b55d431e3b = L.popup({"maxWidth": 450});
+
+        
+            
+                var html_238e6cb934a6025dfe88fdf35f5a2416 = $(`<div id="html_238e6cb934a6025dfe88fdf35f5a2416" style="width: 100.0%; height: 100.0%;">parking voiture : Mosson<br>places dispo : 337<br>places totales : 350<br>le taux d'occupation : 3.71%</div>`)[0];
+                popup_e7f59090bebaaa9f702ea6b55d431e3b.setContent(html_238e6cb934a6025dfe88fdf35f5a2416);
+            
+        
+
+        marker_5d37464eab971515146c9e843e80683b.bindPopup(popup_e7f59090bebaaa9f702ea6b55d431e3b)
+        ;
+
+        
+    
+    
+            var marker_a03c7a8e4e466d8116839e77da7a4754 = L.marker(
+                [43.58383263, 3.8602246],
+                {}
+            ).addTo(map_cf1abeaca035e8572c4b93f21afc54e7);
+        
+    
+            var icon_94ad09f2b9b7de7d10bd9e2cddc06a92 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "car", "iconColor": "white", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_a03c7a8e4e466d8116839e77da7a4754.setIcon(icon_94ad09f2b9b7de7d10bd9e2cddc06a92);
+        
+    
+        var popup_9b10a08002c7081837b715caa696d88b = L.popup({"maxWidth": 450});
+
+        
+            
+                var html_6c3b91ab484d62438129b044c382e826 = $(`<div id="html_6c3b91ab484d62438129b044c382e826" style="width: 100.0%; height: 100.0%;">parking voiture : Sabines<br>places dispo : 195<br>places totales : 220<br>le taux d'occupation : 11.36%</div>`)[0];
+                popup_9b10a08002c7081837b715caa696d88b.setContent(html_6c3b91ab484d62438129b044c382e826);
+            
+        
+
+        marker_a03c7a8e4e466d8116839e77da7a4754.bindPopup(popup_9b10a08002c7081837b715caa696d88b)
+        ;
+
+        
+    
+    
+            var marker_a1bfc229a6048de34658a34648bb3772 = L.marker(
+                [43.63419194, 3.92229536],
+                {}
+            ).addTo(map_cf1abeaca035e8572c4b93f21afc54e7);
+        
+    
+            var icon_eda9b0e61554248cf9a4f1f6a3beb4a6 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "car", "iconColor": "white", "markerColor": "orange", "prefix": "fa"}
+            );
+            marker_a1bfc229a6048de34658a34648bb3772.setIcon(icon_eda9b0e61554248cf9a4f1f6a3beb4a6);
+        
+    
+        var popup_a03ee035e5720dfc3c6833c79183df17 = L.popup({"maxWidth": 450});
+
+        
+            
+                var html_6393745b273b5ce1da14df0687b32430 = $(`<div id="html_6393745b273b5ce1da14df0687b32430" style="width: 100.0%; height: 100.0%;">parking voiture : Sablassou<br>places dispo : 214<br>places totales : 372<br>le taux d'occupation : 42.47%</div>`)[0];
+                popup_a03ee035e5720dfc3c6833c79183df17.setContent(html_6393745b273b5ce1da14df0687b32430);
+            
+        
+
+        marker_a1bfc229a6048de34658a34648bb3772.bindPopup(popup_a03ee035e5720dfc3c6833c79183df17)
+        ;
+
+        
+    
+    
+            var marker_a8992585a3415f77862b0afe40a14139 = L.marker(
+                [43.57082225, 3.8379312],
+                {}
+            ).addTo(map_cf1abeaca035e8572c4b93f21afc54e7);
+        
+    
+            var icon_0dcd2869b729e24a8ae7c7a0f24f8601 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "car", "iconColor": "white", "markerColor": "orange", "prefix": "fa"}
+            );
+            marker_a8992585a3415f77862b0afe40a14139.setIcon(icon_0dcd2869b729e24a8ae7c7a0f24f8601);
+        
+    
+        var popup_f9ab59866f74f20b0fbca785bf8ee4ac = L.popup({"maxWidth": 450});
+
+        
+            
+                var html_46f4456460a8de9b01bb401aacfd31b5 = $(`<div id="html_46f4456460a8de9b01bb401aacfd31b5" style="width: 100.0%; height: 100.0%;">parking voiture : Saint Jean Le Sec<br>places dispo : 122<br>places totales : 285<br>le taux d'occupation : 57.19%</div>`)[0];
+                popup_f9ab59866f74f20b0fbca785bf8ee4ac.setContent(html_46f4456460a8de9b01bb401aacfd31b5);
+            
+        
+
+        marker_a8992585a3415f77862b0afe40a14139.bindPopup(popup_f9ab59866f74f20b0fbca785bf8ee4ac)
+        ;
+
+        
+    
+    
+            var marker_49fdad1f62c89d5326a48176737fdbe6 = L.marker(
+                [43.63895359, 3.82772365],
+                {}
+            ).addTo(map_cf1abeaca035e8572c4b93f21afc54e7);
+        
+    
+            var icon_3a1b6b0bcb6ce8b95c7ee7f2bafb898a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "car", "iconColor": "white", "markerColor": "orange", "prefix": "fa"}
+            );
+            marker_49fdad1f62c89d5326a48176737fdbe6.setIcon(icon_3a1b6b0bcb6ce8b95c7ee7f2bafb898a);
+        
+    
+        var popup_cbac75ed2c2537c9356a6579facc2368 = L.popup({"maxWidth": 450});
+
+        
+            
+                var html_3f75a5e7439112fcb8d5bb3d4bff81ea = $(`<div id="html_3f75a5e7439112fcb8d5bb3d4bff81ea" style="width: 100.0%; height: 100.0%;">parking voiture : Euromedecine<br>places dispo : 152<br>places totales : 255<br>le taux d'occupation : 40.39%</div>`)[0];
+                popup_cbac75ed2c2537c9356a6579facc2368.setContent(html_3f75a5e7439112fcb8d5bb3d4bff81ea);
+            
+        
+
+        marker_49fdad1f62c89d5326a48176737fdbe6.bindPopup(popup_cbac75ed2c2537c9356a6579facc2368)
+        ;
+
+        
+    
+    
+            var marker_9fad2182bd543f9e36d2ff4aa477274f = L.marker(
+                [43.63456232, 3.84859796],
+                {}
+            ).addTo(map_cf1abeaca035e8572c4b93f21afc54e7);
+        
+    
+            var icon_efee1ad525b0d2d36fc26bdb7480e981 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "car", "iconColor": "white", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_9fad2182bd543f9e36d2ff4aa477274f.setIcon(icon_efee1ad525b0d2d36fc26bdb7480e981);
+        
+    
+        var popup_01d267bbef3237d136df640b5c1696f1 = L.popup({"maxWidth": 450});
+
+        
+            
+                var html_aaadd8899b1586889707c363ae2c63c7 = $(`<div id="html_aaadd8899b1586889707c363ae2c63c7" style="width: 100.0%; height: 100.0%;">parking voiture : Occitanie<br>places dispo : 574<br>places totales : 615<br>le taux d'occupation : 6.67%</div>`)[0];
+                popup_01d267bbef3237d136df640b5c1696f1.setContent(html_aaadd8899b1586889707c363ae2c63c7);
+            
+        
+
+        marker_9fad2182bd543f9e36d2ff4aa477274f.bindPopup(popup_01d267bbef3237d136df640b5c1696f1)
+        ;
+
+        
+    
+    
+            var marker_a09ba234c9bd59148f49c2e6ba453c1c = L.marker(
+                [43.63286, 3.898411],
+                {}
+            ).addTo(map_cf1abeaca035e8572c4b93f21afc54e7);
+        
+    
+            var icon_f4bb5ab1ec63e912330b1f40f7752abe = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "car", "iconColor": "white", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_a09ba234c9bd59148f49c2e6ba453c1c.setIcon(icon_f4bb5ab1ec63e912330b1f40f7752abe);
+        
+    
+        var popup_95eb9fd0055f74e55d508a73a02f1d42 = L.popup({"maxWidth": 450});
+
+        
+            
+                var html_049213931fad1710fb891bd57ea076c4 = $(`<div id="html_049213931fad1710fb891bd57ea076c4" style="width: 100.0%; height: 100.0%;">parking voiture : Vicarello<br>places dispo : 49<br>places totales : 75<br>le taux d'occupation : 34.67%</div>`)[0];
+                popup_95eb9fd0055f74e55d508a73a02f1d42.setContent(html_049213931fad1710fb891bd57ea076c4);
+            
+        
+
+        marker_a09ba234c9bd59148f49c2e6ba453c1c.bindPopup(popup_95eb9fd0055f74e55d508a73a02f1d42)
+        ;
+
+        
+    
+    
+            var marker_e2831af17cb92e9d0eda52f47e0013b7 = L.marker(
+                [43.604526, 3.91529],
+                {}
+            ).addTo(map_cf1abeaca035e8572c4b93f21afc54e7);
+        
+    
+            var icon_918894ad6990d51cc60ce1329357bb6b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "car", "iconColor": "white", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_e2831af17cb92e9d0eda52f47e0013b7.setIcon(icon_918894ad6990d51cc60ce1329357bb6b);
+        
+    
+        var popup_3e7a17bc32d2d3a98e2eb738dfe945ea = L.popup({"maxWidth": 450});
+
+        
+            
+                var html_dc9426ff65dd8e477c65c807d19f9661 = $(`<div id="html_dc9426ff65dd8e477c65c807d19f9661" style="width: 100.0%; height: 100.0%;">parking voiture : Gaumont EST<br>places dispo : 99<br>places totales : 109<br>le taux d'occupation : 9.17%</div>`)[0];
+                popup_3e7a17bc32d2d3a98e2eb738dfe945ea.setContent(html_dc9426ff65dd8e477c65c807d19f9661);
+            
+        
+
+        marker_e2831af17cb92e9d0eda52f47e0013b7.bindPopup(popup_3e7a17bc32d2d3a98e2eb738dfe945ea)
+        ;
+
+        
+    
+    
+            var marker_b72c7c241dd29605927391494dd9d0ad = L.marker(
+                [43.604824, 3.914158],
+                {}
+            ).addTo(map_cf1abeaca035e8572c4b93f21afc54e7);
+        
+    
+            var icon_a59a5b6beef8d9078cd3d7865ba0947f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "car", "iconColor": "white", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_b72c7c241dd29605927391494dd9d0ad.setIcon(icon_a59a5b6beef8d9078cd3d7865ba0947f);
+        
+    
+        var popup_764f93ad959444bb21fed0400f07b24c = L.popup({"maxWidth": 450});
+
+        
+            
+                var html_1b4e807670e78f04746ff983830620a2 = $(`<div id="html_1b4e807670e78f04746ff983830620a2" style="width: 100.0%; height: 100.0%;">parking voiture : Gaumont OUEST<br>places dispo : 216<br>places totales : 250<br>le taux d'occupation : 13.6%</div>`)[0];
+                popup_764f93ad959444bb21fed0400f07b24c.setContent(html_1b4e807670e78f04746ff983830620a2);
+            
+        
+
+        marker_b72c7c241dd29605927391494dd9d0ad.bindPopup(popup_764f93ad959444bb21fed0400f07b24c)
+        ;
+
+        
+    
+    
+            var marker_5a955431365f446afc21526c7dddd3bf = L.marker(
+                [43.6285421, 3.8977621],
+                {}
+            ).addTo(map_cf1abeaca035e8572c4b93f21afc54e7);
+        
+    
+            var icon_d1259dcc78fd325f7fdaa1cc6cdc5342 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "car", "iconColor": "white", "markerColor": "orange", "prefix": "fa"}
+            );
+            marker_5a955431365f446afc21526c7dddd3bf.setIcon(icon_d1259dcc78fd325f7fdaa1cc6cdc5342);
+        
+    
+        var popup_1cef89f90c6273bea0b68a312e803521 = L.popup({"maxWidth": 450});
+
+        
+            
+                var html_7ec02a2bc0324961b0036fb6e075faa4 = $(`<div id="html_7ec02a2bc0324961b0036fb6e075faa4" style="width: 100.0%; height: 100.0%;">parking voiture : Charles de Gaulle<br>places dispo : 98<br>places totales : 260<br>le taux d'occupation : 62.31%</div>`)[0];
+                popup_1cef89f90c6273bea0b68a312e803521.setContent(html_7ec02a2bc0324961b0036fb6e075faa4);
+            
+        
+
+        marker_5a955431365f446afc21526c7dddd3bf.bindPopup(popup_1cef89f90c6273bea0b68a312e803521)
+        ;
+
+        
+    
+    
+            var marker_1eced3c3199b9b0029fd7222f54afce2 = L.marker(
+                [43.607697, 3.88515],
+                {}
+            ).addTo(map_cf1abeaca035e8572c4b93f21afc54e7);
+        
+    
+            var icon_fa9db5d73969a5da99803fd1371b5962 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "car", "iconColor": "white", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_1eced3c3199b9b0029fd7222f54afce2.setIcon(icon_fa9db5d73969a5da99803fd1371b5962);
+        
+    
+        var popup_d34b8c0f6bf774da5a8231473faefba0 = L.popup({"maxWidth": 450});
+
+        
+            
+                var html_0d09ab28092fd1f6442e594f751bf7a5 = $(`<div id="html_0d09ab28092fd1f6442e594f751bf7a5" style="width: 100.0%; height: 100.0%;">parking voiture : Polygone<br>places dispo : 1615<br>places totales : 1911<br>le taux d'occupation : 15.49%</div>`)[0];
+                popup_d34b8c0f6bf774da5a8231473faefba0.setContent(html_0d09ab28092fd1f6442e594f751bf7a5);
+            
+        
+
+        marker_1eced3c3199b9b0029fd7222f54afce2.bindPopup(popup_d34b8c0f6bf774da5a8231473faefba0)
+        ;
+
+        
+    
+    
+            var marker_d363ced33a7178c3a1e8bf3556f18f5e = L.marker(
+                [43.61100267, 3.8732007],
+                {}
+            ).addTo(map_cf1abeaca035e8572c4b93f21afc54e7);
+        
+    
+            var icon_c93f1d88dd899f48c7a857dccc7a4701 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "car", "iconColor": "white", "markerColor": "orange", "prefix": "fa"}
+            );
+            marker_d363ced33a7178c3a1e8bf3556f18f5e.setIcon(icon_c93f1d88dd899f48c7a857dccc7a4701);
+        
+    
+        var popup_471a79d96251504a4a833d7a31e3a825 = L.popup({"maxWidth": 450});
+
+        
+            
+                var html_8c60ba515b925d56d855e4ff586fae7f = $(`<div id="html_8c60ba515b925d56d855e4ff586fae7f" style="width: 100.0%; height: 100.0%;">parking voiture : Arc de Triomphe<br>places dispo : 122<br>places totales : 440<br>le taux d'occupation : 72.27%</div>`)[0];
+                popup_471a79d96251504a4a833d7a31e3a825.setContent(html_8c60ba515b925d56d855e4ff586fae7f);
+            
+        
+
+        marker_d363ced33a7178c3a1e8bf3556f18f5e.bindPopup(popup_471a79d96251504a4a833d7a31e3a825)
+        ;
+
+        
+    
+    
+            var marker_1b1ba654799c5e068bb57fb857c1425f = L.marker(
+                [43.605366, 3.881346],
+                {}
+            ).addTo(map_cf1abeaca035e8572c4b93f21afc54e7);
+        
+    
+            var icon_4f19046776a7f92250e41c38ca173658 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "bicycle", "iconColor": "white", "markerColor": "darkblue", "prefix": "fa"}
+            );
+            marker_1b1ba654799c5e068bb57fb857c1425f.setIcon(icon_4f19046776a7f92250e41c38ca173658);
+        
+    
+        var popup_72b603079bb0e143674787919893efa9 = L.popup({"maxWidth": 450});
+
+        
+            
+                var html_54f3afa5c2b8752f501d17aa67374755 = $(`<div id="html_54f3afa5c2b8752f501d17aa67374755" style="width: 100.0%; height: 100.0%;">parking velo : Rue Jules Ferry - Gare Saint-Roch<br>places dispo : 7<br>places totales : 12<br>le nombre de velo dispo : 5<br>le taux d'occupation : 41.67%</div>`)[0];
+                popup_72b603079bb0e143674787919893efa9.setContent(html_54f3afa5c2b8752f501d17aa67374755);
+            
+        
+
+        marker_1b1ba654799c5e068bb57fb857c1425f.bindPopup(popup_72b603079bb0e143674787919893efa9)
+        ;
+
+        
+    
+    
+            var marker_f46df05312f91b6ad0f5d63501ad9897 = L.marker(
+                [43.608148, 3.878778],
+                {}
+            ).addTo(map_cf1abeaca035e8572c4b93f21afc54e7);
+        
+    
+            var icon_4360406663abd9a0f63f09c9047af118 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "bicycle", "iconColor": "white", "markerColor": "darkblue", "prefix": "fa"}
+            );
+            marker_f46df05312f91b6ad0f5d63501ad9897.setIcon(icon_4360406663abd9a0f63f09c9047af118);
+        
+    
+        var popup_8c08c96e3352989ed689bfc2df9444f0 = L.popup({"maxWidth": 450});
+
+        
+            
+                var html_1045ed225273bfd09b5ac3ef60522897 = $(`<div id="html_1045ed225273bfd09b5ac3ef60522897" style="width: 100.0%; height: 100.0%;">parking velo : Comédie<br>places dispo : 8<br>places totales : 20<br>le nombre de velo dispo : 12<br>le taux d'occupation : 60.0%</div>`)[0];
+                popup_8c08c96e3352989ed689bfc2df9444f0.setContent(html_1045ed225273bfd09b5ac3ef60522897);
+            
+        
+
+        marker_f46df05312f91b6ad0f5d63501ad9897.bindPopup(popup_8c08c96e3352989ed689bfc2df9444f0)
+        ;
+
+        
+    
+    
+            var marker_4eda4b380427fcbcb19ad99109fd34cb = L.marker(
+                [43.599088, 3.894866],
+                {}
+            ).addTo(map_cf1abeaca035e8572c4b93f21afc54e7);
+        
+    
+            var icon_37936dd3f9793a47e6fa210cd4b3b8af = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "bicycle", "iconColor": "white", "markerColor": "darkblue", "prefix": "fa"}
+            );
+            marker_4eda4b380427fcbcb19ad99109fd34cb.setIcon(icon_37936dd3f9793a47e6fa210cd4b3b8af);
+        
+    
+        var popup_eaa4ca0e8d7ac55b8409c83b806c6c8f = L.popup({"maxWidth": 450});
+
+        
+            
+                var html_8c74fa7c80890bcd4bb541a9c4680fb3 = $(`<div id="html_8c74fa7c80890bcd4bb541a9c4680fb3" style="width: 100.0%; height: 100.0%;">parking velo : Hôtel de Ville<br>places dispo : 4<br>places totales : 16<br>le nombre de velo dispo : 12<br>le taux d'occupation : 75.0%</div>`)[0];
+                popup_eaa4ca0e8d7ac55b8409c83b806c6c8f.setContent(html_8c74fa7c80890bcd4bb541a9c4680fb3);
+            
+        
+
+        marker_4eda4b380427fcbcb19ad99109fd34cb.bindPopup(popup_eaa4ca0e8d7ac55b8409c83b806c6c8f)
+        ;
+
+        
+    
+    
+            var marker_3c3d7940ac8a0f9e612101fd387e6018 = L.marker(
+                [43.613989, 3.8816],
+                {}
+            ).addTo(map_cf1abeaca035e8572c4b93f21afc54e7);
+        
+    
+            var icon_e94f65ebe0c68db42f2817907945f92d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "bicycle", "iconColor": "white", "markerColor": "purple", "prefix": "fa"}
+            );
+            marker_3c3d7940ac8a0f9e612101fd387e6018.setIcon(icon_e94f65ebe0c68db42f2817907945f92d);
+        
+    
+        var popup_c163fccee7c8d05ebab2cc17a8d04978 = L.popup({"maxWidth": 450});
+
+        
+            
+                var html_00a168ad99c48f3f26882b6aaeda14bb = $(`<div id="html_00a168ad99c48f3f26882b6aaeda14bb" style="width: 100.0%; height: 100.0%;">parking velo : Corum<br>places dispo : 1<br>places totales : 12<br>le nombre de velo dispo : 11<br>le taux d'occupation : 91.67%</div>`)[0];
+                popup_c163fccee7c8d05ebab2cc17a8d04978.setContent(html_00a168ad99c48f3f26882b6aaeda14bb);
+            
+        
+
+        marker_3c3d7940ac8a0f9e612101fd387e6018.bindPopup(popup_c163fccee7c8d05ebab2cc17a8d04978)
+        ;
+
+        
+    
+    
+            var marker_4d21fc566f29a84e663c851867754734 = L.marker(
+                [43.616768, 3.873375],
+                {}
+            ).addTo(map_cf1abeaca035e8572c4b93f21afc54e7);
+        
+    
+            var icon_69e543d2a09a845610e4098b559283c7 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "bicycle", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_4d21fc566f29a84e663c851867754734.setIcon(icon_69e543d2a09a845610e4098b559283c7);
+        
+    
+        var popup_462e759fe62e8ddcac344f1874b6f542 = L.popup({"maxWidth": 450});
+
+        
+            
+                var html_c648e6565aec031d9568238cade24c49 = $(`<div id="html_c648e6565aec031d9568238cade24c49" style="width: 100.0%; height: 100.0%;">parking velo : Place Albert 1er - St Charles<br>places dispo : 21<br>places totales : 27<br>le nombre de velo dispo : 6<br>le taux d'occupation : 22.22%</div>`)[0];
+                popup_462e759fe62e8ddcac344f1874b6f542.setContent(html_c648e6565aec031d9568238cade24c49);
+            
+        
+
+        marker_4d21fc566f29a84e663c851867754734.bindPopup(popup_462e759fe62e8ddcac344f1874b6f542)
+        ;
+
+        
+    
+    
+            var marker_7b376e393154f0a45baa7fbf8dfd7eb5 = L.marker(
+                [43.610989, 3.873345],
+                {}
+            ).addTo(map_cf1abeaca035e8572c4b93f21afc54e7);
+        
+    
+            var icon_56c0a2eff4dadfcae8b8979fc159ff0f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "bicycle", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_7b376e393154f0a45baa7fbf8dfd7eb5.setIcon(icon_56c0a2eff4dadfcae8b8979fc159ff0f);
+        
+    
+        var popup_d9ac700f9384f47aae991d6ac5ec8f7b = L.popup({"maxWidth": 450});
+
+        
+            
+                var html_a68ba667cea29f078b6d6612bb20b739 = $(`<div id="html_a68ba667cea29f078b6d6612bb20b739" style="width: 100.0%; height: 100.0%;">parking velo : Foch<br>places dispo : 8<br>places totales : 8<br>le nombre de velo dispo : 0<br>le taux d'occupation : 0.0%</div>`)[0];
+                popup_d9ac700f9384f47aae991d6ac5ec8f7b.setContent(html_a68ba667cea29f078b6d6612bb20b739);
+            
+        
+
+        marker_7b376e393154f0a45baa7fbf8dfd7eb5.bindPopup(popup_d9ac700f9384f47aae991d6ac5ec8f7b)
+        ;
+
+        
+    
+    
+            var marker_5deccae845624efa88f0ad7937c46082 = L.marker(
+                [43.609935, 3.877208],
+                {}
+            ).addTo(map_cf1abeaca035e8572c4b93f21afc54e7);
+        
+    
+            var icon_31d39386c3cb33781aa671edf36e5f6e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "bicycle", "iconColor": "white", "markerColor": "darkblue", "prefix": "fa"}
+            );
+            marker_5deccae845624efa88f0ad7937c46082.setIcon(icon_31d39386c3cb33781aa671edf36e5f6e);
+        
+    
+        var popup_51ff657bc0e516d8b1cb22910f639b1a = L.popup({"maxWidth": 450});
+
+        
+            
+                var html_7f9350859acc3f82b5fe8bebfe22963d = $(`<div id="html_7f9350859acc3f82b5fe8bebfe22963d" style="width: 100.0%; height: 100.0%;">parking velo : Halles Castellane<br>places dispo : 7<br>places totales : 12<br>le nombre de velo dispo : 5<br>le taux d'occupation : 41.67%</div>`)[0];
+                popup_51ff657bc0e516d8b1cb22910f639b1a.setContent(html_7f9350859acc3f82b5fe8bebfe22963d);
+            
+        
+
+        marker_5deccae845624efa88f0ad7937c46082.bindPopup(popup_51ff657bc0e516d8b1cb22910f639b1a)
+        ;
+
+        
+    
+    
+            var marker_fd86f5df300b38e19678c7573ca4ebaf = L.marker(
+                [43.606301, 3.87724],
+                {}
+            ).addTo(map_cf1abeaca035e8572c4b93f21afc54e7);
+        
+    
+            var icon_3a47e5ebfedc3d5a0a47be979b3be0f4 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "bicycle", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_fd86f5df300b38e19678c7573ca4ebaf.setIcon(icon_3a47e5ebfedc3d5a0a47be979b3be0f4);
+        
+    
+        var popup_3283ccc057d1beab374b36f927137b2b = L.popup({"maxWidth": 450});
+
+        
+            
+                var html_54e3d6868af4dd024e70ca8e705ed918 = $(`<div id="html_54e3d6868af4dd024e70ca8e705ed918" style="width: 100.0%; height: 100.0%;">parking velo : Observatoire<br>places dispo : 8<br>places totales : 8<br>le nombre de velo dispo : 0<br>le taux d'occupation : 0.0%</div>`)[0];
+                popup_3283ccc057d1beab374b36f927137b2b.setContent(html_54e3d6868af4dd024e70ca8e705ed918);
+            
+        
+
+        marker_fd86f5df300b38e19678c7573ca4ebaf.bindPopup(popup_3283ccc057d1beab374b36f927137b2b)
+        ;
+
+        
+    
+    
+            var marker_9de171449bc52cb36615d307d9b37f53 = L.marker(
+                [43.603038, 3.875796],
+                {}
+            ).addTo(map_cf1abeaca035e8572c4b93f21afc54e7);
+        
+    
+            var icon_674c9c36bfb158e3426754c8192c894a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "bicycle", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_9de171449bc52cb36615d307d9b37f53.setIcon(icon_674c9c36bfb158e3426754c8192c894a);
+        
+    
+        var popup_1c846acee3fb9392cf69ade4d6148c8b = L.popup({"maxWidth": 450});
+
+        
+            
+                var html_4ede80affe046f4d787d109fe9e2973d = $(`<div id="html_4ede80affe046f4d787d109fe9e2973d" style="width: 100.0%; height: 100.0%;">parking velo : Rondelet<br>places dispo : 16<br>places totales : 16<br>le nombre de velo dispo : 0<br>le taux d'occupation : 0.0%</div>`)[0];
+                popup_1c846acee3fb9392cf69ade4d6148c8b.setContent(html_4ede80affe046f4d787d109fe9e2973d);
+            
+        
+
+        marker_9de171449bc52cb36615d307d9b37f53.bindPopup(popup_1c846acee3fb9392cf69ade4d6148c8b)
+        ;
+
+        
+    
+    
+            var marker_105fb04a640006100dbd78f3186e5116 = L.marker(
+                [43.608491, 3.868389],
+                {}
+            ).addTo(map_cf1abeaca035e8572c4b93f21afc54e7);
+        
+    
+            var icon_03cb345847c07b0abcb68011353273e1 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "bicycle", "iconColor": "white", "markerColor": "purple", "prefix": "fa"}
+            );
+            marker_105fb04a640006100dbd78f3186e5116.setIcon(icon_03cb345847c07b0abcb68011353273e1);
+        
+    
+        var popup_dc390c5535ce5239852c4dfbea1b79e8 = L.popup({"maxWidth": 450});
+
+        
+            
+                var html_3a91f21a8dae94bff432964c0a72c466 = $(`<div id="html_3a91f21a8dae94bff432964c0a72c466" style="width: 100.0%; height: 100.0%;">parking velo : Plan Cabanes<br>places dispo : 2<br>places totales : 12<br>le nombre de velo dispo : 10<br>le taux d'occupation : 83.33%</div>`)[0];
+                popup_dc390c5535ce5239852c4dfbea1b79e8.setContent(html_3a91f21a8dae94bff432964c0a72c466);
+            
+        
+
+        marker_105fb04a640006100dbd78f3186e5116.bindPopup(popup_dc390c5535ce5239852c4dfbea1b79e8)
+        ;
+
+        
+    
+    
+            var marker_9634b509eea4088447782ffe764fb989 = L.marker(
+                [43.622629, 3.868375],
+                {}
+            ).addTo(map_cf1abeaca035e8572c4b93f21afc54e7);
+        
+    
+            var icon_a265794a8c2a377d2c52dd7c5dc8d0d2 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "bicycle", "iconColor": "white", "markerColor": "darkblue", "prefix": "fa"}
+            );
+            marker_9634b509eea4088447782ffe764fb989.setIcon(icon_a265794a8c2a377d2c52dd7c5dc8d0d2);
+        
+    
+        var popup_2591dbc2d0f2d356c533bd807afb2db0 = L.popup({"maxWidth": 450});
+
+        
+            
+                var html_c04b73e7d14f991163392a18bcae37e2 = $(`<div id="html_c04b73e7d14f991163392a18bcae37e2" style="width: 100.0%; height: 100.0%;">parking velo : Boutonnet<br>places dispo : 3<br>places totales : 12<br>le nombre de velo dispo : 9<br>le taux d'occupation : 75.0%</div>`)[0];
+                popup_2591dbc2d0f2d356c533bd807afb2db0.setContent(html_c04b73e7d14f991163392a18bcae37e2);
+            
+        
+
+        marker_9634b509eea4088447782ffe764fb989.bindPopup(popup_2591dbc2d0f2d356c533bd807afb2db0)
+        ;
+
+        
+    
+    
+            var marker_b44719cfd12bf922af61b6d99609d0c6 = L.marker(
+                [43.616742, 3.87998],
+                {}
+            ).addTo(map_cf1abeaca035e8572c4b93f21afc54e7);
+        
+    
+            var icon_98b02522953c11d837b31b75dac8afc9 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "bicycle", "iconColor": "white", "markerColor": "darkblue", "prefix": "fa"}
+            );
+            marker_b44719cfd12bf922af61b6d99609d0c6.setIcon(icon_98b02522953c11d837b31b75dac8afc9);
+        
+    
+        var popup_c8d8f0f275bc46d34a84397808119e8e = L.popup({"maxWidth": 450});
+
+        
+            
+                var html_f704f208354e1313446001cebf8aa7df = $(`<div id="html_f704f208354e1313446001cebf8aa7df" style="width: 100.0%; height: 100.0%;">parking velo : Emile Combes<br>places dispo : 2<br>places totales : 8<br>le nombre de velo dispo : 6<br>le taux d'occupation : 75.0%</div>`)[0];
+                popup_c8d8f0f275bc46d34a84397808119e8e.setContent(html_f704f208354e1313446001cebf8aa7df);
+            
+        
+
+        marker_b44719cfd12bf922af61b6d99609d0c6.bindPopup(popup_c8d8f0f275bc46d34a84397808119e8e)
+        ;
+
+        
+    
+    
+            var marker_fbd2ac7d261cb7e06df08f974cd22393 = L.marker(
+                [43.616698, 3.884981],
+                {}
+            ).addTo(map_cf1abeaca035e8572c4b93f21afc54e7);
+        
+    
+            var icon_bbf26c8af27a9c94d572c3c46c2bdcae = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "bicycle", "iconColor": "white", "markerColor": "darkblue", "prefix": "fa"}
+            );
+            marker_fbd2ac7d261cb7e06df08f974cd22393.setIcon(icon_bbf26c8af27a9c94d572c3c46c2bdcae);
+        
+    
+        var popup_3d10e1fb71378237c4a0427c8b091450 = L.popup({"maxWidth": 450});
+
+        
+            
+                var html_f0805d25a2d9111c6d993ba9a57bb6ee = $(`<div id="html_f0805d25a2d9111c6d993ba9a57bb6ee" style="width: 100.0%; height: 100.0%;">parking velo : Beaux-Arts<br>places dispo : 6<br>places totales : 16<br>le nombre de velo dispo : 10<br>le taux d'occupation : 62.5%</div>`)[0];
+                popup_3d10e1fb71378237c4a0427c8b091450.setContent(html_f0805d25a2d9111c6d993ba9a57bb6ee);
+            
+        
+
+        marker_fbd2ac7d261cb7e06df08f974cd22393.bindPopup(popup_3d10e1fb71378237c4a0427c8b091450)
+        ;
+
+        
+    
+    
+            var marker_68ae4673cfae70394bd46979b85ace52 = L.marker(
+                [43.618692, 3.893844],
+                {}
+            ).addTo(map_cf1abeaca035e8572c4b93f21afc54e7);
+        
+    
+            var icon_20cfc440fa2e92f87cb368f0cba96121 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "bicycle", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_68ae4673cfae70394bd46979b85ace52.setIcon(icon_20cfc440fa2e92f87cb368f0cba96121);
+        
+    
+        var popup_13bc6cdc2357ee611842967ac2734185 = L.popup({"maxWidth": 450});
+
+        
+            
+                var html_0c43d671e37d1b337f3d89372b14b28f = $(`<div id="html_0c43d671e37d1b337f3d89372b14b28f" style="width: 100.0%; height: 100.0%;">parking velo : Les Aubes<br>places dispo : 5<br>places totales : 8<br>le nombre de velo dispo : 3<br>le taux d'occupation : 37.5%</div>`)[0];
+                popup_13bc6cdc2357ee611842967ac2734185.setContent(html_0c43d671e37d1b337f3d89372b14b28f);
+            
+        
+
+        marker_68ae4673cfae70394bd46979b85ace52.bindPopup(popup_13bc6cdc2357ee611842967ac2734185)
+        ;
+
+        
+    
+    
+            var marker_d218c3c9960c7bab531cf8f70850058f = L.marker(
+                [43.607942, 3.890634],
+                {}
+            ).addTo(map_cf1abeaca035e8572c4b93f21afc54e7);
+        
+    
+            var icon_9076b0ed79c2bece183e8c61bf067132 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "bicycle", "iconColor": "white", "markerColor": "darkblue", "prefix": "fa"}
+            );
+            marker_d218c3c9960c7bab531cf8f70850058f.setIcon(icon_9076b0ed79c2bece183e8c61bf067132);
+        
+    
+        var popup_041931080a294c817f5cfbf677a838af = L.popup({"maxWidth": 450});
+
+        
+            
+                var html_ae5ed0e87b495a22397ef76ce9c1738c = $(`<div id="html_ae5ed0e87b495a22397ef76ce9c1738c" style="width: 100.0%; height: 100.0%;">parking velo : Antigone centre<br>places dispo : 8<br>places totales : 16<br>le nombre de velo dispo : 8<br>le taux d'occupation : 50.0%</div>`)[0];
+                popup_041931080a294c817f5cfbf677a838af.setContent(html_ae5ed0e87b495a22397ef76ce9c1738c);
+            
+        
+
+        marker_d218c3c9960c7bab531cf8f70850058f.bindPopup(popup_041931080a294c817f5cfbf677a838af)
+        ;
+
+        
+    
+    
+            var marker_d798f5477bc6c0b439460e7eb979bd28 = L.marker(
+                [43.608218, 3.89314],
+                {}
+            ).addTo(map_cf1abeaca035e8572c4b93f21afc54e7);
+        
+    
+            var icon_8dfbaf6766cf990a3505db0ed4be2591 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "bicycle", "iconColor": "white", "markerColor": "darkblue", "prefix": "fa"}
+            );
+            marker_d798f5477bc6c0b439460e7eb979bd28.setIcon(icon_8dfbaf6766cf990a3505db0ed4be2591);
+        
+    
+        var popup_b4c97ca1705116e140809e914d91423e = L.popup({"maxWidth": 450});
+
+        
+            
+                var html_88785cc8f58dba702af844ed743e4a77 = $(`<div id="html_88785cc8f58dba702af844ed743e4a77" style="width: 100.0%; height: 100.0%;">parking velo : Médiathèque Emile Zola<br>places dispo : 6<br>places totales : 16<br>le nombre de velo dispo : 10<br>le taux d'occupation : 62.5%</div>`)[0];
+                popup_b4c97ca1705116e140809e914d91423e.setContent(html_88785cc8f58dba702af844ed743e4a77);
+            
+        
+
+        marker_d798f5477bc6c0b439460e7eb979bd28.bindPopup(popup_b4c97ca1705116e140809e914d91423e)
+        ;
+
+        
+    
+    
+            var marker_4af21a8dbf5e39ca582f6ec3df5edd74 = L.marker(
+                [43.607859, 3.886644],
+                {}
+            ).addTo(map_cf1abeaca035e8572c4b93f21afc54e7);
+        
+    
+            var icon_5e3358dedfec58357383763f5f81ddb1 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "bicycle", "iconColor": "white", "markerColor": "purple", "prefix": "fa"}
+            );
+            marker_4af21a8dbf5e39ca582f6ec3df5edd74.setIcon(icon_5e3358dedfec58357383763f5f81ddb1);
+        
+    
+        var popup_ed63f47cc692f7d0c13deb4401569a7c = L.popup({"maxWidth": 450});
+
+        
+            
+                var html_4c4cce319a055afce4874b4c978fa887 = $(`<div id="html_4c4cce319a055afce4874b4c978fa887" style="width: 100.0%; height: 100.0%;">parking velo : Nombre d Or<br>places dispo : 2<br>places totales : 16<br>le nombre de velo dispo : 14<br>le taux d'occupation : 87.5%</div>`)[0];
+                popup_ed63f47cc692f7d0c13deb4401569a7c.setContent(html_4c4cce319a055afce4874b4c978fa887);
+            
+        
+
+        marker_4af21a8dbf5e39ca582f6ec3df5edd74.bindPopup(popup_ed63f47cc692f7d0c13deb4401569a7c)
+        ;
+
+        
+    
+    
+            var marker_7d97183a65a6fb5f1077195c09278e98 = L.marker(
+                [43.614642, 3.877648],
+                {}
+            ).addTo(map_cf1abeaca035e8572c4b93f21afc54e7);
+        
+    
+            var icon_10d9f976c582464f2c3482c475225190 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "bicycle", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_7d97183a65a6fb5f1077195c09278e98.setIcon(icon_10d9f976c582464f2c3482c475225190);
+        
+    
+        var popup_2a8594a1a02255b43655ac64341542a5 = L.popup({"maxWidth": 450});
+
+        
+            
+                var html_988843da373708ec8f536091971937d6 = $(`<div id="html_988843da373708ec8f536091971937d6" style="width: 100.0%; height: 100.0%;">parking velo : Louis Blanc<br>places dispo : 12<br>places totales : 16<br>le nombre de velo dispo : 4<br>le taux d'occupation : 25.0%</div>`)[0];
+                popup_2a8594a1a02255b43655ac64341542a5.setContent(html_988843da373708ec8f536091971937d6);
+            
+        
+
+        marker_7d97183a65a6fb5f1077195c09278e98.bindPopup(popup_2a8594a1a02255b43655ac64341542a5)
+        ;
+
+        
+    
+    
+            var marker_5e4dddc5fac811463b183431e7ef3d5d = L.marker(
+                [43.607106, 3.870693],
+                {}
+            ).addTo(map_cf1abeaca035e8572c4b93f21afc54e7);
+        
+    
+            var icon_d93299955477f17bc0415a80bad30a18 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "bicycle", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_5e4dddc5fac811463b183431e7ef3d5d.setIcon(icon_d93299955477f17bc0415a80bad30a18);
+        
+    
+        var popup_1c6db8d554e8b7ea0f5539a1fba023c9 = L.popup({"maxWidth": 450});
+
+        
+            
+                var html_4b61cee07a88d1b3dd5f3418cfa93cf8 = $(`<div id="html_4b61cee07a88d1b3dd5f3418cfa93cf8" style="width: 100.0%; height: 100.0%;">parking velo : Gambetta<br>places dispo : 6<br>places totales : 8<br>le nombre de velo dispo : 2<br>le taux d'occupation : 25.0%</div>`)[0];
+                popup_1c6db8d554e8b7ea0f5539a1fba023c9.setContent(html_4b61cee07a88d1b3dd5f3418cfa93cf8);
+            
+        
+
+        marker_5e4dddc5fac811463b183431e7ef3d5d.bindPopup(popup_1c6db8d554e8b7ea0f5539a1fba023c9)
+        ;
+
+        
+    
+    
+            var marker_c9d3fd832353e75246c230dcd8fec187 = L.marker(
+                [43.60032, 3.89851],
+                {}
+            ).addTo(map_cf1abeaca035e8572c4b93f21afc54e7);
+        
+    
+            var icon_df08d7b371e3ae44b0e8a2402d83615b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "bicycle", "iconColor": "white", "markerColor": "purple", "prefix": "fa"}
+            );
+            marker_c9d3fd832353e75246c230dcd8fec187.setIcon(icon_df08d7b371e3ae44b0e8a2402d83615b);
+        
+    
+        var popup_d066888c0242b8007da3ffc5ed32acf7 = L.popup({"maxWidth": 450});
+
+        
+            
+                var html_90bcb9cac63a8b0f11e6bac427d05102 = $(`<div id="html_90bcb9cac63a8b0f11e6bac427d05102" style="width: 100.0%; height: 100.0%;">parking velo : Port Marianne<br>places dispo : 1<br>places totales : 16<br>le nombre de velo dispo : 15<br>le taux d'occupation : 93.75%</div>`)[0];
+                popup_d066888c0242b8007da3ffc5ed32acf7.setContent(html_90bcb9cac63a8b0f11e6bac427d05102);
+            
+        
+
+        marker_c9d3fd832353e75246c230dcd8fec187.bindPopup(popup_d066888c0242b8007da3ffc5ed32acf7)
+        ;
+
+        
+    
+    
+            var marker_328745e0068efd34d6758c3a3a0248ec = L.marker(
+                [43.611991, 3.867157],
+                {}
+            ).addTo(map_cf1abeaca035e8572c4b93f21afc54e7);
+        
+    
+            var icon_9b566b15c93f6ae17c946688230a808f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "bicycle", "iconColor": "white", "markerColor": "darkblue", "prefix": "fa"}
+            );
+            marker_328745e0068efd34d6758c3a3a0248ec.setIcon(icon_9b566b15c93f6ae17c946688230a808f);
+        
+    
+        var popup_08c632348f263978d0c873d5c97f610f = L.popup({"maxWidth": 450});
+
+        
+            
+                var html_bd56625b63f2fcc405a0c6b41fa30d70 = $(`<div id="html_bd56625b63f2fcc405a0c6b41fa30d70" style="width: 100.0%; height: 100.0%;">parking velo : Les Arceaux<br>places dispo : 4<br>places totales : 16<br>le nombre de velo dispo : 12<br>le taux d'occupation : 75.0%</div>`)[0];
+                popup_08c632348f263978d0c873d5c97f610f.setContent(html_bd56625b63f2fcc405a0c6b41fa30d70);
+            
+        
+
+        marker_328745e0068efd34d6758c3a3a0248ec.bindPopup(popup_08c632348f263978d0c873d5c97f610f)
+        ;
+
+        
+    
+    
+            var marker_fc5d85e4a69acc08c1b4f93725123bbf = L.marker(
+                [43.601143, 3.884373],
+                {}
+            ).addTo(map_cf1abeaca035e8572c4b93f21afc54e7);
+        
+    
+            var icon_1fd48cdaf85dfe535ef3036df7815bbd = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "bicycle", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_fc5d85e4a69acc08c1b4f93725123bbf.setIcon(icon_1fd48cdaf85dfe535ef3036df7815bbd);
+        
+    
+        var popup_59afccbb6994ead1f1373d4188647dcd = L.popup({"maxWidth": 450});
+
+        
+            
+                var html_daf6eb8bfbc90707b51a2a6df0ed58b1 = $(`<div id="html_daf6eb8bfbc90707b51a2a6df0ed58b1" style="width: 100.0%; height: 100.0%;">parking velo : Cité Mion<br>places dispo : 6<br>places totales : 8<br>le nombre de velo dispo : 2<br>le taux d'occupation : 25.0%</div>`)[0];
+                popup_59afccbb6994ead1f1373d4188647dcd.setContent(html_daf6eb8bfbc90707b51a2a6df0ed58b1);
+            
+        
+
+        marker_fc5d85e4a69acc08c1b4f93725123bbf.bindPopup(popup_59afccbb6994ead1f1373d4188647dcd)
+        ;
+
+        
+    
+    
+            var marker_929640a3824500b6f840f3fc186f6462 = L.marker(
+                [43.599817, 3.875757],
+                {}
+            ).addTo(map_cf1abeaca035e8572c4b93f21afc54e7);
+        
+    
+            var icon_b8ced6c78c292e62f3bd01b2df9bb95a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "bicycle", "iconColor": "white", "markerColor": "darkblue", "prefix": "fa"}
+            );
+            marker_929640a3824500b6f840f3fc186f6462.setIcon(icon_b8ced6c78c292e62f3bd01b2df9bb95a);
+        
+    
+        var popup_cd12165e42dcbe2d6295d3f34309bd48 = L.popup({"maxWidth": 450});
+
+        
+            
+                var html_fe854e3678e490dcdfc0c3821b6e9439 = $(`<div id="html_fe854e3678e490dcdfc0c3821b6e9439" style="width: 100.0%; height: 100.0%;">parking velo : Nouveau Saint-Roch<br>places dispo : 2<br>places totales : 8<br>le nombre de velo dispo : 6<br>le taux d'occupation : 75.0%</div>`)[0];
+                popup_cd12165e42dcbe2d6295d3f34309bd48.setContent(html_fe854e3678e490dcdfc0c3821b6e9439);
+            
+        
+
+        marker_929640a3824500b6f840f3fc186f6462.bindPopup(popup_cd12165e42dcbe2d6295d3f34309bd48)
+        ;
+
+        
+    
+    
+            var marker_483a33009b5c10a53a9da0c394e293dc = L.marker(
+                [43.603553, 3.867884],
+                {}
+            ).addTo(map_cf1abeaca035e8572c4b93f21afc54e7);
+        
+    
+            var icon_7e372005fa9531f1eaa318cbcd58c047 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "bicycle", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_483a33009b5c10a53a9da0c394e293dc.setIcon(icon_7e372005fa9531f1eaa318cbcd58c047);
+        
+    
+        var popup_a8a6e001c2bd8f803958b3b4a2f6dd79 = L.popup({"maxWidth": 450});
+
+        
+            
+                var html_3a814b10d188f2e3c75a342cd1fc83fb = $(`<div id="html_3a814b10d188f2e3c75a342cd1fc83fb" style="width: 100.0%; height: 100.0%;">parking velo : Renouvier<br>places dispo : 5<br>places totales : 8<br>le nombre de velo dispo : 3<br>le taux d'occupation : 37.5%</div>`)[0];
+                popup_a8a6e001c2bd8f803958b3b4a2f6dd79.setContent(html_3a814b10d188f2e3c75a342cd1fc83fb);
+            
+        
+
+        marker_483a33009b5c10a53a9da0c394e293dc.bindPopup(popup_a8a6e001c2bd8f803958b3b4a2f6dd79)
+        ;
+
+        
+    
+    
+            var marker_4552936e7c4bd01e22ab993d2fb1dc4a = L.marker(
+                [43.603727, 3.918979],
+                {}
+            ).addTo(map_cf1abeaca035e8572c4b93f21afc54e7);
+        
+    
+            var icon_b7f3dbd93d5185683bb35e84bfb65467 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "bicycle", "iconColor": "white", "markerColor": "darkblue", "prefix": "fa"}
+            );
+            marker_4552936e7c4bd01e22ab993d2fb1dc4a.setIcon(icon_b7f3dbd93d5185683bb35e84bfb65467);
+        
+    
+        var popup_91f5c625e28f3067ea085389dc67f915 = L.popup({"maxWidth": 450});
+
+        
+            
+                var html_a12959dae76b40becf5bd1a40522d311 = $(`<div id="html_a12959dae76b40becf5bd1a40522d311" style="width: 100.0%; height: 100.0%;">parking velo : Odysseum<br>places dispo : 4<br>places totales : 8<br>le nombre de velo dispo : 4<br>le taux d'occupation : 50.0%</div>`)[0];
+                popup_91f5c625e28f3067ea085389dc67f915.setContent(html_a12959dae76b40becf5bd1a40522d311);
+            
+        
+
+        marker_4552936e7c4bd01e22ab993d2fb1dc4a.bindPopup(popup_91f5c625e28f3067ea085389dc67f915)
+        ;
+
+        
+    
+    
+            var marker_4402d483c8723c5aa592ff301a681604 = L.marker(
+                [43.605021, 3.875065],
+                {}
+            ).addTo(map_cf1abeaca035e8572c4b93f21afc54e7);
+        
+    
+            var icon_652bc21155586b49967213220168ea0d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "bicycle", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_4402d483c8723c5aa592ff301a681604.setIcon(icon_652bc21155586b49967213220168ea0d);
+        
+    
+        var popup_e355304072239b44dca065e63b1c9b38 = L.popup({"maxWidth": 450});
+
+        
+            
+                var html_df9ec1247c690757365ed82c5faa9ceb = $(`<div id="html_df9ec1247c690757365ed82c5faa9ceb" style="width: 100.0%; height: 100.0%;">parking velo : Saint-Denis<br>places dispo : 5<br>places totales : 8<br>le nombre de velo dispo : 3<br>le taux d'occupation : 37.5%</div>`)[0];
+                popup_e355304072239b44dca065e63b1c9b38.setContent(html_df9ec1247c690757365ed82c5faa9ceb);
+            
+        
+
+        marker_4402d483c8723c5aa592ff301a681604.bindPopup(popup_e355304072239b44dca065e63b1c9b38)
+        ;
+
+        
+    
+    
+            var marker_7aba5da2295f8a53ef1fc538d57de1c9 = L.marker(
+                [43.603424, 3.899263],
+                {}
+            ).addTo(map_cf1abeaca035e8572c4b93f21afc54e7);
+        
+    
+            var icon_0b94fc19edbe1eecdf7a1390d0f37341 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "bicycle", "iconColor": "white", "markerColor": "purple", "prefix": "fa"}
+            );
+            marker_7aba5da2295f8a53ef1fc538d57de1c9.setIcon(icon_0b94fc19edbe1eecdf7a1390d0f37341);
+        
+    
+        var popup_dba77ec3d1f46476a50f74c52475c6a7 = L.popup({"maxWidth": 450});
+
+        
+            
+                var html_6e7e07ef932fb7a77be3856165e8193c = $(`<div id="html_6e7e07ef932fb7a77be3856165e8193c" style="width: 100.0%; height: 100.0%;">parking velo : Richter<br>places dispo : 0<br>places totales : 16<br>le nombre de velo dispo : 16<br>le taux d'occupation : 100.0%</div>`)[0];
+                popup_dba77ec3d1f46476a50f74c52475c6a7.setContent(html_6e7e07ef932fb7a77be3856165e8193c);
+            
+        
+
+        marker_7aba5da2295f8a53ef1fc538d57de1c9.bindPopup(popup_dba77ec3d1f46476a50f74c52475c6a7)
+        ;
+
+        
+    
+    
+            var marker_9041a02d4ab6a72cf28a456154fdc47c = L.marker(
+                [43.618762, 3.865971],
+                {}
+            ).addTo(map_cf1abeaca035e8572c4b93f21afc54e7);
+        
+    
+            var icon_d2a86ed8d3b80b9893e1b743df3ae355 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "bicycle", "iconColor": "white", "markerColor": "darkblue", "prefix": "fa"}
+            );
+            marker_9041a02d4ab6a72cf28a456154fdc47c.setIcon(icon_d2a86ed8d3b80b9893e1b743df3ae355);
+        
+    
+        var popup_4880cb5a1bc9736cc3b5f50415b8726f = L.popup({"maxWidth": 450});
+
+        
+            
+                var html_49e2e914f5705bcc0d9da79d7c0338df = $(`<div id="html_49e2e914f5705bcc0d9da79d7c0338df" style="width: 100.0%; height: 100.0%;">parking velo : Charles Flahault<br>places dispo : 4<br>places totales : 8<br>le nombre de velo dispo : 4<br>le taux d'occupation : 50.0%</div>`)[0];
+                popup_4880cb5a1bc9736cc3b5f50415b8726f.setContent(html_49e2e914f5705bcc0d9da79d7c0338df);
+            
+        
+
+        marker_9041a02d4ab6a72cf28a456154fdc47c.bindPopup(popup_4880cb5a1bc9736cc3b5f50415b8726f)
+        ;
+
+        
+    
+    
+            var marker_0eb50174b57044ebc9f4b35c31507bd4 = L.marker(
+                [43.603767, 3.888659],
+                {}
+            ).addTo(map_cf1abeaca035e8572c4b93f21afc54e7);
+        
+    
+            var icon_e4883858cbe6062bc02b99216bd638a2 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "bicycle", "iconColor": "white", "markerColor": "purple", "prefix": "fa"}
+            );
+            marker_0eb50174b57044ebc9f4b35c31507bd4.setIcon(icon_e4883858cbe6062bc02b99216bd638a2);
+        
+    
+        var popup_bc40f463c8e77bb80ad8f06cc300a253 = L.popup({"maxWidth": 450});
+
+        
+            
+                var html_4717d5386a03a0863888b19866aee88d = $(`<div id="html_4717d5386a03a0863888b19866aee88d" style="width: 100.0%; height: 100.0%;">parking velo : Voltaire<br>places dispo : 1<br>places totales : 8<br>le nombre de velo dispo : 7<br>le taux d'occupation : 87.5%</div>`)[0];
+                popup_bc40f463c8e77bb80ad8f06cc300a253.setContent(html_4717d5386a03a0863888b19866aee88d);
+            
+        
+
+        marker_0eb50174b57044ebc9f4b35c31507bd4.bindPopup(popup_bc40f463c8e77bb80ad8f06cc300a253)
+        ;
+
+        
+    
+    
+            var marker_361edf166a70c609baa923e0bf24ccfd = L.marker(
+                [43.59048, 3.884611],
+                {}
+            ).addTo(map_cf1abeaca035e8572c4b93f21afc54e7);
+        
+    
+            var icon_43261a207b7a64efec35a693a18183db = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "bicycle", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_361edf166a70c609baa923e0bf24ccfd.setIcon(icon_43261a207b7a64efec35a693a18183db);
+        
+    
+        var popup_eded2a827af062c01491f18a9b0d99e8 = L.popup({"maxWidth": 450});
+
+        
+            
+                var html_95b81a8a1d6b6ac143888e3725991cce = $(`<div id="html_95b81a8a1d6b6ac143888e3725991cce" style="width: 100.0%; height: 100.0%;">parking velo : Prés d Arènes<br>places dispo : 6<br>places totales : 8<br>le nombre de velo dispo : 2<br>le taux d'occupation : 25.0%</div>`)[0];
+                popup_eded2a827af062c01491f18a9b0d99e8.setContent(html_95b81a8a1d6b6ac143888e3725991cce);
+            
+        
+
+        marker_361edf166a70c609baa923e0bf24ccfd.bindPopup(popup_eded2a827af062c01491f18a9b0d99e8)
+        ;
+
+        
+    
+    
+            var marker_743a20f395f17e93a4912eeeaecb23d7 = L.marker(
+                [43.590757, 3.890616],
+                {}
+            ).addTo(map_cf1abeaca035e8572c4b93f21afc54e7);
+        
+    
+            var icon_a504619d2208e9cf45d8aaeb94fa9523 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "bicycle", "iconColor": "white", "markerColor": "darkblue", "prefix": "fa"}
+            );
+            marker_743a20f395f17e93a4912eeeaecb23d7.setIcon(icon_a504619d2208e9cf45d8aaeb94fa9523);
+        
+    
+        var popup_269823ce0d7fc12722f25319e1e7bdcd = L.popup({"maxWidth": 450});
+
+        
+            
+                var html_e7fc9c7b8a45028cd017f8c165567524 = $(`<div id="html_e7fc9c7b8a45028cd017f8c165567524" style="width: 100.0%; height: 100.0%;">parking velo : Garcia Lorca<br>places dispo : 2<br>places totales : 8<br>le nombre de velo dispo : 6<br>le taux d'occupation : 75.0%</div>`)[0];
+                popup_269823ce0d7fc12722f25319e1e7bdcd.setContent(html_e7fc9c7b8a45028cd017f8c165567524);
+            
+        
+
+        marker_743a20f395f17e93a4912eeeaecb23d7.bindPopup(popup_269823ce0d7fc12722f25319e1e7bdcd)
+        ;
+
+        
+    
+    
+            var marker_62926d52411297a9cb4289ab1799bafe = L.marker(
+                [43.635429956, 3.871179397],
+                {}
+            ).addTo(map_cf1abeaca035e8572c4b93f21afc54e7);
+        
+    
+            var icon_c15a66905ab656a429e29d1014afc98f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "bicycle", "iconColor": "white", "markerColor": "darkblue", "prefix": "fa"}
+            );
+            marker_62926d52411297a9cb4289ab1799bafe.setIcon(icon_c15a66905ab656a429e29d1014afc98f);
+        
+    
+        var popup_63d596b93d2549316ae82c704ce5f9da = L.popup({"maxWidth": 450});
+
+        
+            
+                var html_479f04ebe9ec01ad7b56aeba95bc7b7d = $(`<div id="html_479f04ebe9ec01ad7b56aeba95bc7b7d" style="width: 100.0%; height: 100.0%;">parking velo : Vert Bois<br>places dispo : 6<br>places totales : 16<br>le nombre de velo dispo : 10<br>le taux d'occupation : 62.5%</div>`)[0];
+                popup_63d596b93d2549316ae82c704ce5f9da.setContent(html_479f04ebe9ec01ad7b56aeba95bc7b7d);
+            
+        
+
+        marker_62926d52411297a9cb4289ab1799bafe.bindPopup(popup_63d596b93d2549316ae82c704ce5f9da)
+        ;
+
+        
+    
+    
+            var marker_f81a09fa9f50f6da6a6abf0a9622a368 = L.marker(
+                [43.633679, 3.832861],
+                {}
+            ).addTo(map_cf1abeaca035e8572c4b93f21afc54e7);
+        
+    
+            var icon_408a95935ec6549a1e6df2c2b565cf4d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "bicycle", "iconColor": "white", "markerColor": "darkblue", "prefix": "fa"}
+            );
+            marker_f81a09fa9f50f6da6a6abf0a9622a368.setIcon(icon_408a95935ec6549a1e6df2c2b565cf4d);
+        
+    
+        var popup_e2261414b4e76293fd639c33e3014a8a = L.popup({"maxWidth": 450});
+
+        
+            
+                var html_c2272e2932cd8867afeb51073bd45776 = $(`<div id="html_c2272e2932cd8867afeb51073bd45776" style="width: 100.0%; height: 100.0%;">parking velo : Malbosc<br>places dispo : 3<br>places totales : 8<br>le nombre de velo dispo : 5<br>le taux d'occupation : 62.5%</div>`)[0];
+                popup_e2261414b4e76293fd639c33e3014a8a.setContent(html_c2272e2932cd8867afeb51073bd45776);
+            
+        
+
+        marker_f81a09fa9f50f6da6a6abf0a9622a368.bindPopup(popup_e2261414b4e76293fd639c33e3014a8a)
+        ;
+
+        
+    
+    
+            var marker_283fa865daafb7fb3aad2d15fba8be70 = L.marker(
+                [43.634242, 3.849128],
+                {}
+            ).addTo(map_cf1abeaca035e8572c4b93f21afc54e7);
+        
+    
+            var icon_ccb8bea4e2d39758cd1a1814cd15fdd1 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "bicycle", "iconColor": "white", "markerColor": "darkblue", "prefix": "fa"}
+            );
+            marker_283fa865daafb7fb3aad2d15fba8be70.setIcon(icon_ccb8bea4e2d39758cd1a1814cd15fdd1);
+        
+    
+        var popup_633782ae0d175f5098d5634a81e7b7a8 = L.popup({"maxWidth": 450});
+
+        
+            
+                var html_1334bfdba3a40bf4a57d391d751247b0 = $(`<div id="html_1334bfdba3a40bf4a57d391d751247b0" style="width: 100.0%; height: 100.0%;">parking velo : Occitanie<br>places dispo : 14<br>places totales : 32<br>le nombre de velo dispo : 18<br>le taux d'occupation : 56.25%</div>`)[0];
+                popup_633782ae0d175f5098d5634a81e7b7a8.setContent(html_1334bfdba3a40bf4a57d391d751247b0);
+            
+        
+
+        marker_283fa865daafb7fb3aad2d15fba8be70.bindPopup(popup_633782ae0d175f5098d5634a81e7b7a8)
+        ;
+
+        
+    
+    
+            var marker_276fa6b00e128cdaafc7a0aae4ee1613 = L.marker(
+                [43.631018, 3.860697],
+                {}
+            ).addTo(map_cf1abeaca035e8572c4b93f21afc54e7);
+        
+    
+            var icon_6ea70852b7be9ef0ee3736e3d0ec7247 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "bicycle", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_276fa6b00e128cdaafc7a0aae4ee1613.setIcon(icon_6ea70852b7be9ef0ee3736e3d0ec7247);
+        
+    
+        var popup_e294a618749ac13741eaa8e755d39018 = L.popup({"maxWidth": 450});
+
+        
+            
+                var html_322cbec4a9ebbed42d570a991f44988d = $(`<div id="html_322cbec4a9ebbed42d570a991f44988d" style="width: 100.0%; height: 100.0%;">parking velo : FacdesSciences<br>places dispo : 24<br>places totales : 24<br>le nombre de velo dispo : 0<br>le taux d'occupation : 0.0%</div>`)[0];
+                popup_e294a618749ac13741eaa8e755d39018.setContent(html_322cbec4a9ebbed42d570a991f44988d);
+            
+        
+
+        marker_276fa6b00e128cdaafc7a0aae4ee1613.bindPopup(popup_e294a618749ac13741eaa8e755d39018)
+        ;
+
+        
+    
+    
+            var marker_b43f8c6c30da00c410f61e7330482901 = L.marker(
+                [43.627799, 3.869447],
+                {}
+            ).addTo(map_cf1abeaca035e8572c4b93f21afc54e7);
+        
+    
+            var icon_03755d4effbef38cfefa78363c33a6a0 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "bicycle", "iconColor": "white", "markerColor": "darkblue", "prefix": "fa"}
+            );
+            marker_b43f8c6c30da00c410f61e7330482901.setIcon(icon_03755d4effbef38cfefa78363c33a6a0);
+        
+    
+        var popup_172d1fb40ee5b5194cb9cb6937ed73e4 = L.popup({"maxWidth": 450});
+
+        
+            
+                var html_af91207fa6a03f65cb31ebcd4ddac3d3 = $(`<div id="html_af91207fa6a03f65cb31ebcd4ddac3d3" style="width: 100.0%; height: 100.0%;">parking velo : Fac de Lettres<br>places dispo : 4<br>places totales : 12<br>le nombre de velo dispo : 8<br>le taux d'occupation : 66.67%</div>`)[0];
+                popup_172d1fb40ee5b5194cb9cb6937ed73e4.setContent(html_af91207fa6a03f65cb31ebcd4ddac3d3);
+            
+        
+
+        marker_b43f8c6c30da00c410f61e7330482901.bindPopup(popup_172d1fb40ee5b5194cb9cb6937ed73e4)
+        ;
+
+        
+    
+    
+            var marker_201948c1d2927b533c455a3c72c748b0 = L.marker(
+                [43.626163, 3.882492],
+                {}
+            ).addTo(map_cf1abeaca035e8572c4b93f21afc54e7);
+        
+    
+            var icon_0418c5d444a4d037e919581f12b8e64a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "bicycle", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_201948c1d2927b533c455a3c72c748b0.setIcon(icon_0418c5d444a4d037e919581f12b8e64a);
+        
+    
+        var popup_102561f413b3e5032b2b40efb026bf1d = L.popup({"maxWidth": 450});
+
+        
+            
+                var html_48ee33a929e83f3a2778b75e0d4c63b3 = $(`<div id="html_48ee33a929e83f3a2778b75e0d4c63b3" style="width: 100.0%; height: 100.0%;">parking velo : Aiguelongue<br>places dispo : 6<br>places totales : 8<br>le nombre de velo dispo : 2<br>le taux d'occupation : 25.0%</div>`)[0];
+                popup_102561f413b3e5032b2b40efb026bf1d.setContent(html_48ee33a929e83f3a2778b75e0d4c63b3);
+            
+        
+
+        marker_201948c1d2927b533c455a3c72c748b0.bindPopup(popup_102561f413b3e5032b2b40efb026bf1d)
+        ;
+
+        
+    
+    
+            var marker_1f016a0a26fcad5c6c1267f0ba7444c2 = L.marker(
+                [43.619701, 3.883831],
+                {}
+            ).addTo(map_cf1abeaca035e8572c4b93f21afc54e7);
+        
+    
+            var icon_591c17879f40093f5cd6c69ed0e72bc5 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "bicycle", "iconColor": "white", "markerColor": "darkblue", "prefix": "fa"}
+            );
+            marker_1f016a0a26fcad5c6c1267f0ba7444c2.setIcon(icon_591c17879f40093f5cd6c69ed0e72bc5);
+        
+    
+        var popup_1a5f891d2d8736c3df9f7fba286f6635 = L.popup({"maxWidth": 450});
+
+        
+            
+                var html_9a1916eaabb68344e758cee3ba674ed0 = $(`<div id="html_9a1916eaabb68344e758cee3ba674ed0" style="width: 100.0%; height: 100.0%;">parking velo : Jeu de Mail des Abbés<br>places dispo : 2<br>places totales : 8<br>le nombre de velo dispo : 6<br>le taux d'occupation : 75.0%</div>`)[0];
+                popup_1a5f891d2d8736c3df9f7fba286f6635.setContent(html_9a1916eaabb68344e758cee3ba674ed0);
+            
+        
+
+        marker_1f016a0a26fcad5c6c1267f0ba7444c2.bindPopup(popup_1a5f891d2d8736c3df9f7fba286f6635)
+        ;
+
+        
+    
+    
+            var marker_79f3b98cacda6be42c16cf091c2596c8 = L.marker(
+                [43.639119, 3.828199],
+                {}
+            ).addTo(map_cf1abeaca035e8572c4b93f21afc54e7);
+        
+    
+            var icon_8ce7496b21c900cf881cd0088d7cbf20 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "bicycle", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_79f3b98cacda6be42c16cf091c2596c8.setIcon(icon_8ce7496b21c900cf881cd0088d7cbf20);
+        
+    
+        var popup_09a55be7e2a03a4107cf1501643fd5f2 = L.popup({"maxWidth": 450});
+
+        
+            
+                var html_9e68d46ffbf224e65af58bee07ed0803 = $(`<div id="html_9e68d46ffbf224e65af58bee07ed0803" style="width: 100.0%; height: 100.0%;">parking velo : Euromédecine<br>places dispo : 6<br>places totales : 8<br>le nombre de velo dispo : 2<br>le taux d'occupation : 25.0%</div>`)[0];
+                popup_09a55be7e2a03a4107cf1501643fd5f2.setContent(html_9e68d46ffbf224e65af58bee07ed0803);
+            
+        
+
+        marker_79f3b98cacda6be42c16cf091c2596c8.bindPopup(popup_09a55be7e2a03a4107cf1501643fd5f2)
+        ;
+
+        
+    
+    
+            var marker_eeaed3100b8ee62b24463c6a9ef5a1d4 = L.marker(
+                [43.619871, 3.873812],
+                {}
+            ).addTo(map_cf1abeaca035e8572c4b93f21afc54e7);
+        
+    
+            var icon_10b1fcd14edef1bbe060e373f991ec1d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "bicycle", "iconColor": "white", "markerColor": "darkblue", "prefix": "fa"}
+            );
+            marker_eeaed3100b8ee62b24463c6a9ef5a1d4.setIcon(icon_10b1fcd14edef1bbe060e373f991ec1d);
+        
+    
+        var popup_6937233570938f0167acc2a8dccc0792 = L.popup({"maxWidth": 450});
+
+        
+            
+                var html_ce6b959c7641e8d5a1925b184427ab02 = $(`<div id="html_ce6b959c7641e8d5a1925b184427ab02" style="width: 100.0%; height: 100.0%;">parking velo : Marie Caizergues<br>places dispo : 3<br>places totales : 8<br>le nombre de velo dispo : 5<br>le taux d'occupation : 62.5%</div>`)[0];
+                popup_6937233570938f0167acc2a8dccc0792.setContent(html_ce6b959c7641e8d5a1925b184427ab02);
+            
+        
+
+        marker_eeaed3100b8ee62b24463c6a9ef5a1d4.bindPopup(popup_6937233570938f0167acc2a8dccc0792)
+        ;
+
+        
+    
+    
+            var marker_ce83b63afc20f4f8189403d20cc01b73 = L.marker(
+                [43.584211, 3.860031],
+                {}
+            ).addTo(map_cf1abeaca035e8572c4b93f21afc54e7);
+        
+    
+            var icon_90c16ee06e2d7585fcf75b96bcd4109d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "bicycle", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_ce83b63afc20f4f8189403d20cc01b73.setIcon(icon_90c16ee06e2d7585fcf75b96bcd4109d);
+        
+    
+        var popup_9cc81269b30ef4f34b085df3319d0ffa = L.popup({"maxWidth": 450});
+
+        
+            
+                var html_6c15678787ba64f9a46a19f15166511b = $(`<div id="html_6c15678787ba64f9a46a19f15166511b" style="width: 100.0%; height: 100.0%;">parking velo : Sabines<br>places dispo : 5<br>places totales : 8<br>le nombre de velo dispo : 3<br>le taux d'occupation : 37.5%</div>`)[0];
+                popup_9cc81269b30ef4f34b085df3319d0ffa.setContent(html_6c15678787ba64f9a46a19f15166511b);
+            
+        
+
+        marker_ce83b63afc20f4f8189403d20cc01b73.bindPopup(popup_9cc81269b30ef4f34b085df3319d0ffa)
+        ;
+
+        
+    
+    
+            var marker_e82c3ae0e340e6128294a9347b1a18ba = L.marker(
+                [43.61467, 3.832624],
+                {}
+            ).addTo(map_cf1abeaca035e8572c4b93f21afc54e7);
+        
+    
+            var icon_e0f2eca206eff37f448de34fa67ca472 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "bicycle", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_e82c3ae0e340e6128294a9347b1a18ba.setIcon(icon_e0f2eca206eff37f448de34fa67ca472);
+        
+    
+        var popup_ed75879158a4345dc45bf5a9c50376cf = L.popup({"maxWidth": 450});
+
+        
+            
+                var html_3f42f31d5c7c01cff52f8e2e36cafee4 = $(`<div id="html_3f42f31d5c7c01cff52f8e2e36cafee4" style="width: 100.0%; height: 100.0%;">parking velo : Celleneuve<br>places dispo : 5<br>places totales : 8<br>le nombre de velo dispo : 3<br>le taux d'occupation : 37.5%</div>`)[0];
+                popup_ed75879158a4345dc45bf5a9c50376cf.setContent(html_3f42f31d5c7c01cff52f8e2e36cafee4);
+            
+        
+
+        marker_e82c3ae0e340e6128294a9347b1a18ba.bindPopup(popup_ed75879158a4345dc45bf5a9c50376cf)
+        ;
+
+        
+    
+    
+            var marker_8a21a1c82cd9dfe9391301cd71b2b88a = L.marker(
+                [43.60585, 3.911576],
+                {}
+            ).addTo(map_cf1abeaca035e8572c4b93f21afc54e7);
+        
+    
+            var icon_ee22eb319f388e7c42325a2fb49db879 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "bicycle", "iconColor": "white", "markerColor": "darkblue", "prefix": "fa"}
+            );
+            marker_8a21a1c82cd9dfe9391301cd71b2b88a.setIcon(icon_ee22eb319f388e7c42325a2fb49db879);
+        
+    
+        var popup_0d858350e26907e94a962686e2a6fb14 = L.popup({"maxWidth": 450});
+
+        
+            
+                var html_c20985722d65b3d9cba4a58d4acb0cea = $(`<div id="html_c20985722d65b3d9cba4a58d4acb0cea" style="width: 100.0%; height: 100.0%;">parking velo : Jardin de la Lironde<br>places dispo : 4<br>places totales : 8<br>le nombre de velo dispo : 4<br>le taux d'occupation : 50.0%</div>`)[0];
+                popup_0d858350e26907e94a962686e2a6fb14.setContent(html_c20985722d65b3d9cba4a58d4acb0cea);
+            
+        
+
+        marker_8a21a1c82cd9dfe9391301cd71b2b88a.bindPopup(popup_0d858350e26907e94a962686e2a6fb14)
+        ;
+
+        
+    
+    
+            var marker_25381b94c74861889bc53e7fa1963916 = L.marker(
+                [43.621983, 3.855603],
+                {}
+            ).addTo(map_cf1abeaca035e8572c4b93f21afc54e7);
+        
+    
+            var icon_d7f405f25cced00ebd49477bb3185f89 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "bicycle", "iconColor": "white", "markerColor": "purple", "prefix": "fa"}
+            );
+            marker_25381b94c74861889bc53e7fa1963916.setIcon(icon_d7f405f25cced00ebd49477bb3185f89);
+        
+    
+        var popup_7b0ad2573cc775dda2debbe91a9ae139 = L.popup({"maxWidth": 450});
+
+        
+            
+                var html_047508fc5789aacd095fb3a98f19c138 = $(`<div id="html_047508fc5789aacd095fb3a98f19c138" style="width: 100.0%; height: 100.0%;">parking velo : Père Soulas<br>places dispo : 0<br>places totales : 8<br>le nombre de velo dispo : 8<br>le taux d'occupation : 100.0%</div>`)[0];
+                popup_7b0ad2573cc775dda2debbe91a9ae139.setContent(html_047508fc5789aacd095fb3a98f19c138);
+            
+        
+
+        marker_25381b94c74861889bc53e7fa1963916.bindPopup(popup_7b0ad2573cc775dda2debbe91a9ae139)
+        ;
+
+        
+    
+    
+            var marker_7299f0f43e8316378be7d1a6cf5f0b30 = L.marker(
+                [43.616812, 3.855075],
+                {}
+            ).addTo(map_cf1abeaca035e8572c4b93f21afc54e7);
+        
+    
+            var icon_2eb0549d27cab88dab9d748a798ace8f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "bicycle", "iconColor": "white", "markerColor": "darkblue", "prefix": "fa"}
+            );
+            marker_7299f0f43e8316378be7d1a6cf5f0b30.setIcon(icon_2eb0549d27cab88dab9d748a798ace8f);
+        
+    
+        var popup_cdf90878ac3f69a8d186eea96828306e = L.popup({"maxWidth": 450});
+
+        
+            
+                var html_be9609f5015f9ce6b0a9911b7e758f0c = $(`<div id="html_be9609f5015f9ce6b0a9911b7e758f0c" style="width: 100.0%; height: 100.0%;">parking velo : Place Viala<br>places dispo : 3<br>places totales : 8<br>le nombre de velo dispo : 5<br>le taux d'occupation : 62.5%</div>`)[0];
+                popup_cdf90878ac3f69a8d186eea96828306e.setContent(html_be9609f5015f9ce6b0a9911b7e758f0c);
+            
+        
+
+        marker_7299f0f43e8316378be7d1a6cf5f0b30.bindPopup(popup_cdf90878ac3f69a8d186eea96828306e)
+        ;
+
+        
+    
+    
+            var marker_c37f7b1b8d544352f5230e1375393377 = L.marker(
+                [43.621682, 3.83477],
+                {}
+            ).addTo(map_cf1abeaca035e8572c4b93f21afc54e7);
+        
+    
+            var icon_48a926302ea64df2f15a4cf9c93f98a3 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "bicycle", "iconColor": "white", "markerColor": "darkblue", "prefix": "fa"}
+            );
+            marker_c37f7b1b8d544352f5230e1375393377.setIcon(icon_48a926302ea64df2f15a4cf9c93f98a3);
+        
+    
+        var popup_69b9a64671a4f931cd4f8dca39a588d1 = L.popup({"maxWidth": 450});
+
+        
+            
+                var html_77fc7a07d95653595d9d68523ca94577 = $(`<div id="html_77fc7a07d95653595d9d68523ca94577" style="width: 100.0%; height: 100.0%;">parking velo : Hôtel du Département<br>places dispo : 4<br>places totales : 8<br>le nombre de velo dispo : 4<br>le taux d'occupation : 50.0%</div>`)[0];
+                popup_69b9a64671a4f931cd4f8dca39a588d1.setContent(html_77fc7a07d95653595d9d68523ca94577);
+            
+        
+
+        marker_c37f7b1b8d544352f5230e1375393377.bindPopup(popup_69b9a64671a4f931cd4f8dca39a588d1)
+        ;
+
+        
+    
+    
+            var marker_ef3f628eacbc44f502f3b228d3fd7e49 = L.marker(
+                [43.615155, 3.839466],
+                {}
+            ).addTo(map_cf1abeaca035e8572c4b93f21afc54e7);
+        
+    
+            var icon_7c8e67843587610b6ee674f49f847dfd = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "bicycle", "iconColor": "white", "markerColor": "darkblue", "prefix": "fa"}
+            );
+            marker_ef3f628eacbc44f502f3b228d3fd7e49.setIcon(icon_7c8e67843587610b6ee674f49f847dfd);
+        
+    
+        var popup_9304e1f32394dffaafbf2454f2278acc = L.popup({"maxWidth": 450});
+
+        
+            
+                var html_e9163b285d90d00f67a99c651679d5e2 = $(`<div id="html_e9163b285d90d00f67a99c651679d5e2" style="width: 100.0%; height: 100.0%;">parking velo : Tonnelles<br>places dispo : 4<br>places totales : 8<br>le nombre de velo dispo : 4<br>le taux d'occupation : 50.0%</div>`)[0];
+                popup_9304e1f32394dffaafbf2454f2278acc.setContent(html_e9163b285d90d00f67a99c651679d5e2);
+            
+        
+
+        marker_ef3f628eacbc44f502f3b228d3fd7e49.bindPopup(popup_9304e1f32394dffaafbf2454f2278acc)
+        ;
+
+        
+    
+    
+            var marker_1ef0f2625da61203a3d21c8a099265f5 = L.marker(
+                [43.603889, 3.879362],
+                {}
+            ).addTo(map_cf1abeaca035e8572c4b93f21afc54e7);
+        
+    
+            var icon_0a3b2da5c0ff9bf8968d73d55c8e71ee = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "bicycle", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_1ef0f2625da61203a3d21c8a099265f5.setIcon(icon_0a3b2da5c0ff9bf8968d73d55c8e71ee);
+        
+    
+        var popup_89b71be332fb1002223322bed0efa214 = L.popup({"maxWidth": 450});
+
+        
+            
+                var html_8e4ca636744f526eff2a1f566d1e010f = $(`<div id="html_8e4ca636744f526eff2a1f566d1e010f" style="width: 100.0%; height: 100.0%;">parking velo : Parvis Jules Ferry - Gare Saint-Roch<br>places dispo : 7<br>places totales : 8<br>le nombre de velo dispo : 1<br>le taux d'occupation : 12.5%</div>`)[0];
+                popup_89b71be332fb1002223322bed0efa214.setContent(html_8e4ca636744f526eff2a1f566d1e010f);
+            
+        
+
+        marker_1ef0f2625da61203a3d21c8a099265f5.bindPopup(popup_89b71be332fb1002223322bed0efa214)
+        ;
+
+        
+    
+    
+            var marker_487c6241fd5dfe2fc84a674556647c76 = L.marker(
+                [43.606036, 3.882393],
+                {}
+            ).addTo(map_cf1abeaca035e8572c4b93f21afc54e7);
+        
+    
+            var icon_4dde641364cb768e35ece62d5072c4c4 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "bicycle", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_487c6241fd5dfe2fc84a674556647c76.setIcon(icon_4dde641364cb768e35ece62d5072c4c4);
+        
+    
+        var popup_4a38bfc1869260ea4c48898a60500585 = L.popup({"maxWidth": 450});
+
+        
+            
+                var html_d7e2b4fb39dc56d19d74a8f8695ef12f = $(`<div id="html_d7e2b4fb39dc56d19d74a8f8695ef12f" style="width: 100.0%; height: 100.0%;">parking velo : Pont de Lattes - Gare Saint-Roch<br>places dispo : 11<br>places totales : 12<br>le nombre de velo dispo : 1<br>le taux d'occupation : 8.33%</div>`)[0];
+                popup_4a38bfc1869260ea4c48898a60500585.setContent(html_d7e2b4fb39dc56d19d74a8f8695ef12f);
+            
+        
+
+        marker_487c6241fd5dfe2fc84a674556647c76.bindPopup(popup_4a38bfc1869260ea4c48898a60500585)
+        ;
+
+        
+    
+    
+            var marker_1a941b314bba09db35470c77b5f272f0 = L.marker(
+                [43.604319, 3.880916],
+                {}
+            ).addTo(map_cf1abeaca035e8572c4b93f21afc54e7);
+        
+    
+            var icon_a794a5cdac4bf61806a37efb9f610304 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "bicycle", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_1a941b314bba09db35470c77b5f272f0.setIcon(icon_a794a5cdac4bf61806a37efb9f610304);
+        
+    
+        var popup_45fbf8d3fad5bc005fbdd8d9b8b783a2 = L.popup({"maxWidth": 450});
+
+        
+            
+                var html_3c73a9fbd03472544d5bea36be461314 = $(`<div id="html_3c73a9fbd03472544d5bea36be461314" style="width: 100.0%; height: 100.0%;">parking velo : Deux Ponts - Gare Saint-Roch<br>places dispo : 6<br>places totales : 8<br>le nombre de velo dispo : 2<br>le taux d'occupation : 25.0%</div>`)[0];
+                popup_45fbf8d3fad5bc005fbdd8d9b8b783a2.setContent(html_3c73a9fbd03472544d5bea36be461314);
+            
+        
+
+        marker_1a941b314bba09db35470c77b5f272f0.bindPopup(popup_45fbf8d3fad5bc005fbdd8d9b8b783a2)
+        ;
+
+        
+    
+    
+            var marker_5b97654f253d1f13ecabc548d2b98f0c = L.marker(
+                [43.588239, 3.853421],
+                {}
+            ).addTo(map_cf1abeaca035e8572c4b93f21afc54e7);
+        
+    
+            var icon_78aec96ab315f279d2c574561a6cbf5e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "bicycle", "iconColor": "white", "markerColor": "darkblue", "prefix": "fa"}
+            );
+            marker_5b97654f253d1f13ecabc548d2b98f0c.setIcon(icon_78aec96ab315f279d2c574561a6cbf5e);
+        
+    
+        var popup_3badc305674a9f02b5b789155d66902a = L.popup({"maxWidth": 450});
+
+        
+            
+                var html_3db517a66ff43b75f5b7f7eb56e6da7d = $(`<div id="html_3db517a66ff43b75f5b7f7eb56e6da7d" style="width: 100.0%; height: 100.0%;">parking velo : Providence - Ovalie<br>places dispo : 4<br>places totales : 8<br>le nombre de velo dispo : 4<br>le taux d'occupation : 50.0%</div>`)[0];
+                popup_3badc305674a9f02b5b789155d66902a.setContent(html_3db517a66ff43b75f5b7f7eb56e6da7d);
+            
+        
+
+        marker_5b97654f253d1f13ecabc548d2b98f0c.bindPopup(popup_3badc305674a9f02b5b789155d66902a)
+        ;
+
+        
+    
+    
+            var marker_4cb3d96f58ee4363116a62f7b825b188 = L.marker(
+                [43.558351, 3.963412],
+                {}
+            ).addTo(map_cf1abeaca035e8572c4b93f21afc54e7);
+        
+    
+            var icon_771c187f45632bd30086680e90296f96 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "bicycle", "iconColor": "white", "markerColor": "darkblue", "prefix": "fa"}
+            );
+            marker_4cb3d96f58ee4363116a62f7b825b188.setIcon(icon_771c187f45632bd30086680e90296f96);
+        
+    
+        var popup_8bd8c798b551289333d3822bcf400492 = L.popup({"maxWidth": 450});
+
+        
+            
+                var html_2482916b5c022293c259aaf1adc5c46e = $(`<div id="html_2482916b5c022293c259aaf1adc5c46e" style="width: 100.0%; height: 100.0%;">parking velo : Pérols Etang de l Or<br>places dispo : 16<br>places totales : 68<br>le nombre de velo dispo : 52<br>le taux d'occupation : 76.47%</div>`)[0];
+                popup_8bd8c798b551289333d3822bcf400492.setContent(html_2482916b5c022293c259aaf1adc5c46e);
+            
+        
+
+        marker_4cb3d96f58ee4363116a62f7b825b188.bindPopup(popup_8bd8c798b551289333d3822bcf400492)
+        ;
+
+        
+    
+    
+            var marker_d5912605e7d2a03d2e11c0b9b99c06ff = L.marker(
+                [43.614005, 3.873218],
+                {}
+            ).addTo(map_cf1abeaca035e8572c4b93f21afc54e7);
+        
+    
+            var icon_a6091fc54924875d7f84511a752c7ece = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "bicycle", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_d5912605e7d2a03d2e11c0b9b99c06ff.setIcon(icon_a6091fc54924875d7f84511a752c7ece);
+        
+    
+        var popup_df521461f16474b6e5bcc93fb26dd5aa = L.popup({"maxWidth": 450});
+
+        
+            
+                var html_9ae8f459b9acef57e279d3f5c237f6bc = $(`<div id="html_9ae8f459b9acef57e279d3f5c237f6bc" style="width: 100.0%; height: 100.0%;">parking velo : Albert 1er - Cathédrale<br>places dispo : 11<br>places totales : 12<br>le nombre de velo dispo : 1<br>le taux d'occupation : 8.33%</div>`)[0];
+                popup_df521461f16474b6e5bcc93fb26dd5aa.setContent(html_9ae8f459b9acef57e279d3f5c237f6bc);
+            
+        
+
+        marker_d5912605e7d2a03d2e11c0b9b99c06ff.bindPopup(popup_df521461f16474b6e5bcc93fb26dd5aa)
+        ;
+
+        
+    
+    
+            var marker_70cc438f5c30ae22aa4279c1f8e76e89 = L.marker(
+                [43.608996, 3.872752],
+                {}
+            ).addTo(map_cf1abeaca035e8572c4b93f21afc54e7);
+        
+    
+            var icon_585ea26f8e03895d039299b1b1f69a48 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "bicycle", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_70cc438f5c30ae22aa4279c1f8e76e89.setIcon(icon_585ea26f8e03895d039299b1b1f69a48);
+        
+    
+        var popup_20a19b0031260c0a4577d7015d42f4ba = L.popup({"maxWidth": 450});
+
+        
+            
+                var html_18cd8fc064644187e3de39c756943188 = $(`<div id="html_18cd8fc064644187e3de39c756943188" style="width: 100.0%; height: 100.0%;">parking velo : Saint-Guilhem - Courreau<br>places dispo : 8<br>places totales : 8<br>le nombre de velo dispo : 0<br>le taux d'occupation : 0.0%</div>`)[0];
+                popup_20a19b0031260c0a4577d7015d42f4ba.setContent(html_18cd8fc064644187e3de39c756943188);
+            
+        
+
+        marker_70cc438f5c30ae22aa4279c1f8e76e89.bindPopup(popup_20a19b0031260c0a4577d7015d42f4ba)
+        ;
+
+        
+    
+    
+            var marker_40915492e55bfbb53c5230a0a7096efe = L.marker(
+                [43.59562, 3.9235],
+                {}
+            ).addTo(map_cf1abeaca035e8572c4b93f21afc54e7);
+        
+    
+            var icon_72b5ba2cdfc3e0bedd1600e0e54423da = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "bicycle", "iconColor": "white", "markerColor": "darkblue", "prefix": "fa"}
+            );
+            marker_40915492e55bfbb53c5230a0a7096efe.setIcon(icon_72b5ba2cdfc3e0bedd1600e0e54423da);
+        
+    
+        var popup_efa2c5a41f875423c71a782eca4f2b37 = L.popup({"maxWidth": 450});
+
+        
+            
+                var html_f0bf9a93ec847040dfe5ff005863d641 = $(`<div id="html_f0bf9a93ec847040dfe5ff005863d641" style="width: 100.0%; height: 100.0%;">parking velo : Sud De France<br>places dispo : 3<br>places totales : 8<br>le nombre de velo dispo : 5<br>le taux d'occupation : 62.5%</div>`)[0];
+                popup_efa2c5a41f875423c71a782eca4f2b37.setContent(html_f0bf9a93ec847040dfe5ff005863d641);
+            
+        
+
+        marker_40915492e55bfbb53c5230a0a7096efe.bindPopup(popup_efa2c5a41f875423c71a782eca4f2b37)
+        ;
+
+        
+    
+    
+            var marker_d0ad08ad953ef872503f2bd2664cfccc = L.marker(
+                [43.608717, 3.880787],
+                {}
+            ).addTo(map_cf1abeaca035e8572c4b93f21afc54e7);
+        
+    
+            var icon_b7bbb64a453e3e55920de678006440f2 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "bicycle", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_d0ad08ad953ef872503f2bd2664cfccc.setIcon(icon_b7bbb64a453e3e55920de678006440f2);
+        
+    
+        var popup_bc696d0fbb1d68f9d8896e3cdc51880c = L.popup({"maxWidth": 450});
+
+        
+            
+                var html_01983aeb2db98db88817ea68888854d0 = $(`<div id="html_01983aeb2db98db88817ea68888854d0" style="width: 100.0%; height: 100.0%;">parking velo : Comedie Baudin<br>places dispo : 6<br>places totales : 8<br>le nombre de velo dispo : 2<br>le taux d'occupation : 25.0%</div>`)[0];
+                popup_bc696d0fbb1d68f9d8896e3cdc51880c.setContent(html_01983aeb2db98db88817ea68888854d0);
+            
+        
+
+        marker_d0ad08ad953ef872503f2bd2664cfccc.bindPopup(popup_bc696d0fbb1d68f9d8896e3cdc51880c)
+        ;
+
+        
+    
+    
+            var marker_589bffe82c672f9e7fa096c3cd88f03f = L.marker(
+                [43.609857, 3.883884],
+                {}
+            ).addTo(map_cf1abeaca035e8572c4b93f21afc54e7);
+        
+    
+            var icon_8d785ab935c179fbf6a98ef269b0d689 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "bicycle", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_589bffe82c672f9e7fa096c3cd88f03f.setIcon(icon_8d785ab935c179fbf6a98ef269b0d689);
+        
+    
+        var popup_26da94072488ffb1896d596e1a548d68 = L.popup({"maxWidth": 450});
+
+        
+            
+                var html_30094132963ef521a40b3938617f05b8 = $(`<div id="html_30094132963ef521a40b3938617f05b8" style="width: 100.0%; height: 100.0%;">parking velo : Jean de Beins<br>places dispo : 15<br>places totales : 16<br>le nombre de velo dispo : 1<br>le taux d'occupation : 6.25%</div>`)[0];
+                popup_26da94072488ffb1896d596e1a548d68.setContent(html_30094132963ef521a40b3938617f05b8);
+            
+        
+
+        marker_589bffe82c672f9e7fa096c3cd88f03f.bindPopup(popup_26da94072488ffb1896d596e1a548d68)
+        ;
+
+        
+    
+</script>
+</html>

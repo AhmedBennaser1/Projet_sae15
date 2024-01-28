@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Parking Map evolution</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/css/lightbox.min.css">
+    <link rel="stylesheet" type="text/css" href="charts.css">
+    <meta charset="UTF-8">
+    <script src = "charts.js"></script>
+    <style>
+        
+    </style>
+</head>
+<body>
+    <nav class="navbar">
+    <ul class="navbar-nav">
+        <li class="nav-item"><a href="/webpage/mainpage.html">Accueil</a></li>
+        <li class="nav-item">
+            <div class="select-wrapper">
+                <select onchange="location = this.value;" id="chartSelect">
+                    <option value="#" selected disabled hidden>Maps</option>
+                    <option value="/webpage/maps/mapsshow.html" style="color: black;font-size:14px;text-align: center;">Historique</option>
+                    <option value="/webpage//maps/pagerm.html" style="color: black;font-size:14px;">Live</option>
+                </select>
+            </div>
+        </li>
+        <li class="nav-item">
+            <div class="select-wrapper">
+                <select onchange="location = this.value;" id="chartSelect">
+                    <option value="#" selected disabled hidden>Occupation</option>
+                    <option value="/webpage/charts/charts.html" style="color: black;font-size:14px;text-align: center;">Occupation</option>
+                    <option value="/webpage//charts/charts_remplissage.html" style="color: black;font-size:14px;">Moyenne</option>
+                </select>
+            </div>
+        </li>
+        <li class="nav-item"><a href="/webpage/analyse/analyse.html">Analyse</a></li>
+    </ul>
+    </nav>
+    <br><br>
+    <h1> Taux d'occupation  des parkings des parkings sur 24H</h1>
+
+    <div class="select-container">
+        <select id="imageSelectorcars">
+        </select>
+    </div>
+
+    <div class="imageContainer" onclick="toggleZoom(this)">
+        <img id="displayedImagecarso" src="/webpage/charts/charts/occupation/cars/occup-cars-total.png">
+    </div>
+
+    <div class="select-container">
+        <select id="imageSelectorbikes">
+        </select>
+    </div>
+
+    <div class="imageContainer" onclick="toggleZoom(this)">
+        <img id="displayedImagebikeo" src="/webpage/charts/charts/occupation/bikes/occup-bikes-total.png">
+    </div>
+
+    
+</body>
+</html>

@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <title> Parkings de Montpellier</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="maps/mapstyle.css">
+    <title>Carte des Parkings</title>
+</head>
+<body>
+    <ul class="navbar-nav">
+        <li class="nav-item"><a href="/webpage/mainpage.html">Accueil</a></li>
+        <li class="nav-item">
+            <div class="select-wrapper">
+                <select onchange="location = this.value;" id="chartSelect">
+                    <option value="#" selected disabled hidden>Maps</option>
+                    <option value="/webpage/maps/mapsshow.html" style="color: black;font-size:14px;text-align: center;">Historique</option>
+                    <option value="/webpage//maps/pagerm.html" style="color: black;font-size:14px;">Live</option>
+                </select>
+            </div>
+        </li>
+        <li class="nav-item">
+            <div class="select-wrapper">
+                <select onchange="location = this.value;" id="chartSelect">
+                    <option value="#" selected disabled hidden>Graphiques</option>
+                    <option value="/webpage/charts/charts.html" style="color: black;font-size:14px;text-align: center;">Occupation</option>
+                    <option value="/webpage//charts/charts_remplissage.html" style="color: black;font-size:14px;">Moyenne</option>
+                </select>
+            </div>
+        </li>
+        <li class="nav-item"><a href="/webpage/analyse/analyse.html">Analyse</a></li>
+    </ul>
+    <br>
+    <h1>Présentation SAE15: Traiter des données</h1>
+    <div class="container2">
+        
+            <h3>Dans le cadre de cette SAE, les objectifs visés sont :</h3>
+                <ul><li>Collecter, traiter, présenter et publier des données.</li>
+                    <li> Réaliser un premier projet de développement informatique.</li>
+                    <li> S’initier aux différentes étapes d’un projet informatique.</li>
+            </ul>
+            <br>
+                <h3>Importance des données:</h3>
+                    <ul><li>De nos jours, la collecte, le traitement, l’analyse des données ainsi
+                        que leur présentation et leur publication sont au cœur de l’économie
+                        numérique.</li>
+                        <li> Aujourd’hui, des millions de données circulent à travers internet.
+                            L’humanité en produit de plus en plus. La maîtrise des informations
+                            véhiculées par ces données revêt une importance stratégique et
+                            économique.</li>
+                        <li> Quelques exemples de données : données de santé des citoyens,
+                            données des réseaux sociaux, données de consommations, données
+                            de gestion des flux, données commerciales, etc</li>
+                </ul>
+              <br>
+            <h3>La collecte des données</h3>
+                <ul><li>Une première étape nécessaire : la mise en place de mécanismes de
+                    collecte des données d’intérêt.</li>
+                    <li> Selon la nature et la quantité des données à collecter, il conviendra de
+                        mettre en œuvre des mécanismes d’automatisation de la
+                        récupération des données (scripts, programmes, temporisations, etc.)</li>
+                    <li>Quelques exemples :</li>
+                        <ul><li>récupération de la température chaque heure dans une serre agricole,</li>
+                            <li>récupération de l’état du trafic routier,</li>
+                            <li>surveillance de l’état des patients dans un hôpital,</li>
+                            <li>suivi du nombre de cas de personnes positives au Covid-19,</li>
+                            <li>Etc.</li>
+                        </ul>
+                    </li>
+            </ul>
+            <br>
+            <h3>Le traitement des données</h3>
+                <ul><li>Une fois ces données récupérées, il convient de vérifier leur
+                    consistance et leur authenticité.</li>
+                    <li> Il conviendra également de les traiter (filtrage, élimination des
+                        données aberrantes, etc.)</li>
+                </ul>
+                <br>
+            <h3>Extraction d’informations</h3>
+                <ul><li> L’étape suivante consiste à extraire des informations pertinentes de
+                    ces données (caractéristiques : moyenne, moyenne glissante, écart
+                    type, tendances, évolution temporelle ou fréquentielle, élaboration
+                    de tableaux et/ou de graphes, etc.)</li>
+                   </ul>
+                <br>
+            <h3>Présentation des données</h3>
+                <ul><li>Mise en forme de ces données de sorte à en extraire des informations
+                    pertinentes et exploitables par un humain ou une machine.</li>
+                    <li>Passage de données brutes et en grand nombre (big data) à un
+                    ensemble d’informations de taille réduite et véhiculant des
+                    informations exploitables.</li>
+                </ul>  
+                <br>  
+            <h3>Publication des données</h3>
+                <ul><li>Une fois les données mises en forme, dans certains cas, il conviendra
+                    de les publier (site web, dépôt logiciel, lieu de publication, etc.).</li>
+    </div>
+    <br><br>
+
+
+    <script src="script.js"></script>
+</body>
+</html>
+

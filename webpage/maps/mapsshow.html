@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <title>Parkings de Montpellier</title>
+    <link rel="stylesheet" type="text/css" href="/webpage/maps/mapstyle.css">
+    <script src="/webpage/maps/mapscript.js"></script>
+</head>
+<body>
+    <ul class="navbar-nav">
+        <li class="nav-item"><a href="/webpage/mainpage.html">Accueil</a></li>
+        <li class="nav-item">
+            <div class="select-wrapper">
+                <select onchange="location = this.value;" id="chartSelect">
+                    <option value="#" selected disabled hidden>Historique</option>
+                    <option value="/webpage/maps/mapsshow.html" style="color: black;font-size:14px;text-align: center;">Historique</option>
+                    <iframe id="content-frame" name="content-frame" src="" frameborder="0"><option value="/webpage//maps/pagerm.html"style="color: black;font-size:14px;">Live</option></iframe>
+                </select>
+            </div>
+        </li>
+        <li class="nav-item">           
+            <div class="select-wrapper">
+                <select onchange="location = this.value;" id="chartSelect">
+                    <option value="#" selected disabled hidden>Graphiques</option>
+                    <option value="/webpage/charts/charts.html" style="color: black;font-size:14px;text-align: center;">Occupation</option>
+                    <option value="/webpage//charts/charts_remplissage.html"style="color: black;font-size:14px;">Moyenne</option>
+                </select>
+            </div>
+        
+        <li class="nav-item"><a href="/webpage/analyse/analyse.html">Analyse</a></li>
+            
+    </ul>
+ 
+    <br><br>
+    <h1>Cette map represente l'evolution des parkings en 24H</h1>
+    <div class="slider-container">
+        <input type="range" min="0" max="23" value="0" class="slider" id="hour-slider">
+        <span id="slider-value">0h</span>
+    </div>
+
+    
+    <div class="content-box">
+        <iframe id="content-frame" name="content-frame" src="" frameborder="0"></iframe>
+    </div>
+    <br><br>
+ 
+</body>
+
+</html>
+

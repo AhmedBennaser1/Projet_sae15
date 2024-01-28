@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Parkings de Montpellier</title>
+    <link rel="stylesheet" type="text/css" href="/webpage/maps/mapstyle.css">
+ 
+</head>
+
+<body>
+    <nav class="navbar">
+       <ul class="navbar-nav">
+        <li class="nav-item"><a href="/webpage/mainpage.html">Accueil</a></li>
+        <li class="nav-item">
+            <div class="select-wrapper">
+                <select onchange="location = this.value;" id="chartSelect">
+                    <option value="#" selected disabled hidden>Maps</option>
+                    <option value="/webpage/maps/mapsshow.html" style="color: black;font-size:14px;text-align: center;">Historique</option>
+                    <option value="/webpage//maps/pagerm.html" style="color: black;font-size:14px;">Live</option>
+                </select>
+            </div>
+        </li>
+        <li class="nav-item">
+            <div class="select-wrapper">
+                <select onchange="location = this.value;" id="chartSelect">
+                    <option value="#" selected disabled hidden>Graphiques</option>
+                    <option value="/webpage/charts/charts.html" style="color: black;font-size:14px;text-align: center;">Occupation</option>
+                    <option value="/webpage//charts/charts_remplissage.html" style="color: black;font-size:14px;">Moyenne</option>
+                </select>
+            </div>
+        </li>
+        <li class="nav-item"><a href="/webpage/analyse/analyse.html">Analyse</a></li>
+    </ul>
+            
+        
+    </nav>
+    <br><br>
+        <h1 style="margin-top:0;">Projet SAE 15 : Analyse et Traitement de Données</h1>
+    <br><br>        
+	<div class='container2'>
+    <h3>Présentation :</h3>
+    <p>Dans le cadre du projet SAE 15, notre objectif était de traiter et d'analyser des données en temps réel sur l'état des parkings à Montpellier, pour les véhicules et les vélos. Ces données étaient extraites via une API dédiée depuis le site de la Ville de Montpellier.</p>
+
+    <h3>Traitement des Données :</h3>
+    <p>Nous avons développé plusieurs scripts Python pour automatiser le traitement des données :</p>
+    <ul>
+        <li>Une fonction (general.py) pour extraire les données sur une période d'une heure avec un intervalle de 30 minutes.</li>
+        <li>Une fonction pour trier et enregistrer (organize.py) les informations essentielles dans de nouveaux fichiers JSON, nommés d'après l'heure de la requête, créant ainsi une base de données organisée.</li>
+        <li>Une fonction pour générer des graphiques détaillés avec Matplotlib (printing_data.py), incluant pour chaque parking des diagrammes de la moyenne d'occupation et du taux d'occupation.</li>
+        <li>Ces graphiques incluent également des statistiques descriptives telles que la moyenne, l'écart type, ainsi que les valeurs maximales et minimales. Les graphiques sont ensuite stockés pour enrichir notre base de données.</li>
+       
+    </ul>
+    <img src="/webpage/charts/charts/occupation/cars/occup-cars-Circe.png"  width ="700px" onclick="toggleZoom(this)">
+
+    <h3>Visualisation Géospatiale :</h3>
+    <p>En plus, nous avons intégré une fonction utilisant Folium pour créer des cartographies interactives en HTML, marquant l'état des parkings à différentes heures de la journée. Chaque carte offre des détails précis pour chaque parking et est stockée pour une utilisation future.</p>
+
+    <h3>Interface Web</h3>
+    <p>L'interface web se divise en quatre sections principales :</p>
+    <ul>
+        <li>Accueil : Présentation du projet SAE et de son contexte.</li>
+        <li>Cartes :</li>
+        <li> - Historique : Répertoire de toutes les cartes créées, avec la possibilité de sélectionner une heure spécifique.</li>
+        <li> - En direct : Affichage en temps réel des parkings utilisant JavaScript, car l'exécution de code Python côté serveur n'est pas réalisable actuellement pour des raisons de sécurité.</li>
+        <li>Graphiques : Section interactive permettant aux utilisateurs de sélectionner et de visualiser des graphiques spécifiques.</li>
+    </ul>
+
+    <h3>Analyse des Résultats sur une Journée :</h3>
+    <p>Après une analyse détaillée des données de stationnement recueillies sur une période de 24 heures, plusieurs modèles d'usage des parkings à Montpellier ont été identifiés :</p>
+    <ol>
+        <li>Fluctuation diurne et nocturne : Les parkings pour véhicules dans le centre-ville connaissent une occupation maximale entre 12h et 14h, puis une seconde vague en fin d'après-midi, vers 18h-20h. Cela reflète probablement les habitudes de déjeuner et les horaires de fin de travail. En revanche, durant les heures nocturnes, une baisse significative est observée, suggérant un retour à domicile des usagers.</li>
+        <img src="/webpage/charts/charts/occupation/cars/occup-cars-Garcia Lorca.png"  width ="700px" onclick="toggleZoom(this)">
+        <br><li>Dynamique des parkings vélo : Les parkings vélo présentent un pic d'occupation tôt le matin, entre 7h et 9h, indiquant une préférence pour les trajets en vélo pour se rendre sur le lieu de travail ou d'études. Le déclin progressif de l'occupation tout au long de la journée pourrait indiquer une transition vers d'autres modes de transport pour le retour.</li>
+        <img src="/webpage/charts/charts/occupation/bikes/occup-bikes-Les Aubes.png"  width ="700px" onclick="toggleZoom(this)">
+        <br><li>Comparaison intermodale : En juxtaposant les taux d'occupation des parkings véhicules et vélos, nous constatons une corrélation négative. Les pics d'occupation des parkings véhicules coïncident avec les creux pour les parkings vélos et inversement. Cette observation suggère une complémentarité des modes de transport selon l'heure et le besoin des usagers.</li>
+        <p>pour le parking de comédie Voiture</p>
+        <img src="/webpage/charts/charts/occupation/cars/occup-cars-Comedie.png"  width ="700px" onclick="toggleZoom(this)">
+        <p>pour le parking de comédie Vélo</p>
+        <img src="/webpage/charts/charts/occupation/bikes/occup-bikes-Comédie.png"  width ="700px" onclick="toggleZoom(this)">
+
+        <br><li>Influence des points d'intérêt : La proximité des parkings avec des points d'intérêt tels que la gare routière et la gare Saint-Roch semble influencer fortement les taux d'occupation. Cela indique une forte demande de stationnement dans ces zones, exacerbée aux heures de pointe.</li>
+        <img src="/webpage/charts/charts/occupation/cars/occup-cars-Gare.png"  width ="700px" onclick="toggleZoom(this)">
+        <br><li>Variabilité des données : L'analyse statistique des données montre que les parkings du centre-ville ont une faible variance dans les taux d'occupation, ce qui indique une demande constante et élevée. En comparaison, les parkings en périphérie montrent une plus grande variabilité, ce qui peut refléter une utilisation plus sporadique et dépendante d'événements spécifiques ou de facteurs saisonniers.</li>
+        <br><li>Répercussions sur la gestion du trafic : Ces tendances révèlent des opportunités pour la gestion du trafic urbain, notamment l'optimisation des horaires de disponibilité des parkings et l'ajustement des tarifs pour équilibrer la demande et l'offre. De plus, les données pourraient servir à planifier des améliorations des infrastructures de transport en commun et de location de vélos pour répondre aux besoins des usagers.</li>
+    </ol>
+
+    <p>En conclusion, cette analyse quotidienne offre des aperçus précieux sur les comportements de mobilité urbaine et les interactions entre différents modes de transport. Elle fournit une base solide pour des décisions éclairées en matière de planification urbaine et de gestion des flux de circulation.</p>
+	</div>
+    <script>
+        function toggleZoom(element) {
+            element.classList.toggle("zoomOut");
+        }
+    </script>
+ </body>
+</html>

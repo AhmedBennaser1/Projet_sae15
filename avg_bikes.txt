@@ -1,0 +1,2793 @@
+Rue Jules Ferry - Gare Saint-Roch:50.0:00h00
+Comédie:47.5:00h00
+Hôtel de Ville:48.33:00h00
+Corum:38.33:00h00
+Place Albert 1er - St Charles:44.74:00h00
+Foch:47.7:00h00
+Halles Castellane:49.22:00h00
+Observatoire:47.75:00h00
+Rondelet:53.56:00h00
+Plan Cabanes:54.87:00h00
+Boutonnet:50.64:00h00
+Emile Combes:47.46:00h00
+Beaux-Arts:46.21:00h00
+Les Aubes:47.38:00h00
+Antigone centre:48.8:00h00
+Médiathèque Emile Zola:48.88:00h00
+Nombre d Or:46.74:00h00
+Louis Blanc:45.88:00h00
+Gambetta:47.41:00h00
+Port Marianne:45.04:00h00
+Les Arceaux:45.87:00h00
+Cité Mion:47.19:00h00
+Nouveau Saint-Roch:46.77:00h00
+Renouvier:47.95:00h00
+Odysseum:48.03:00h00
+Saint-Denis:47.15:00h00
+Richter:45.4:00h00
+Charles Flahault:45.12:00h00
+Voltaire:44.85:00h00
+Prés d Arènes:45.86:00h00
+Garcia Lorca:45.59:00h00
+Vert Bois:46.12:00h00
+Malbosc:46.61:00h00
+Occitanie:46.71:00h00
+FacdesSciences:48.24:00h00
+Fac de Lettres:48.52:00h00
+Aiguelongue:49.23:00h00
+Jeu de Mail des Abbés:48.92:00h00
+Euromédecine:49.59:00h00
+Marie Caizergues:49.6:00h00
+Sabines:49.31:00h00
+Celleneuve:49.62:00h00
+Jardin de la Lironde:49.63:00h00
+Père Soulas:48.79:00h00
+Place Viala:49.09:00h00
+Hôtel du Département:49.93:00h00
+Tonnelles:49.93:00h00
+Parvis Jules Ferry - Gare Saint-Roch:49.41:00h00
+Pont de Lattes - Gare Saint-Roch:50.1:00h00
+Deux Ponts - Gare Saint-Roch:50.6:00h00
+Providence - Ovalie:50.59:00h00
+Pérols Etang de l Or:50.07:00h00
+Albert 1er - Cathédrale:50.22:00h00
+Saint-Guilhem - Courreau:49.76:00h00
+Sud De France:49.53:00h00
+Comedie Baudin:49.76:00h00
+Jean de Beins:50.32:00h00
+Rue Jules Ferry - Gare Saint-Roch:50.0:00h35
+Comédie:50.0:00h35
+Hôtel de Ville:45.83:00h35
+Corum:36.46:00h35
+Place Albert 1er - St Charles:43.98:00h35
+Foch:49.15:00h35
+Halles Castellane:52.84:00h35
+Observatoire:50.93:00h35
+Rondelet:56.38:00h35
+Plan Cabanes:55.74:00h35
+Boutonnet:51.43:00h35
+Emile Combes:48.19:00h35
+Beaux-Arts:46.88:00h35
+Les Aubes:48.0:00h35
+Antigone centre:49.38:00h35
+Médiathèque Emile Zola:49.42:00h35
+Nombre d Or:47.25:00h35
+Louis Blanc:46.36:00h35
+Gambetta:47.87:00h35
+Port Marianne:45.47:00h35
+Les Arceaux:46.29:00h35
+Cité Mion:47.59:00h35
+Nouveau Saint-Roch:47.15:00h35
+Renouvier:48.31:00h35
+Odysseum:48.38:00h35
+Saint-Denis:47.48:00h35
+Richter:45.72:00h35
+Charles Flahault:45.43:00h35
+Voltaire:45.15:00h35
+Prés d Arènes:46.15:00h35
+Garcia Lorca:45.87:00h35
+Vert Bois:46.39:00h35
+Malbosc:46.88:00h35
+Occitanie:46.97:00h35
+FacdesSciences:48.49:00h35
+Fac de Lettres:48.76:00h35
+Aiguelongue:49.47:00h35
+Jeu de Mail des Abbés:49.15:00h35
+Euromédecine:49.82:00h35
+Marie Caizergues:49.82:00h35
+Sabines:49.82:00h35
+Celleneuve:50.13:00h35
+Jardin de la Lironde:50.12:00h35
+Père Soulas:48.98:00h35
+Place Viala:48.45:00h35
+Hôtel du Département:49.3:00h35
+Tonnelles:49.32:00h35
+Parvis Jules Ferry - Gare Saint-Roch:48.81:00h35
+Pont de Lattes - Gare Saint-Roch:49.51:00h35
+Deux Ponts - Gare Saint-Roch:50.02:00h35
+Providence - Ovalie:50.02:00h35
+Pérols Etang de l Or:49.51:00h35
+Albert 1er - Cathédrale:49.68:00h35
+Saint-Guilhem - Courreau:49.22:00h35
+Sud De France:49.01:00h35
+Comedie Baudin:49.25:00h35
+Jean de Beins:49.81:00h35
+Rue Jules Ferry - Gare Saint-Roch:50.0:01h05
+Comédie:50.0:01h05
+Hôtel de Ville:45.83:01h05
+Corum:36.46:01h05
+Place Albert 1er - St Charles:43.24:01h05
+Foch:48.53:01h05
+Halles Castellane:52.31:01h05
+Observatoire:50.46:01h05
+Rondelet:55.97:01h05
+Plan Cabanes:55.37:01h05
+Boutonnet:53.37:01h05
+Emile Combes:51.0:01h05
+Beaux-Arts:49.48:01h05
+Les Aubes:49.52:01h05
+Antigone centre:49.14:01h05
+Médiathèque Emile Zola:49.19:01h05
+Nombre d Or:47.03:01h05
+Louis Blanc:46.5:01h05
+Gambetta:48.0:01h05
+Port Marianne:45.6:01h05
+Les Arceaux:46.41:01h05
+Cité Mion:47.71:01h05
+Nouveau Saint-Roch:46.18:01h05
+Renouvier:47.38:01h05
+Odysseum:47.48:01h05
+Saint-Denis:46.62:01h05
+Richter:44.89:01h05
+Charles Flahault:44.63:01h05
+Voltaire:44.38:01h05
+Prés d Arènes:45.4:01h05
+Garcia Lorca:45.15:01h05
+Vert Bois:45.69:01h05
+Malbosc:46.2:01h05
+Occitanie:46.31:01h05
+FacdesSciences:47.84:01h05
+Fac de Lettres:48.14:01h05
+Aiguelongue:48.52:01h05
+Jeu de Mail des Abbés:48.23:01h05
+Euromédecine:48.92:01h05
+Marie Caizergues:48.95:01h05
+Sabines:48.67:01h05
+Celleneuve:49.0:01h05
+Jardin de la Lironde:49.02:01h05
+Père Soulas:47.91:01h05
+Place Viala:47.12:01h05
+Hôtel du Département:48.0:01h05
+Tonnelles:48.04:01h05
+Parvis Jules Ferry - Gare Saint-Roch:48.08:01h05
+Pont de Lattes - Gare Saint-Roch:48.8:01h05
+Deux Ponts - Gare Saint-Roch:49.32:01h05
+Providence - Ovalie:49.34:01h05
+Pérols Etang de l Or:48.84:01h05
+Albert 1er - Cathédrale:49.65:01h05
+Saint-Guilhem - Courreau:49.42:01h05
+Sud De France:49.21:01h05
+Comedie Baudin:49.44:01h05
+Jean de Beins:50.0:01h05
+Rue Jules Ferry - Gare Saint-Roch:66.67:01h35
+Comédie:53.33:01h35
+Hôtel de Ville:48.06:01h35
+Corum:38.12:01h35
+Place Albert 1er - St Charles:44.57:01h35
+Foch:49.65:01h35
+Halles Castellane:53.27:01h35
+Observatoire:51.3:01h35
+Rondelet:56.71:01h35
+Plan Cabanes:54.37:01h35
+Boutonnet:51.7:01h35
+Emile Combes:49.48:01h35
+Beaux-Arts:48.07:01h35
+Les Aubes:48.21:01h35
+Antigone centre:47.91:01h35
+Médiathèque Emile Zola:48.04:01h35
+Nombre d Or:45.95:01h35
+Louis Blanc:45.83:01h35
+Gambetta:47.37:01h35
+Port Marianne:45.0:01h35
+Les Arceaux:45.83:01h35
+Cité Mion:47.16:01h35
+Nouveau Saint-Roch:45.65:01h35
+Renouvier:46.87:01h35
+Odysseum:47.0:01h35
+Saint-Denis:46.15:01h35
+Richter:44.44:01h35
+Charles Flahault:44.19:01h35
+Voltaire:43.96:01h35
+Prés d Arènes:45.0:01h35
+Garcia Lorca:44.76:01h35
+Vert Bois:45.31:01h35
+Malbosc:45.83:01h35
+Occitanie:45.95:01h35
+FacdesSciences:47.5:01h35
+Fac de Lettres:47.8:01h35
+Aiguelongue:48.2:01h35
+Jeu de Mail des Abbés:47.92:01h35
+Euromédecine:48.61:01h35
+Marie Caizergues:48.64:01h35
+Sabines:48.37:01h35
+Celleneuve:48.71:01h35
+Jardin de la Lironde:48.74:01h35
+Père Soulas:47.63:01h35
+Place Viala:46.85:01h35
+Hôtel du Département:47.73:01h35
+Tonnelles:47.78:01h35
+Parvis Jules Ferry - Gare Saint-Roch:47.83:01h35
+Pont de Lattes - Gare Saint-Roch:48.55:01h35
+Deux Ponts - Gare Saint-Roch:49.08:01h35
+Providence - Ovalie:49.1:01h35
+Pérols Etang de l Or:48.61:01h35
+Albert 1er - Cathédrale:49.42:01h35
+Saint-Guilhem - Courreau:49.2:01h35
+Sud De France:48.99:01h35
+Comedie Baudin:49.23:01h35
+Jean de Beins:49.79:01h35
+Rue Jules Ferry - Gare Saint-Roch:66.67:02h05
+Comédie:65.83:02h05
+Hôtel de Ville:56.39:02h05
+Corum:44.38:02h05
+Place Albert 1er - St Charles:49.57:02h05
+Foch:53.81:02h05
+Halles Castellane:60.41:02h05
+Observatoire:55.98:02h05
+Rondelet:60.87:02h05
+Plan Cabanes:58.12:02h05
+Boutonnet:55.87:02h05
+Emile Combes:53.29:02h05
+Beaux-Arts:51.6:02h05
+Les Aubes:51.48:02h05
+Antigone centre:50.97:02h05
+Médiathèque Emile Zola:50.91:02h05
+Nombre d Or:48.65:02h05
+Louis Blanc:49.42:02h05
+Gambetta:50.77:02h05
+Port Marianne:48.23:02h05
+Les Arceaux:48.61:02h05
+Cité Mion:49.81:02h05
+Nouveau Saint-Roch:48.19:02h05
+Renouvier:49.3:02h05
+Odysseum:49.33:02h05
+Saint-Denis:47.43:02h05
+Richter:45.68:02h05
+Charles Flahault:46.28:02h05
+Voltaire:45.11:02h05
+Prés d Arènes:46.11:02h05
+Garcia Lorca:45.83:02h05
+Vert Bois:46.35:02h05
+Malbosc:46.84:02h05
+Occitanie:46.66:02h05
+FacdesSciences:48.18:02h05
+Fac de Lettres:48.7:02h05
+Aiguelongue:49.07:02h05
+Jeu de Mail des Abbés:48.77:02h05
+Euromédecine:49.44:02h05
+Marie Caizergues:49.45:02h05
+Sabines:49.47:02h05
+Celleneuve:49.78:02h05
+Jardin de la Lironde:49.78:02h05
+Père Soulas:48.65:02h05
+Place Viala:47.85:02h05
+Hôtel du Département:48.71:02h05
+Tonnelles:48.74:02h05
+Parvis Jules Ferry - Gare Saint-Roch:48.76:02h05
+Pont de Lattes - Gare Saint-Roch:49.47:02h05
+Deux Ponts - Gare Saint-Roch:49.98:02h05
+Providence - Ovalie:49.98:02h05
+Pérols Etang de l Or:49.47:02h05
+Albert 1er - Cathédrale:50.27:02h05
+Saint-Guilhem - Courreau:50.26:02h05
+Sud De France:50.03:02h05
+Comedie Baudin:50.48:02h05
+Jean de Beins:51.02:02h05
+Rue Jules Ferry - Gare Saint-Roch:66.67:02h35
+Comédie:68.33:02h35
+Hôtel de Ville:58.06:02h35
+Corum:45.62:02h35
+Place Albert 1er - St Charles:50.57:02h35
+Foch:54.65:02h35
+Halles Castellane:61.12:02h35
+Observatoire:56.61:02h35
+Rondelet:61.43:02h35
+Plan Cabanes:58.62:02h35
+Boutonnet:56.32:02h35
+Emile Combes:53.71:02h35
+Beaux-Arts:51.98:02h35
+Les Aubes:51.84:02h35
+Antigone centre:51.3:02h35
+Médiathèque Emile Zola:51.22:02h35
+Nombre d Or:48.94:02h35
+Louis Blanc:49.7:02h35
+Gambetta:51.03:02h35
+Port Marianne:48.48:02h35
+Les Arceaux:48.85:02h35
+Cité Mion:50.04:02h35
+Nouveau Saint-Roch:48.4:02h35
+Renouvier:49.51:02h35
+Odysseum:49.53:02h35
+Saint-Denis:49.55:02h35
+Richter:47.71:02h35
+Charles Flahault:47.8:02h35
+Voltaire:46.58:02h35
+Prés d Arènes:47.53:02h35
+Garcia Lorca:46.8:02h35
+Vert Bois:47.29:02h35
+Malbosc:47.75:02h35
+Occitanie:47.36:02h35
+FacdesSciences:48.86:02h35
+Fac de Lettres:49.36:02h35
+Aiguelongue:49.71:02h35
+Jeu de Mail des Abbés:49.39:02h35
+Euromédecine:50.05:02h35
+Marie Caizergues:50.05:02h35
+Sabines:50.04:02h35
+Celleneuve:50.34:02h35
+Jardin de la Lironde:50.33:02h35
+Père Soulas:49.19:02h35
+Place Viala:48.37:02h35
+Hôtel du Département:49.22:02h35
+Tonnelles:49.24:02h35
+Parvis Jules Ferry - Gare Saint-Roch:49.26:02h35
+Pont de Lattes - Gare Saint-Roch:50.12:02h35
+Deux Ponts - Gare Saint-Roch:50.62:02h35
+Providence - Ovalie:50.61:02h35
+Pérols Etang de l Or:50.09:02h35
+Albert 1er - Cathédrale:50.87:02h35
+Saint-Guilhem - Courreau:50.86:02h35
+Sud De France:50.61:02h35
+Comedie Baudin:51.05:02h35
+Jean de Beins:51.58:02h35
+Rue Jules Ferry - Gare Saint-Roch:66.67:03h06
+Comédie:73.33:03h06
+Hôtel de Ville:61.39:03h06
+Corum:48.12:03h06
+Place Albert 1er - St Charles:52.57:03h06
+Foch:56.31:03h06
+Halles Castellane:62.55:03h06
+Observatoire:57.86:03h06
+Rondelet:62.54:03h06
+Plan Cabanes:59.62:03h06
+Boutonnet:57.23:03h06
+Emile Combes:54.54:03h06
+Beaux-Arts:52.75:03h06
+Les Aubes:52.56:03h06
+Antigone centre:51.97:03h06
+Médiathèque Emile Zola:51.85:03h06
+Nombre d Or:49.53:03h06
+Louis Blanc:50.25:03h06
+Gambetta:51.55:03h06
+Port Marianne:48.98:03h06
+Les Arceaux:49.32:03h06
+Cité Mion:50.49:03h06
+Nouveau Saint-Roch:48.84:03h06
+Renouvier:49.93:03h06
+Odysseum:49.93:03h06
+Saint-Denis:49.93:03h06
+Richter:48.08:03h06
+Charles Flahault:47.26:03h06
+Voltaire:46.06:03h06
+Prés d Arènes:47.03:03h06
+Garcia Lorca:46.32:03h06
+Vert Bois:46.63:03h06
+Malbosc:47.11:03h06
+Occitanie:46.09:03h06
+FacdesSciences:47.63:03h06
+Fac de Lettres:47.93:03h06
+Aiguelongue:48.32:03h06
+Jeu de Mail des Abbés:48.04:03h06
+Euromédecine:48.73:03h06
+Marie Caizergues:48.76:03h06
+Sabines:48.79:03h06
+Celleneuve:49.12:03h06
+Jardin de la Lironde:49.14:03h06
+Père Soulas:48.02:03h06
+Place Viala:47.23:03h06
+Hôtel du Département:48.11:03h06
+Tonnelles:48.15:03h06
+Parvis Jules Ferry - Gare Saint-Roch:48.18:03h06
+Pont de Lattes - Gare Saint-Roch:49.07:03h06
+Deux Ponts - Gare Saint-Roch:49.59:03h06
+Providence - Ovalie:49.6:03h06
+Pérols Etang de l Or:49.1:03h06
+Albert 1er - Cathédrale:49.9:03h06
+Saint-Guilhem - Courreau:50.13:03h06
+Sud De France:49.9:03h06
+Comedie Baudin:50.35:03h06
+Jean de Beins:50.89:03h06
+Rue Jules Ferry - Gare Saint-Roch:75.0:03h36
+Comédie:80.0:03h36
+Hôtel de Ville:65.83:03h36
+Corum:51.46:03h36
+Place Albert 1er - St Charles:58.2:03h36
+Foch:61.0:03h36
+Halles Castellane:66.57:03h36
+Observatoire:61.38:03h36
+Rondelet:65.67:03h36
+Plan Cabanes:62.44:03h36
+Boutonnet:59.03:03h36
+Emile Combes:56.2:03h36
+Beaux-Arts:54.28:03h36
+Les Aubes:53.97:03h36
+Antigone centre:53.29:03h36
+Médiathèque Emile Zola:53.08:03h36
+Nombre d Or:50.7:03h36
+Louis Blanc:52.05:03h36
+Gambetta:53.26:03h36
+Port Marianne:50.59:03h36
+Les Arceaux:50.86:03h36
+Cité Mion:51.96:03h36
+Nouveau Saint-Roch:50.24:03h36
+Renouvier:51.28:03h36
+Odysseum:51.22:03h36
+Saint-Denis:51.18:03h36
+Richter:49.28:03h36
+Charles Flahault:48.41:03h36
+Voltaire:47.18:03h36
+Prés d Arènes:48.1:03h36
+Garcia Lorca:47.36:03h36
+Vert Bois:47.05:03h36
+Malbosc:47.52:03h36
+Occitanie:46.49:03h36
+FacdesSciences:48.02:03h36
+Fac de Lettres:48.3:03h36
+Aiguelongue:48.69:03h36
+Jeu de Mail des Abbés:48.39:03h36
+Euromédecine:49.08:03h36
+Marie Caizergues:49.1:03h36
+Sabines:49.73:03h36
+Celleneuve:50.03:03h36
+Jardin de la Lironde:50.03:03h36
+Père Soulas:48.9:03h36
+Place Viala:48.09:03h36
+Hôtel du Département:48.94:03h36
+Tonnelles:48.97:03h36
+Parvis Jules Ferry - Gare Saint-Roch:48.99:03h36
+Pont de Lattes - Gare Saint-Roch:49.86:03h36
+Deux Ponts - Gare Saint-Roch:50.36:03h36
+Providence - Ovalie:50.35:03h36
+Pérols Etang de l Or:49.84:03h36
+Albert 1er - Cathédrale:50.63:03h36
+Saint-Guilhem - Courreau:51.31:03h36
+Sud De France:51.06:03h36
+Comedie Baudin:51.49:03h36
+Jean de Beins:52.01:03h36
+Rue Jules Ferry - Gare Saint-Roch:58.33:04h06
+Comédie:71.67:04h06
+Hôtel de Ville:60.28:04h06
+Corum:53.54:04h06
+Place Albert 1er - St Charles:59.87:04h06
+Foch:66.56:04h06
+Halles Castellane:71.34:04h06
+Observatoire:70.23:04h06
+Rondelet:73.54:04h06
+Plan Cabanes:67.85:04h06
+Boutonnet:63.96:04h06
+Emile Combes:60.71:04h06
+Beaux-Arts:58.44:04h06
+Les Aubes:57.84:04h06
+Antigone centre:57.32:04h06
+Médiathèque Emile Zola:56.86:04h06
+Nombre d Or:54.25:04h06
+Louis Blanc:55.06:04h06
+Gambetta:56.11:04h06
+Port Marianne:53.3:04h06
+Les Arceaux:53.44:04h06
+Cité Mion:54.42:04h06
+Nouveau Saint-Roch:52.6:04h06
+Renouvier:53.53:04h06
+Odysseum:53.39:04h06
+Saint-Denis:53.74:04h06
+Richter:51.75:04h06
+Charles Flahault:50.8:04h06
+Voltaire:49.47:04h06
+Prés d Arènes:50.33:04h06
+Garcia Lorca:49.51:04h06
+Vert Bois:48.94:04h06
+Malbosc:49.35:04h06
+Occitanie:48.17:04h06
+FacdesSciences:49.65:04h06
+Fac de Lettres:49.9:04h06
+Aiguelongue:50.24:04h06
+Jeu de Mail des Abbés:49.57:04h06
+Euromédecine:50.22:04h06
+Marie Caizergues:50.22:04h06
+Sabines:50.82:04h06
+Celleneuve:51.1:04h06
+Jardin de la Lironde:51.08:04h06
+Père Soulas:49.91:04h06
+Place Viala:49.08:04h06
+Hôtel du Département:49.92:04h06
+Tonnelles:49.65:04h06
+Parvis Jules Ferry - Gare Saint-Roch:49.66:04h06
+Pont de Lattes - Gare Saint-Roch:50.52:04h06
+Deux Ponts - Gare Saint-Roch:51.01:04h06
+Providence - Ovalie:50.99:04h06
+Pérols Etang de l Or:50.46:04h06
+Albert 1er - Cathédrale:51.24:04h06
+Saint-Guilhem - Courreau:52.14:04h06
+Sud De France:51.87:04h06
+Comedie Baudin:52.29:04h06
+Jean de Beins:53.01:04h06
+Rue Jules Ferry - Gare Saint-Roch:66.67:04h36
+Comédie:73.33:04h36
+Hôtel de Ville:59.31:04h36
+Corum:44.48:04h36
+Place Albert 1er - St Charles:51.14:04h36
+Foch:59.28:04h36
+Halles Castellane:65.1:04h36
+Observatoire:67.9:04h36
+Rondelet:71.47:04h36
+Plan Cabanes:65.99:04h36
+Boutonnet:62.26:04h36
+Emile Combes:59.16:04h36
+Beaux-Arts:57.01:04h36
+Les Aubes:56.51:04h36
+Antigone centre:56.49:04h36
+Médiathèque Emile Zola:56.09:04h36
+Nombre d Or:53.52:04h36
+Louis Blanc:54.37:04h36
+Gambetta:55.45:04h36
+Port Marianne:52.68:04h36
+Les Arceaux:52.85:04h36
+Cité Mion:53.86:04h36
+Nouveau Saint-Roch:52.06:04h36
+Renouvier:53.02:04h36
+Odysseum:52.89:04h36
+Saint-Denis:53.26:04h36
+Richter:51.29:04h36
+Charles Flahault:50.35:04h36
+Voltaire:49.05:04h36
+Prés d Arènes:49.91:04h36
+Garcia Lorca:49.11:04h36
+Vert Bois:48.55:04h36
+Malbosc:48.22:04h36
+Occitanie:46.89:04h36
+FacdesSciences:48.41:04h36
+Fac de Lettres:48.68:04h36
+Aiguelongue:49.06:04h36
+Jeu de Mail des Abbés:48.42:04h36
+Euromédecine:49.1:04h36
+Marie Caizergues:49.13:04h36
+Sabines:49.76:04h36
+Celleneuve:50.06:04h36
+Jardin de la Lironde:50.06:04h36
+Père Soulas:48.92:04h36
+Place Viala:48.11:04h36
+Hôtel du Département:48.15:04h36
+Tonnelles:47.93:04h36
+Parvis Jules Ferry - Gare Saint-Roch:47.97:04h36
+Pont de Lattes - Gare Saint-Roch:48.86:04h36
+Deux Ponts - Gare Saint-Roch:49.38:04h36
+Providence - Ovalie:49.4:04h36
+Pérols Etang de l Or:48.9:04h36
+Albert 1er - Cathédrale:49.71:04h36
+Saint-Guilhem - Courreau:50.64:04h36
+Sud De France:50.4:04h36
+Comedie Baudin:50.84:04h36
+Jean de Beins:51.59:04h36
+Rue Jules Ferry - Gare Saint-Roch:66.67:05h06
+Comédie:73.33:05h06
+Hôtel de Ville:59.31:05h06
+Corum:48.65:05h06
+Place Albert 1er - St Charles:54.47:05h06
+Foch:62.06:05h06
+Halles Castellane:67.48:05h06
+Observatoire:71.55:05h06
+Rondelet:74.71:05h06
+Plan Cabanes:68.9:05h06
+Boutonnet:64.91:05h06
+Emile Combes:61.59:05h06
+Beaux-Arts:59.25:05h06
+Les Aubes:58.59:05h06
+Antigone centre:58.02:05h06
+Médiathèque Emile Zola:57.52:05h06
+Nombre d Or:54.87:05h06
+Louis Blanc:55.64:05h06
+Gambetta:56.66:05h06
+Port Marianne:54.14:05h06
+Les Arceaux:54.24:05h06
+Cité Mion:55.18:05h06
+Nouveau Saint-Roch:53.33:05h06
+Renouvier:54.23:05h06
+Odysseum:54.06:05h06
+Saint-Denis:54.39:05h06
+Richter:52.37:05h06
+Charles Flahault:51.39:05h06
+Voltaire:50.05:05h06
+Prés d Arènes:50.88:05h06
+Garcia Lorca:50.05:05h06
+Vert Bois:49.66:05h06
+Malbosc:49.29:05h06
+Occitanie:47.93:05h06
+FacdesSciences:49.42:05h06
+Fac de Lettres:48.97:05h06
+Aiguelongue:49.34:05h06
+Jeu de Mail des Abbés:48.7:05h06
+Euromédecine:49.37:05h06
+Marie Caizergues:48.76:05h06
+Sabines:49.4:05h06
+Celleneuve:49.71:05h06
+Jardin de la Lironde:49.72:05h06
+Père Soulas:48.59:05h06
+Place Viala:47.79:05h06
+Hôtel du Département:47.84:05h06
+Tonnelles:47.62:05h06
+Parvis Jules Ferry - Gare Saint-Roch:48.45:05h06
+Pont de Lattes - Gare Saint-Roch:49.33:05h06
+Deux Ponts - Gare Saint-Roch:49.84:05h06
+Providence - Ovalie:49.85:05h06
+Pérols Etang de l Or:49.34:05h06
+Albert 1er - Cathédrale:50.14:05h06
+Saint-Guilhem - Courreau:51.06:05h06
+Sud De France:50.82:05h06
+Comedie Baudin:51.25:05h06
+Jean de Beins:51.99:05h06
+Rue Jules Ferry - Gare Saint-Roch:66.67:05h36
+Comédie:73.33:05h36
+Hôtel de Ville:59.31:05h36
+Corum:48.65:05h36
+Place Albert 1er - St Charles:54.47:05h36
+Foch:62.06:05h36
+Halles Castellane:67.48:05h36
+Observatoire:71.55:05h36
+Rondelet:74.71:05h36
+Plan Cabanes:68.9:05h36
+Boutonnet:64.91:05h36
+Emile Combes:61.59:05h36
+Beaux-Arts:59.25:05h36
+Les Aubes:58.59:05h36
+Antigone centre:58.02:05h36
+Médiathèque Emile Zola:57.52:05h36
+Nombre d Or:54.87:05h36
+Louis Blanc:55.64:05h36
+Gambetta:56.66:05h36
+Port Marianne:54.14:05h36
+Les Arceaux:53.05:05h36
+Cité Mion:54.05:05h36
+Nouveau Saint-Roch:52.78:05h36
+Renouvier:53.71:05h36
+Odysseum:53.56:05h36
+Saint-Denis:53.9:05h36
+Richter:51.91:05h36
+Charles Flahault:50.95:05h36
+Voltaire:49.62:05h36
+Prés d Arènes:50.47:05h36
+Garcia Lorca:49.65:05h36
+Vert Bois:49.27:05h36
+Malbosc:48.91:05h36
+Occitanie:47.66:05h36
+FacdesSciences:49.15:05h36
+Fac de Lettres:48.71:05h36
+Aiguelongue:49.08:05h36
+Jeu de Mail des Abbés:48.45:05h36
+Euromédecine:49.13:05h36
+Marie Caizergues:48.53:05h36
+Sabines:49.17:05h36
+Celleneuve:49.49:05h36
+Jardin de la Lironde:49.5:05h36
+Père Soulas:48.38:05h36
+Place Viala:47.58:05h36
+Hôtel du Département:47.63:05h36
+Tonnelles:47.42:05h36
+Parvis Jules Ferry - Gare Saint-Roch:48.25:05h36
+Pont de Lattes - Gare Saint-Roch:49.14:05h36
+Deux Ponts - Gare Saint-Roch:49.66:05h36
+Providence - Ovalie:49.66:05h36
+Pérols Etang de l Or:49.16:05h36
+Albert 1er - Cathédrale:49.96:05h36
+Saint-Guilhem - Courreau:50.89:05h36
+Sud De France:50.64:05h36
+Comedie Baudin:51.08:05h36
+Jean de Beins:51.83:05h36
+Rue Jules Ferry - Gare Saint-Roch:58.33:06h06
+Comédie:74.17:06h06
+Hôtel de Ville:59.86:06h06
+Corum:46.98:06h06
+Place Albert 1er - St Charles:53.88:06h06
+Foch:61.57:06h06
+Halles Castellane:67.06:06h06
+Observatoire:71.17:06h06
+Rondelet:74.38:06h06
+Plan Cabanes:69.44:06h06
+Boutonnet:65.4:06h06
+Emile Combes:62.03:06h06
+Beaux-Arts:59.67:06h06
+Les Aubes:58.97:06h06
+Antigone centre:58.38:06h06
+Médiathèque Emile Zola:57.85:06h06
+Nombre d Or:55.19:06h06
+Louis Blanc:55.94:06h06
+Gambetta:56.94:06h06
+Port Marianne:54.41:06h06
+Les Arceaux:53.3:06h06
+Cité Mion:54.29:06h06
+Nouveau Saint-Roch:53.02:06h06
+Renouvier:53.93:06h06
+Odysseum:53.78:06h06
+Saint-Denis:54.11:06h06
+Richter:52.11:06h06
+Charles Flahault:51.14:06h06
+Voltaire:49.81:06h06
+Prés d Arènes:50.65:06h06
+Garcia Lorca:49.82:06h06
+Vert Bois:49.43:06h06
+Malbosc:49.07:06h06
+Occitanie:47.81:06h06
+FacdesSciences:49.3:06h06
+Fac de Lettres:48.86:06h06
+Aiguelongue:49.23:06h06
+Jeu de Mail des Abbés:48.59:06h06
+Euromédecine:49.27:06h06
+Marie Caizergues:48.66:06h06
+Sabines:48.69:06h06
+Celleneuve:49.02:06h06
+Jardin de la Lironde:49.05:06h06
+Père Soulas:47.93:06h06
+Place Viala:47.14:06h06
+Hôtel du Département:47.21:06h06
+Tonnelles:47.0:06h06
+Parvis Jules Ferry - Gare Saint-Roch:47.84:06h06
+Pont de Lattes - Gare Saint-Roch:48.74:06h06
+Deux Ponts - Gare Saint-Roch:49.26:06h06
+Providence - Ovalie:49.28:06h06
+Pérols Etang de l Or:48.78:06h06
+Albert 1er - Cathédrale:49.59:06h06
+Saint-Guilhem - Courreau:50.52:06h06
+Sud De France:50.29:06h06
+Comedie Baudin:50.73:06h06
+Jean de Beins:51.48:06h06
+Rue Jules Ferry - Gare Saint-Roch:58.33:06h36
+Comédie:74.17:06h36
+Hôtel de Ville:59.86:06h36
+Corum:46.98:06h36
+Place Albert 1er - St Charles:53.88:06h36
+Foch:61.57:06h36
+Halles Castellane:67.06:06h36
+Observatoire:71.17:06h36
+Rondelet:74.38:06h36
+Plan Cabanes:69.44:06h36
+Boutonnet:65.4:06h36
+Emile Combes:62.03:06h36
+Beaux-Arts:59.67:06h36
+Les Aubes:58.97:06h36
+Antigone centre:58.38:06h36
+Médiathèque Emile Zola:57.85:06h36
+Nombre d Or:55.19:06h36
+Louis Blanc:55.94:06h36
+Gambetta:56.94:06h36
+Port Marianne:54.41:06h36
+Les Arceaux:53.3:06h36
+Cité Mion:54.29:06h36
+Nouveau Saint-Roch:53.02:06h36
+Renouvier:53.93:06h36
+Odysseum:53.78:06h36
+Saint-Denis:54.11:06h36
+Richter:52.11:06h36
+Charles Flahault:51.14:06h36
+Voltaire:49.81:06h36
+Prés d Arènes:50.65:06h36
+Garcia Lorca:49.82:06h36
+Vert Bois:49.43:06h36
+Malbosc:49.07:06h36
+Occitanie:47.81:06h36
+FacdesSciences:49.3:06h36
+Fac de Lettres:48.86:06h36
+Aiguelongue:49.23:06h36
+Jeu de Mail des Abbés:48.59:06h36
+Euromédecine:49.27:06h36
+Marie Caizergues:48.66:06h36
+Sabines:48.69:06h36
+Celleneuve:49.02:06h36
+Jardin de la Lironde:49.05:06h36
+Père Soulas:47.93:06h36
+Place Viala:47.14:06h36
+Hôtel du Département:47.21:06h36
+Tonnelles:47.0:06h36
+Parvis Jules Ferry - Gare Saint-Roch:47.84:06h36
+Pont de Lattes - Gare Saint-Roch:48.74:06h36
+Deux Ponts - Gare Saint-Roch:49.26:06h36
+Providence - Ovalie:49.28:06h36
+Pérols Etang de l Or:48.78:06h36
+Albert 1er - Cathédrale:49.59:06h36
+Saint-Guilhem - Courreau:50.52:06h36
+Sud De France:50.29:06h36
+Comedie Baudin:50.73:06h36
+Jean de Beins:51.48:06h36
+Rue Jules Ferry - Gare Saint-Roch:58.33:07h06
+Comédie:74.17:07h06
+Hôtel de Ville:59.86:07h06
+Corum:46.98:07h06
+Place Albert 1er - St Charles:53.88:07h06
+Foch:61.57:07h06
+Halles Castellane:67.06:07h06
+Observatoire:71.17:07h06
+Rondelet:74.38:07h06
+Plan Cabanes:69.44:07h06
+Boutonnet:65.4:07h06
+Emile Combes:62.03:07h06
+Beaux-Arts:59.67:07h06
+Les Aubes:58.97:07h06
+Antigone centre:58.38:07h06
+Médiathèque Emile Zola:57.85:07h06
+Nombre d Or:55.19:07h06
+Louis Blanc:56.29:07h06
+Gambetta:57.27:07h06
+Port Marianne:54.72:07h06
+Les Arceaux:53.6:07h06
+Cité Mion:54.57:07h06
+Nouveau Saint-Roch:53.29:07h06
+Renouvier:54.19:07h06
+Odysseum:54.03:07h06
+Saint-Denis:54.35:07h06
+Richter:52.34:07h06
+Charles Flahault:51.36:07h06
+Voltaire:50.02:07h06
+Prés d Arènes:50.85:07h06
+Garcia Lorca:50.02:07h06
+Vert Bois:49.63:07h06
+Malbosc:49.26:07h06
+Occitanie:48.0:07h06
+FacdesSciences:49.48:07h06
+Fac de Lettres:49.03:07h06
+Aiguelongue:49.74:07h06
+Jeu de Mail des Abbés:49.09:07h06
+Euromédecine:49.75:07h06
+Marie Caizergues:49.13:07h06
+Sabines:49.15:07h06
+Celleneuve:49.47:07h06
+Jardin de la Lironde:49.48:07h06
+Père Soulas:48.36:07h06
+Place Viala:47.56:07h06
+Hôtel du Département:47.61:07h06
+Tonnelles:47.4:07h06
+Parvis Jules Ferry - Gare Saint-Roch:48.23:07h06
+Pont de Lattes - Gare Saint-Roch:49.12:07h06
+Deux Ponts - Gare Saint-Roch:49.64:07h06
+Providence - Ovalie:49.65:07h06
+Pérols Etang de l Or:49.14:07h06
+Albert 1er - Cathédrale:49.95:07h06
+Saint-Guilhem - Courreau:50.87:07h06
+Sud De France:50.63:07h06
+Comedie Baudin:51.06:07h06
+Jean de Beins:51.81:07h06
+Rue Jules Ferry - Gare Saint-Roch:66.67:07h36
+Comédie:53.33:07h36
+Hôtel de Ville:45.97:07h36
+Corum:36.56:07h36
+Place Albert 1er - St Charles:44.81:07h36
+Foch:54.0:07h36
+Halles Castellane:54.62:07h36
+Observatoire:60.3:07h36
+Rondelet:64.71:07h36
+Plan Cabanes:60.74:07h36
+Boutonnet:57.49:07h36
+Emile Combes:54.78:07h36
+Beaux-Arts:52.97:07h36
+Les Aubes:53.65:07h36
+Antigone centre:53.41:07h36
+Médiathèque Emile Zola:52.8:07h36
+Nombre d Or:50.43:07h36
+Louis Blanc:51.8:07h36
+Gambetta:53.02:07h36
+Port Marianne:50.68:07h36
+Les Arceaux:49.76:07h36
+Cité Mion:50.9:07h36
+Nouveau Saint-Roch:49.78:07h36
+Renouvier:50.83:07h36
+Odysseum:50.79:07h36
+Saint-Denis:51.24:07h36
+Richter:49.35:07h36
+Charles Flahault:48.48:07h36
+Voltaire:47.24:07h36
+Prés d Arènes:48.16:07h36
+Garcia Lorca:47.41:07h36
+Vert Bois:47.11:07h36
+Malbosc:46.81:07h36
+Occitanie:45.53:07h36
+FacdesSciences:47.09:07h36
+Fac de Lettres:46.7:07h36
+Aiguelongue:47.47:07h36
+Jeu de Mail des Abbés:46.88:07h36
+Euromédecine:47.6:07h36
+Marie Caizergues:47.03:07h36
+Sabines:47.41:07h36
+Celleneuve:47.77:07h36
+Jardin de la Lironde:47.82:07h36
+Père Soulas:46.73:07h36
+Place Viala:46.25:07h36
+Hôtel du Département:46.33:07h36
+Tonnelles:46.15:07h36
+Parvis Jules Ferry - Gare Saint-Roch:47.01:07h36
+Pont de Lattes - Gare Saint-Roch:47.92:07h36
+Deux Ponts - Gare Saint-Roch:48.71:07h36
+Providence - Ovalie:48.74:07h36
+Pérols Etang de l Or:48.25:07h36
+Albert 1er - Cathédrale:49.07:07h36
+Saint-Guilhem - Courreau:50.01:07h36
+Sud De France:49.79:07h36
+Comedie Baudin:50.24:07h36
+Jean de Beins:51.0:07h36
+Rue Jules Ferry - Gare Saint-Roch:58.33:08h06
+Comédie:49.17:08h06
+Hôtel de Ville:41.11:08h06
+Corum:32.92:08h06
+Place Albert 1er - St Charles:41.89:08h06
+Foch:51.57:08h06
+Halles Castellane:52.54:08h06
+Observatoire:58.47:08h06
+Rondelet:63.09:08h06
+Plan Cabanes:58.44:08h06
+Boutonnet:55.4:08h06
+Emile Combes:52.87:08h06
+Beaux-Arts:51.69:08h06
+Les Aubes:52.46:08h06
+Antigone centre:52.3:08h06
+Médiathèque Emile Zola:51.37:08h06
+Nombre d Or:49.08:08h06
+Louis Blanc:50.52:08h06
+Gambetta:51.81:08h06
+Port Marianne:49.53:08h06
+Les Arceaux:48.37:08h06
+Cité Mion:49.58:08h06
+Nouveau Saint-Roch:48.51:08h06
+Renouvier:49.09:08h06
+Odysseum:49.13:08h06
+Saint-Denis:49.64:08h06
+Richter:47.8:08h06
+Charles Flahault:47.88:08h06
+Voltaire:46.66:08h06
+Prés d Arènes:47.61:08h06
+Garcia Lorca:46.88:08h06
+Vert Bois:46.58:08h06
+Malbosc:46.31:08h06
+Occitanie:46.23:08h06
+FacdesSciences:47.77:08h06
+Fac de Lettres:47.37:08h06
+Aiguelongue:48.12:08h06
+Jeu de Mail des Abbés:47.51:08h06
+Euromédecine:48.21:08h06
+Marie Caizergues:47.94:08h06
+Sabines:48.3:08h06
+Celleneuve:48.64:08h06
+Jardin de la Lironde:48.67:08h06
+Père Soulas:47.56:08h06
+Place Viala:47.34:08h06
+Hôtel du Département:47.4:08h06
+Tonnelles:47.45:08h06
+Parvis Jules Ferry - Gare Saint-Roch:48.29:08h06
+Pont de Lattes - Gare Saint-Roch:49.17:08h06
+Deux Ponts - Gare Saint-Roch:49.69:08h06
+Providence - Ovalie:49.69:08h06
+Pérols Etang de l Or:49.19:08h06
+Albert 1er - Cathédrale:49.99:08h06
+Saint-Guilhem - Courreau:50.92:08h06
+Sud De France:50.68:08h06
+Comedie Baudin:51.11:08h06
+Jean de Beins:51.86:08h06
+Rue Jules Ferry - Gare Saint-Roch:58.33:08h36
+Comédie:49.17:08h36
+Hôtel de Ville:41.11:08h36
+Corum:32.92:08h36
+Place Albert 1er - St Charles:41.15:08h36
+Foch:40.54:08h36
+Halles Castellane:45.46:08h36
+Observatoire:50.72:08h36
+Rondelet:56.19:08h36
+Plan Cabanes:53.07:08h36
+Boutonnet:50.52:08h36
+Emile Combes:48.4:08h36
+Beaux-Arts:47.56:08h36
+Les Aubes:48.62:08h36
+Antigone centre:48.3:08h36
+Médiathèque Emile Zola:47.62:08h36
+Nombre d Or:45.56:08h36
+Louis Blanc:46.85:08h36
+Gambetta:48.33:08h36
+Port Marianne:46.22:08h36
+Les Arceaux:45.21:08h36
+Cité Mion:46.57:08h36
+Nouveau Saint-Roch:46.17:08h36
+Renouvier:47.9:08h36
+Odysseum:47.98:08h36
+Saint-Denis:48.54:08h36
+Richter:46.74:08h36
+Charles Flahault:46.86:08h36
+Voltaire:45.67:08h36
+Prés d Arènes:46.65:08h36
+Garcia Lorca:45.95:08h36
+Vert Bois:45.69:08h36
+Malbosc:45.44:08h36
+Occitanie:45.48:08h36
+FacdesSciences:47.04:08h36
+Fac de Lettres:46.66:08h36
+Aiguelongue:47.42:08h36
+Jeu de Mail des Abbés:46.83:08h36
+Euromédecine:47.56:08h36
+Marie Caizergues:47.3:08h36
+Sabines:47.68:08h36
+Celleneuve:48.03:08h36
+Jardin de la Lironde:48.07:08h36
+Père Soulas:46.98:08h36
+Place Viala:46.77:08h36
+Hôtel du Département:46.84:08h36
+Tonnelles:46.91:08h36
+Parvis Jules Ferry - Gare Saint-Roch:47.75:08h36
+Pont de Lattes - Gare Saint-Roch:48.65:08h36
+Deux Ponts - Gare Saint-Roch:49.18:08h36
+Providence - Ovalie:49.19:08h36
+Pérols Etang de l Or:48.7:08h36
+Albert 1er - Cathédrale:48.72:08h36
+Saint-Guilhem - Courreau:48.98:08h36
+Sud De France:48.77:08h36
+Comedie Baudin:49.24:08h36
+Jean de Beins:50.02:08h36
+Rue Jules Ferry - Gare Saint-Roch:66.67:09h06
+Comédie:53.33:09h06
+Hôtel de Ville:41.81:09h06
+Corum:33.44:09h06
+Place Albert 1er - St Charles:41.56:09h06
+Foch:42.97:09h06
+Halles Castellane:47.55:09h06
+Observatoire:52.54:09h06
+Rondelet:57.81:09h06
+Plan Cabanes:55.37:09h06
+Boutonnet:51.85:09h06
+Emile Combes:49.61:09h06
+Beaux-Arts:48.68:09h06
+Les Aubes:49.67:09h06
+Antigone centre:48.85:09h06
+Médiathèque Emile Zola:47.36:09h06
+Nombre d Or:45.31:09h06
+Louis Blanc:46.62:09h06
+Gambetta:48.11:09h06
+Port Marianne:46.02:09h06
+Les Arceaux:45.02:09h06
+Cité Mion:46.38:09h06
+Nouveau Saint-Roch:45.99:09h06
+Renouvier:47.2:09h06
+Odysseum:47.31:09h06
+Saint-Denis:47.9:09h06
+Richter:46.59:09h06
+Charles Flahault:46.26:09h06
+Voltaire:45.1:09h06
+Prés d Arènes:46.09:09h06
+Garcia Lorca:45.41:09h06
+Vert Bois:45.17:09h06
+Malbosc:44.93:09h06
+Occitanie:45.08:09h06
+FacdesSciences:46.65:09h06
+Fac de Lettres:46.28:09h06
+Aiguelongue:47.4:09h06
+Jeu de Mail des Abbés:46.81:09h06
+Euromédecine:47.53:09h06
+Marie Caizergues:47.28:09h06
+Sabines:47.65:09h06
+Celleneuve:48.0:09h06
+Jardin de la Lironde:48.05:09h06
+Père Soulas:46.96:09h06
+Place Viala:46.75:09h06
+Hôtel du Département:46.82:09h06
+Tonnelles:46.89:09h06
+Parvis Jules Ferry - Gare Saint-Roch:47.73:09h06
+Pont de Lattes - Gare Saint-Roch:48.63:09h06
+Deux Ponts - Gare Saint-Roch:49.16:09h06
+Providence - Ovalie:49.17:09h06
+Pérols Etang de l Or:48.68:09h06
+Albert 1er - Cathédrale:48.7:09h06
+Saint-Guilhem - Courreau:48.73:09h06
+Sud De France:48.52:09h06
+Comedie Baudin:49.0:09h06
+Jean de Beins:49.78:09h06
+Rue Jules Ferry - Gare Saint-Roch:75.0:09h36
+Comédie:57.5:09h36
+Hôtel de Ville:44.58:09h36
+Corum:35.52:09h36
+Place Albert 1er - St Charles:39.53:09h36
+Foch:41.27:09h36
+Halles Castellane:46.09:09h36
+Observatoire:51.27:09h36
+Rondelet:56.68:09h36
+Plan Cabanes:54.35:09h36
+Boutonnet:52.44:09h36
+Emile Combes:50.15:09h36
+Beaux-Arts:49.18:09h36
+Les Aubes:50.13:09h36
+Antigone centre:49.29:09h36
+Médiathèque Emile Zola:47.38:09h36
+Nombre d Or:45.33:09h36
+Louis Blanc:46.63:09h36
+Gambetta:48.12:09h36
+Port Marianne:46.03:09h36
+Les Arceaux:45.03:09h36
+Cité Mion:46.39:09h36
+Nouveau Saint-Roch:46.0:09h36
+Renouvier:47.73:09h36
+Odysseum:47.82:09h36
+Saint-Denis:48.39:09h36
+Richter:49.14:09h36
+Charles Flahault:48.73:09h36
+Voltaire:47.48:09h36
+Prés d Arènes:48.39:09h36
+Garcia Lorca:47.64:09h36
+Vert Bois:47.32:09h36
+Malbosc:47.02:09h36
+Occitanie:47.2:09h36
+FacdesSciences:48.71:09h36
+Fac de Lettres:48.29:09h36
+Aiguelongue:49.34:09h36
+Jeu de Mail des Abbés:48.7:09h36
+Euromédecine:49.38:09h36
+Marie Caizergues:49.08:09h36
+Sabines:49.41:09h36
+Celleneuve:50.02:09h36
+Jardin de la Lironde:50.02:09h36
+Père Soulas:49.17:09h36
+Place Viala:48.91:09h36
+Hôtel du Département:48.93:09h36
+Tonnelles:48.95:09h36
+Parvis Jules Ferry - Gare Saint-Roch:48.97:09h36
+Pont de Lattes - Gare Saint-Roch:49.85:09h36
+Deux Ponts - Gare Saint-Roch:50.35:09h36
+Providence - Ovalie:50.34:09h36
+Pérols Etang de l Or:49.83:09h36
+Albert 1er - Cathédrale:49.83:09h36
+Saint-Guilhem - Courreau:50.3:09h36
+Sud De France:50.06:09h36
+Comedie Baudin:50.51:09h36
+Jean de Beins:51.27:09h36
+Rue Jules Ferry - Gare Saint-Roch:66.67:10h06
+Comédie:50.83:10h06
+Hôtel de Ville:40.14:10h06
+Corum:32.19:10h06
+Place Albert 1er - St Charles:36.86:10h06
+Foch:39.05:10h06
+Halles Castellane:44.19:10h06
+Observatoire:46.48:10h06
+Rondelet:48.26:10h06
+Plan Cabanes:46.76:10h06
+Boutonnet:44.79:10h06
+Emile Combes:43.14:10h06
+Beaux-Arts:42.7:10h06
+Les Aubes:44.12:10h06
+Antigone centre:43.68:10h06
+Médiathèque Emile Zola:42.12:10h06
+Nombre d Or:40.38:10h06
+Louis Blanc:41.95:10h06
+Gambetta:43.69:10h06
+Port Marianne:41.82:10h06
+Les Arceaux:41.02:10h06
+Cité Mion:42.56:10h06
+Nouveau Saint-Roch:42.34:10h06
+Renouvier:42.66:10h06
+Odysseum:42.96:10h06
+Saint-Denis:43.71:10h06
+Richter:44.4:10h06
+Charles Flahault:44.16:10h06
+Voltaire:43.07:10h06
+Prés d Arènes:44.13:10h06
+Garcia Lorca:43.51:10h06
+Vert Bois:43.52:10h06
+Malbosc:43.34:10h06
+Occitanie:43.63:10h06
+FacdesSciences:45.24:10h06
+Fac de Lettres:44.91:10h06
+Aiguelongue:46.06:10h06
+Jeu de Mail des Abbés:45.5:10h06
+Euromédecine:46.26:10h06
+Marie Caizergues:46.04:10h06
+Sabines:46.44:10h06
+Celleneuve:47.12:10h06
+Jardin de la Lironde:47.19:10h06
+Père Soulas:46.4:10h06
+Place Viala:46.2:10h06
+Hôtel du Département:46.28:10h06
+Tonnelles:46.36:10h06
+Parvis Jules Ferry - Gare Saint-Roch:46.44:10h06
+Pont de Lattes - Gare Saint-Roch:47.36:10h06
+Deux Ponts - Gare Saint-Roch:47.92:10h06
+Providence - Ovalie:47.96:10h06
+Pérols Etang de l Or:47.49:10h06
+Albert 1er - Cathédrale:47.53:10h06
+Saint-Guilhem - Courreau:48.04:10h06
+Sud De France:47.85:10h06
+Comedie Baudin:48.34:10h06
+Jean de Beins:49.13:10h06
+Rue Jules Ferry - Gare Saint-Roch:66.67:10h36
+Comédie:50.83:10h36
+Hôtel de Ville:40.14:10h36
+Corum:32.19:10h36
+Place Albert 1er - St Charles:36.86:10h36
+Foch:39.05:10h36
+Halles Castellane:44.19:10h36
+Observatoire:46.48:10h36
+Rondelet:48.26:10h36
+Plan Cabanes:46.76:10h36
+Boutonnet:44.79:10h36
+Emile Combes:43.14:10h36
+Beaux-Arts:42.7:10h36
+Les Aubes:44.12:10h36
+Antigone centre:43.68:10h36
+Médiathèque Emile Zola:42.12:10h36
+Nombre d Or:40.38:10h36
+Louis Blanc:41.95:10h36
+Gambetta:43.69:10h36
+Port Marianne:41.82:10h36
+Les Arceaux:41.02:10h36
+Cité Mion:42.56:10h36
+Nouveau Saint-Roch:42.34:10h36
+Renouvier:42.66:10h36
+Odysseum:42.96:10h36
+Saint-Denis:43.71:10h36
+Richter:44.4:10h36
+Charles Flahault:44.16:10h36
+Voltaire:43.07:10h36
+Prés d Arènes:44.13:10h36
+Garcia Lorca:43.51:10h36
+Vert Bois:43.52:10h36
+Malbosc:43.72:10h36
+Occitanie:43.99:10h36
+FacdesSciences:45.59:10h36
+Fac de Lettres:45.25:10h36
+Aiguelongue:46.73:10h36
+Jeu de Mail des Abbés:46.16:10h36
+Euromédecine:46.9:10h36
+Marie Caizergues:46.66:10h36
+Sabines:47.05:10h36
+Celleneuve:47.72:10h36
+Jardin de la Lironde:47.77:10h36
+Père Soulas:46.97:10h36
+Place Viala:46.76:10h36
+Hôtel du Département:46.83:10h36
+Tonnelles:46.9:10h36
+Parvis Jules Ferry - Gare Saint-Roch:46.96:10h36
+Pont de Lattes - Gare Saint-Roch:47.87:10h36
+Deux Ponts - Gare Saint-Roch:48.42:10h36
+Providence - Ovalie:48.45:10h36
+Pérols Etang de l Or:47.97:10h36
+Albert 1er - Cathédrale:48.01:10h36
+Saint-Guilhem - Courreau:48.51:10h36
+Sud De France:48.31:10h36
+Comedie Baudin:48.78:10h36
+Jean de Beins:49.57:10h36
+Rue Jules Ferry - Gare Saint-Roch:66.67:11h06
+Comédie:50.83:11h06
+Hôtel de Ville:40.14:11h06
+Corum:32.19:11h06
+Place Albert 1er - St Charles:36.12:11h06
+Foch:38.43:11h06
+Halles Castellane:44.85:11h06
+Observatoire:47.05:11h06
+Rondelet:49.47:11h06
+Plan Cabanes:47.85:11h06
+Boutonnet:47.29:11h06
+Emile Combes:45.43:11h06
+Beaux-Arts:44.82:11h06
+Les Aubes:46.08:11h06
+Antigone centre:45.51:11h06
+Médiathèque Emile Zola:43.84:11h06
+Nombre d Or:45.31:11h06
+Louis Blanc:46.61:11h06
+Gambetta:48.1:11h06
+Port Marianne:46.01:11h06
+Les Arceaux:45.01:11h06
+Cité Mion:46.37:11h06
+Nouveau Saint-Roch:45.99:11h06
+Renouvier:46.15:11h06
+Odysseum:46.31:11h06
+Saint-Denis:46.93:11h06
+Richter:47.51:11h06
+Charles Flahault:47.15:11h06
+Voltaire:45.95:11h06
+Prés d Arènes:47.34:11h06
+Garcia Lorca:46.62:11h06
+Vert Bois:46.53:11h06
+Malbosc:46.63:11h06
+Occitanie:46.83:11h06
+FacdesSciences:48.34:11h06
+Fac de Lettres:47.93:11h06
+Aiguelongue:49.0:11h06
+Jeu de Mail des Abbés:48.37:11h06
+Euromédecine:49.05:11h06
+Marie Caizergues:48.76:11h06
+Sabines:49.09:11h06
+Celleneuve:49.71:11h06
+Jardin de la Lironde:49.72:11h06
+Père Soulas:48.59:11h06
+Place Viala:48.34:11h06
+Hôtel du Département:48.65:11h06
+Tonnelles:48.68:11h06
+Parvis Jules Ferry - Gare Saint-Roch:48.71:11h06
+Pont de Lattes - Gare Saint-Roch:49.58:11h06
+Deux Ponts - Gare Saint-Roch:50.34:11h06
+Providence - Ovalie:50.33:11h06
+Pérols Etang de l Or:49.82:11h06
+Albert 1er - Cathédrale:49.82:11h06
+Saint-Guilhem - Courreau:50.29:11h06
+Sud De France:50.06:11h06
+Comedie Baudin:50.5:11h06
+Jean de Beins:51.26:11h06
+Rue Jules Ferry - Gare Saint-Roch:66.67:11h36
+Comédie:50.83:11h36
+Hôtel de Ville:40.14:11h36
+Corum:32.19:11h36
+Place Albert 1er - St Charles:36.86:11h36
+Foch:39.05:11h36
+Halles Castellane:45.38:11h36
+Observatoire:47.52:11h36
+Rondelet:49.88:11h36
+Plan Cabanes:49.06:11h36
+Boutonnet:48.38:11h36
+Emile Combes:46.44:11h36
+Beaux-Arts:45.75:11h36
+Les Aubes:46.94:11h36
+Antigone centre:45.9:11h36
+Médiathèque Emile Zola:44.2:11h36
+Nombre d Or:45.65:11h36
+Louis Blanc:46.93:11h36
+Gambetta:48.41:11h36
+Port Marianne:46.3:11h36
+Les Arceaux:45.28:11h36
+Cité Mion:46.64:11h36
+Nouveau Saint-Roch:46.24:11h36
+Renouvier:46.39:11h36
+Odysseum:46.54:11h36
+Saint-Denis:47.15:11h36
+Richter:47.72:11h36
+Charles Flahault:47.8:11h36
+Voltaire:46.59:11h36
+Prés d Arènes:47.95:11h36
+Garcia Lorca:47.21:11h36
+Vert Bois:47.1:11h36
+Malbosc:47.19:11h36
+Occitanie:47.36:11h36
+FacdesSciences:48.87:11h36
+Fac de Lettres:48.44:11h36
+Aiguelongue:49.49:11h36
+Jeu de Mail des Abbés:48.85:11h36
+Euromédecine:49.52:11h36
+Marie Caizergues:49.22:11h36
+Sabines:49.54:11h36
+Celleneuve:50.15:11h36
+Jardin de la Lironde:50.14:11h36
+Père Soulas:49.0:11h36
+Place Viala:48.75:11h36
+Hôtel du Département:49.32:11h36
+Tonnelles:49.33:11h36
+Parvis Jules Ferry - Gare Saint-Roch:49.35:11h36
+Pont de Lattes - Gare Saint-Roch:50.21:11h36
+Deux Ponts - Gare Saint-Roch:50.96:11h36
+Providence - Ovalie:50.94:11h36
+Pérols Etang de l Or:50.41:11h36
+Albert 1er - Cathédrale:50.4:11h36
+Saint-Guilhem - Courreau:50.86:11h36
+Sud De France:50.62:11h36
+Comedie Baudin:51.05:11h36
+Jean de Beins:51.8:11h36
+Rue Jules Ferry - Gare Saint-Roch:66.67:12h06
+Comédie:53.33:12h06
+Hôtel de Ville:43.89:12h06
+Corum:35.0:12h06
+Place Albert 1er - St Charles:39.11:12h06
+Foch:40.93:12h06
+Halles Castellane:46.98:12h06
+Observatoire:48.92:12h06
+Rondelet:51.13:12h06
+Plan Cabanes:49.35:12h06
+Boutonnet:48.65:12h06
+Emile Combes:46.68:12h06
+Beaux-Arts:45.97:12h06
+Les Aubes:47.15:12h06
+Antigone centre:46.09:12h06
+Médiathèque Emile Zola:44.38:12h06
+Nombre d Or:46.18:12h06
+Louis Blanc:47.44:12h06
+Gambetta:48.89:12h06
+Port Marianne:46.76:12h06
+Les Arceaux:45.72:12h06
+Cité Mion:47.05:12h06
+Nouveau Saint-Roch:46.64:12h06
+Renouvier:46.78:12h06
+Odysseum:46.91:12h06
+Saint-Denis:47.51:12h06
+Richter:48.06:12h06
+Charles Flahault:48.13:12h06
+Voltaire:46.9:12h06
+Prés d Arènes:48.25:12h06
+Garcia Lorca:47.5:12h06
+Vert Bois:47.58:12h06
+Malbosc:47.66:12h06
+Occitanie:47.82:12h06
+FacdesSciences:49.31:12h06
+Fac de Lettres:48.63:12h06
+Aiguelongue:49.68:12h06
+Jeu de Mail des Abbés:49.03:12h06
+Euromédecine:49.7:12h06
+Marie Caizergues:49.39:12h06
+Sabines:49.71:12h06
+Celleneuve:50.32:12h06
+Jardin de la Lironde:50.31:12h06
+Père Soulas:49.17:12h06
+Place Viala:48.91:12h06
+Hôtel du Département:49.47:12h06
+Tonnelles:49.48:12h06
+Parvis Jules Ferry - Gare Saint-Roch:49.5:12h06
+Pont de Lattes - Gare Saint-Roch:50.19:12h06
+Deux Ponts - Gare Saint-Roch:50.68:12h06
+Providence - Ovalie:50.67:12h06
+Pérols Etang de l Or:50.15:12h06
+Albert 1er - Cathédrale:50.14:12h06
+Saint-Guilhem - Courreau:50.6:12h06
+Sud De France:50.59:12h06
+Comedie Baudin:50.81:12h06
+Jean de Beins:51.56:12h06
+Rue Jules Ferry - Gare Saint-Roch:66.67:12h36
+Comédie:53.33:12h36
+Hôtel de Ville:43.89:12h36
+Corum:35.0:12h36
+Place Albert 1er - St Charles:39.11:12h36
+Foch:40.93:12h36
+Halles Castellane:46.98:12h36
+Observatoire:48.92:12h36
+Rondelet:51.13:12h36
+Plan Cabanes:49.35:12h36
+Boutonnet:48.65:12h36
+Emile Combes:46.68:12h36
+Beaux-Arts:45.97:12h36
+Les Aubes:47.15:12h36
+Antigone centre:46.09:12h36
+Médiathèque Emile Zola:44.38:12h36
+Nombre d Or:46.18:12h36
+Louis Blanc:47.44:12h36
+Gambetta:48.89:12h36
+Port Marianne:48.94:12h36
+Les Arceaux:47.8:12h36
+Cité Mion:49.04:12h36
+Nouveau Saint-Roch:48.54:12h36
+Renouvier:48.6:12h36
+Odysseum:48.66:12h36
+Saint-Denis:49.19:12h36
+Richter:49.68:12h36
+Charles Flahault:49.25:12h36
+Voltaire:47.98:12h36
+Prés d Arènes:49.3:12h36
+Garcia Lorca:48.51:12h36
+Vert Bois:48.75:12h36
+Malbosc:48.79:12h36
+Occitanie:48.83:12h36
+FacdesSciences:50.29:12h36
+Fac de Lettres:49.82:12h36
+Aiguelongue:50.84:12h36
+Jeu de Mail des Abbés:50.16:12h36
+Euromédecine:50.79:12h36
+Marie Caizergues:50.46:12h36
+Sabines:50.76:12h36
+Celleneuve:51.33:12h36
+Jardin de la Lironde:51.3:12h36
+Père Soulas:50.14:12h36
+Place Viala:49.85:12h36
+Hôtel du Département:50.4:12h36
+Tonnelles:50.39:12h36
+Parvis Jules Ferry - Gare Saint-Roch:50.38:12h36
+Pont de Lattes - Gare Saint-Roch:51.06:12h36
+Deux Ponts - Gare Saint-Roch:51.54:12h36
+Providence - Ovalie:51.51:12h36
+Pérols Etang de l Or:50.97:12h36
+Albert 1er - Cathédrale:50.95:12h36
+Saint-Guilhem - Courreau:51.16:12h36
+Sud De France:50.92:12h36
+Comedie Baudin:51.12:12h36
+Jean de Beins:51.87:12h36
+Rue Jules Ferry - Gare Saint-Roch:58.33:13h06
+Comédie:49.17:13h06
+Hôtel de Ville:39.03:13h06
+Corum:29.27:13h06
+Place Albert 1er - St Charles:34.53:13h06
+Foch:37.11:13h06
+Halles Castellane:43.71:13h06
+Observatoire:46.06:13h06
+Rondelet:48.58:13h06
+Plan Cabanes:47.06:13h06
+Boutonnet:47.32:13h06
+Emile Combes:45.46:13h06
+Beaux-Arts:43.89:13h06
+Les Aubes:45.22:13h06
+Antigone centre:44.29:13h06
+Médiathèque Emile Zola:42.69:13h06
+Nombre d Or:44.59:13h06
+Louis Blanc:46.28:13h06
+Gambetta:47.79:13h06
+Port Marianne:47.9:13h06
+Les Arceaux:46.81:13h06
+Cité Mion:48.09:13h06
+Nouveau Saint-Roch:47.63:13h06
+Renouvier:48.25:13h06
+Odysseum:48.32:13h06
+Saint-Denis:48.87:13h06
+Richter:49.37:13h06
+Charles Flahault:48.95:13h06
+Voltaire:47.69:13h06
+Prés d Arènes:49.02:13h06
+Garcia Lorca:48.24:13h06
+Vert Bois:48.49:13h06
+Malbosc:48.54:13h06
+Occitanie:48.58:13h06
+FacdesSciences:50.05:13h06
+Fac de Lettres:49.59:13h06
+Aiguelongue:50.61:13h06
+Jeu de Mail des Abbés:49.94:13h06
+Euromédecine:50.58:13h06
+Marie Caizergues:50.25:13h06
+Sabines:50.55:13h06
+Celleneuve:51.13:13h06
+Jardin de la Lironde:51.11:13h06
+Père Soulas:49.95:13h06
+Place Viala:49.67:13h06
+Hôtel du Département:50.22:13h06
+Tonnelles:50.22:13h06
+Parvis Jules Ferry - Gare Saint-Roch:50.21:13h06
+Pont de Lattes - Gare Saint-Roch:50.89:13h06
+Deux Ponts - Gare Saint-Roch:51.37:13h06
+Providence - Ovalie:51.34:13h06
+Pérols Etang de l Or:50.81:13h06
+Albert 1er - Cathédrale:50.79:13h06
+Saint-Guilhem - Courreau:51.24:13h06
+Sud De France:50.99:13h06
+Comedie Baudin:51.2:13h06
+Jean de Beins:51.94:13h06
+Rue Jules Ferry - Gare Saint-Roch:66.67:13h36
+Comédie:53.33:13h36
+Hôtel de Ville:41.81:13h36
+Corum:31.35:13h36
+Place Albert 1er - St Charles:36.19:13h36
+Foch:38.5:13h36
+Halles Castellane:44.9:13h36
+Observatoire:47.1:13h36
+Rondelet:49.51:13h36
+Plan Cabanes:47.89:13h36
+Boutonnet:48.08:13h36
+Emile Combes:46.16:13h36
+Beaux-Arts:44.53:13h36
+Les Aubes:45.81:13h36
+Antigone centre:44.84:13h36
+Médiathèque Emile Zola:43.21:13h36
+Nombre d Or:45.08:13h36
+Louis Blanc:46.74:13h36
+Gambetta:48.23:13h36
+Port Marianne:48.32:13h36
+Les Arceaux:47.21:13h36
+Cité Mion:48.47:13h36
+Nouveau Saint-Roch:48.0:13h36
+Renouvier:48.6:13h36
+Odysseum:48.66:13h36
+Saint-Denis:49.19:13h36
+Richter:49.68:13h36
+Charles Flahault:49.25:13h36
+Voltaire:47.98:13h36
+Prés d Arènes:49.3:13h36
+Garcia Lorca:48.51:13h36
+Vert Bois:48.75:13h36
+Malbosc:48.41:13h36
+Occitanie:48.37:13h36
+FacdesSciences:49.84:13h36
+Fac de Lettres:49.38:13h36
+Aiguelongue:50.41:13h36
+Jeu de Mail des Abbés:49.75:13h36
+Euromédecine:50.39:13h36
+Marie Caizergues:50.07:13h36
+Sabines:50.37:13h36
+Celleneuve:50.96:13h36
+Jardin de la Lironde:50.94:13h36
+Père Soulas:49.78:13h36
+Place Viala:49.79:13h36
+Hôtel du Département:50.33:13h36
+Tonnelles:50.86:13h36
+Parvis Jules Ferry - Gare Saint-Roch:50.58:13h36
+Pont de Lattes - Gare Saint-Roch:51.25:13h36
+Deux Ponts - Gare Saint-Roch:51.72:13h36
+Providence - Ovalie:51.69:13h36
+Pérols Etang de l Or:51.12:13h36
+Albert 1er - Cathédrale:51.1:13h36
+Saint-Guilhem - Courreau:51.54:13h36
+Sud De France:51.06:13h36
+Comedie Baudin:51.26:13h36
+Jean de Beins:52.01:13h36
+Rue Jules Ferry - Gare Saint-Roch:66.67:14h06
+Comédie:53.33:14h06
+Hôtel de Ville:41.81:14h06
+Corum:31.35:14h06
+Place Albert 1er - St Charles:35.45:14h06
+Foch:37.88:14h06
+Halles Castellane:44.37:14h06
+Observatoire:48.2:14h06
+Rondelet:50.48:14h06
+Plan Cabanes:48.77:14h06
+Boutonnet:48.88:14h06
+Emile Combes:46.89:14h06
+Beaux-Arts:45.21:14h06
+Les Aubes:46.44:14h06
+Antigone centre:45.43:14h06
+Médiathèque Emile Zola:43.37:14h06
+Nombre d Or:45.23:14h06
+Louis Blanc:46.54:14h06
+Gambetta:48.04:14h06
+Port Marianne:48.13:14h06
+Les Arceaux:47.33:14h06
+Cité Mion:48.59:14h06
+Nouveau Saint-Roch:48.11:14h06
+Renouvier:49.23:14h06
+Odysseum:49.26:14h06
+Saint-Denis:49.77:14h06
+Richter:50.01:14h06
+Charles Flahault:49.56:14h06
+Voltaire:48.28:14h06
+Prés d Arènes:49.59:14h06
+Garcia Lorca:48.8:14h06
+Vert Bois:48.83:14h06
+Malbosc:48.49:14h06
+Occitanie:48.44:14h06
+FacdesSciences:49.92:14h06
+Fac de Lettres:49.46:14h06
+Aiguelongue:50.15:14h06
+Jeu de Mail des Abbés:49.48:14h06
+Euromédecine:50.14:14h06
+Marie Caizergues:49.82:14h06
+Sabines:50.13:14h06
+Celleneuve:50.72:14h06
+Jardin de la Lironde:50.71:14h06
+Père Soulas:49.55:14h06
+Place Viala:49.56:14h06
+Hôtel du Département:50.12:14h06
+Tonnelles:50.65:14h06
+Parvis Jules Ferry - Gare Saint-Roch:50.37:14h06
+Pont de Lattes - Gare Saint-Roch:51.05:14h06
+Deux Ponts - Gare Saint-Roch:51.52:14h06
+Providence - Ovalie:51.49:14h06
+Pérols Etang de l Or:50.93:14h06
+Albert 1er - Cathédrale:50.91:14h06
+Saint-Guilhem - Courreau:51.36:14h06
+Sud De France:50.88:14h06
+Comedie Baudin:51.09:14h06
+Jean de Beins:51.83:14h06
+Rue Jules Ferry - Gare Saint-Roch:66.67:14h36
+Comédie:53.33:14h36
+Hôtel de Ville:41.81:14h36
+Corum:31.35:14h36
+Place Albert 1er - St Charles:35.45:14h36
+Foch:37.88:14h36
+Halles Castellane:44.37:14h36
+Observatoire:49.76:14h36
+Rondelet:51.87:14h36
+Plan Cabanes:50.02:14h36
+Boutonnet:50.02:14h36
+Emile Combes:47.93:14h36
+Beaux-Arts:46.17:14h36
+Les Aubes:47.33:14h36
+Antigone centre:46.26:14h36
+Médiathèque Emile Zola:44.15:14h36
+Nombre d Or:45.97:14h36
+Louis Blanc:47.23:14h36
+Gambetta:48.69:14h36
+Port Marianne:48.76:14h36
+Les Arceaux:47.93:14h36
+Cité Mion:49.16:14h36
+Nouveau Saint-Roch:48.65:14h36
+Renouvier:49.75:14h36
+Odysseum:49.76:14h36
+Saint-Denis:50.25:14h36
+Richter:50.47:14h36
+Charles Flahault:50.01:14h36
+Voltaire:48.28:14h36
+Prés d Arènes:49.59:14h36
+Garcia Lorca:48.8:14h36
+Vert Bois:48.83:14h36
+Malbosc:48.49:14h36
+Occitanie:48.35:14h36
+FacdesSciences:49.83:14h36
+Fac de Lettres:49.37:14h36
+Aiguelongue:50.06:14h36
+Jeu de Mail des Abbés:49.4:14h36
+Euromédecine:50.06:14h36
+Marie Caizergues:49.74:14h36
+Sabines:50.06:14h36
+Celleneuve:50.95:14h36
+Jardin de la Lironde:50.92:14h36
+Père Soulas:49.77:14h36
+Place Viala:50.33:14h36
+Hôtel du Département:50.86:14h36
+Tonnelles:51.38:14h36
+Parvis Jules Ferry - Gare Saint-Roch:51.09:14h36
+Pont de Lattes - Gare Saint-Roch:51.75:14h36
+Deux Ponts - Gare Saint-Roch:52.21:14h36
+Providence - Ovalie:52.17:14h36
+Pérols Etang de l Or:51.59:14h36
+Albert 1er - Cathédrale:51.56:14h36
+Saint-Guilhem - Courreau:51.99:14h36
+Sud De France:51.5:14h36
+Comedie Baudin:51.7:14h36
+Jean de Beins:52.33:14h36
+Rue Jules Ferry - Gare Saint-Roch:66.67:15h06
+Comédie:48.33:15h06
+Hôtel de Ville:38.47:15h06
+Corum:28.85:15h06
+Place Albert 1er - St Charles:33.45:15h06
+Foch:36.21:15h06
+Halles Castellane:42.94:15h06
+Observatoire:48.51:15h06
+Rondelet:50.76:15h06
+Plan Cabanes:49.02:15h06
+Boutonnet:49.11:15h06
+Emile Combes:47.1:15h06
+Beaux-Arts:45.4:15h06
+Les Aubes:46.62:15h06
+Antigone centre:45.6:15h06
+Médiathèque Emile Zola:43.92:15h06
+Nombre d Or:45.38:15h06
+Louis Blanc:47.02:15h06
+Gambetta:48.5:15h06
+Port Marianne:48.57:15h06
+Les Arceaux:47.75:15h06
+Cité Mion:48.99:15h06
+Nouveau Saint-Roch:48.49:15h06
+Renouvier:49.59:15h06
+Odysseum:49.61:15h06
+Saint-Denis:50.1:15h06
+Richter:50.1:15h06
+Charles Flahault:49.65:15h06
+Voltaire:47.94:15h06
+Prés d Arènes:49.26:15h06
+Garcia Lorca:48.47:15h06
+Vert Bois:48.52:15h06
+Malbosc:48.19:15h06
+Occitanie:48.06:15h06
+FacdesSciences:49.54:15h06
+Fac de Lettres:49.09:15h06
+Aiguelongue:49.79:15h06
+Jeu de Mail des Abbés:49.14:15h06
+Euromédecine:49.8:15h06
+Marie Caizergues:49.49:15h06
+Sabines:49.81:15h06
+Celleneuve:50.71:15h06
+Jardin de la Lironde:50.69:15h06
+Père Soulas:49.54:15h06
+Place Viala:50.11:15h06
+Hôtel du Département:50.65:15h06
+Tonnelles:51.17:15h06
+Parvis Jules Ferry - Gare Saint-Roch:51.14:15h06
+Pont de Lattes - Gare Saint-Roch:51.8:15h06
+Deux Ponts - Gare Saint-Roch:52.26:15h06
+Providence - Ovalie:52.22:15h06
+Pérols Etang de l Or:51.64:15h06
+Albert 1er - Cathédrale:51.61:15h06
+Saint-Guilhem - Courreau:52.04:15h06
+Sud De France:51.55:15h06
+Comedie Baudin:51.74:15h06
+Jean de Beins:52.37:15h06
+Rue Jules Ferry - Gare Saint-Roch:66.67:15h36
+Comédie:48.33:15h36
+Hôtel de Ville:42.64:15h36
+Corum:31.98:15h36
+Place Albert 1er - St Charles:35.95:15h36
+Foch:40.38:15h36
+Halles Castellane:46.51:15h36
+Observatoire:51.64:15h36
+Rondelet:53.54:15h36
+Plan Cabanes:51.52:15h36
+Boutonnet:50.62:15h36
+Emile Combes:48.49:15h36
+Beaux-Arts:46.68:15h36
+Les Aubes:47.81:15h36
+Antigone centre:46.71:15h36
+Médiathèque Emile Zola:45.35:15h36
+Nombre d Or:46.73:15h36
+Louis Blanc:47.6:15h36
+Gambetta:49.04:15h36
+Port Marianne:49.09:15h36
+Les Arceaux:48.24:15h36
+Cité Mion:49.46:15h36
+Nouveau Saint-Roch:48.94:15h36
+Renouvier:50.55:15h36
+Odysseum:50.52:15h36
+Saint-Denis:50.98:15h36
+Richter:50.95:15h36
+Charles Flahault:50.47:15h36
+Voltaire:48.73:15h36
+Prés d Arènes:50.02:15h36
+Garcia Lorca:49.21:15h36
+Vert Bois:49.24:15h36
+Malbosc:48.88:15h36
+Occitanie:48.73:15h36
+FacdesSciences:50.2:15h36
+Fac de Lettres:49.96:15h36
+Aiguelongue:50.64:15h36
+Jeu de Mail des Abbés:49.96:15h36
+Euromédecine:50.6:15h36
+Marie Caizergues:50.28:15h36
+Sabines:50.57:15h36
+Celleneuve:51.45:15h36
+Jardin de la Lironde:51.42:15h36
+Père Soulas:50.25:15h36
+Place Viala:50.52:15h36
+Hôtel du Département:51.05:15h36
+Tonnelles:51.56:15h36
+Parvis Jules Ferry - Gare Saint-Roch:51.53:15h36
+Pont de Lattes - Gare Saint-Roch:52.18:15h36
+Deux Ponts - Gare Saint-Roch:52.64:15h36
+Providence - Ovalie:52.59:15h36
+Pérols Etang de l Or:52.0:15h36
+Albert 1er - Cathédrale:51.96:15h36
+Saint-Guilhem - Courreau:52.39:15h36
+Sud De France:51.89:15h36
+Comedie Baudin:52.08:15h36
+Jean de Beins:52.7:15h36
+Rue Jules Ferry - Gare Saint-Roch:66.67:16h07
+Comédie:48.33:16h07
+Hôtel de Ville:42.64:16h07
+Corum:34.06:16h07
+Place Albert 1er - St Charles:36.88:16h07
+Foch:41.15:16h07
+Halles Castellane:47.18:16h07
+Observatoire:52.22:16h07
+Rondelet:54.05:16h07
+Plan Cabanes:51.98:16h07
+Boutonnet:51.8:16h07
+Emile Combes:50.61:16h07
+Beaux-Arts:48.64:16h07
+Les Aubes:49.63:16h07
+Antigone centre:48.4:16h07
+Médiathèque Emile Zola:46.55:16h07
+Nombre d Or:47.86:16h07
+Louis Blanc:48.67:16h07
+Gambetta:50.06:16h07
+Port Marianne:50.05:16h07
+Les Arceaux:49.16:16h07
+Cité Mion:50.33:16h07
+Nouveau Saint-Roch:50.32:16h07
+Renouvier:51.35:16h07
+Odysseum:51.29:16h07
+Saint-Denis:51.72:16h07
+Richter:51.43:16h07
+Charles Flahault:50.93:16h07
+Voltaire:49.61:16h07
+Prés d Arènes:50.87:16h07
+Garcia Lorca:50.03:16h07
+Vert Bois:50.23:16h07
+Malbosc:49.84:16h07
+Occitanie:49.66:16h07
+FacdesSciences:51.1:16h07
+Fac de Lettres:50.84:16h07
+Aiguelongue:51.49:16h07
+Jeu de Mail des Abbés:50.8:16h07
+Euromédecine:51.42:16h07
+Marie Caizergues:51.07:16h07
+Sabines:51.04:16h07
+Celleneuve:51.91:16h07
+Jardin de la Lironde:51.87:16h07
+Père Soulas:50.69:16h07
+Place Viala:50.95:16h07
+Hôtel du Département:51.47:16h07
+Tonnelles:51.97:16h07
+Parvis Jules Ferry - Gare Saint-Roch:51.93:16h07
+Pont de Lattes - Gare Saint-Roch:52.57:16h07
+Deux Ponts - Gare Saint-Roch:53.02:16h07
+Providence - Ovalie:52.96:16h07
+Pérols Etang de l Or:52.4:16h07
+Albert 1er - Cathédrale:52.35:16h07
+Saint-Guilhem - Courreau:52.77:16h07
+Sud De France:52.27:16h07
+Comedie Baudin:52.45:16h07
+Jean de Beins:53.06:16h07
+Rue Jules Ferry - Gare Saint-Roch:66.67:16h37
+Comédie:48.33:16h37
+Hôtel de Ville:42.64:16h37
+Corum:34.06:16h37
+Place Albert 1er - St Charles:36.88:16h37
+Foch:41.15:16h37
+Halles Castellane:47.18:16h37
+Observatoire:52.22:16h37
+Rondelet:54.05:16h37
+Plan Cabanes:51.98:16h37
+Boutonnet:51.04:16h37
+Emile Combes:49.92:16h37
+Beaux-Arts:48.0:16h37
+Les Aubes:49.03:16h37
+Antigone centre:47.85:16h37
+Médiathèque Emile Zola:46.81:16h37
+Nombre d Or:48.1:16h37
+Louis Blanc:48.55:16h37
+Gambetta:49.95:16h37
+Port Marianne:49.95:16h37
+Les Arceaux:49.06:16h37
+Cité Mion:50.24:16h37
+Nouveau Saint-Roch:50.23:16h37
+Renouvier:51.26:16h37
+Odysseum:51.21:16h37
+Saint-Denis:52.12:16h37
+Richter:52.05:16h37
+Charles Flahault:51.53:16h37
+Voltaire:49.75:16h37
+Prés d Arènes:51.01:16h37
+Garcia Lorca:50.17:16h37
+Vert Bois:50.36:16h37
+Malbosc:49.97:16h37
+Occitanie:49.79:16h37
+FacdesSciences:51.22:16h37
+Fac de Lettres:50.72:16h37
+Aiguelongue:51.38:16h37
+Jeu de Mail des Abbés:50.69:16h37
+Euromédecine:51.31:16h37
+Marie Caizergues:51.28:16h37
+Sabines:51.25:16h37
+Celleneuve:52.11:16h37
+Jardin de la Lironde:52.06:16h37
+Père Soulas:50.88:16h37
+Place Viala:51.13:16h37
+Hôtel du Département:51.65:16h37
+Tonnelles:52.15:16h37
+Parvis Jules Ferry - Gare Saint-Roch:52.11:16h37
+Pont de Lattes - Gare Saint-Roch:52.74:16h37
+Deux Ponts - Gare Saint-Roch:53.19:16h37
+Providence - Ovalie:53.13:16h37
+Pérols Etang de l Or:52.56:16h37
+Albert 1er - Cathédrale:52.51:16h37
+Saint-Guilhem - Courreau:52.92:16h37
+Sud De France:51.96:16h37
+Comedie Baudin:52.15:16h37
+Jean de Beins:52.77:16h37
+Rue Jules Ferry - Gare Saint-Roch:66.67:17h07
+Comédie:50.83:17h07
+Hôtel de Ville:44.31:17h07
+Corum:35.31:17h07
+Place Albert 1er - St Charles:38.62:17h07
+Foch:42.6:17h07
+Halles Castellane:48.42:17h07
+Observatoire:53.3:17h07
+Rondelet:55.02:17h07
+Plan Cabanes:53.69:17h07
+Boutonnet:52.59:17h07
+Emile Combes:51.33:17h07
+Beaux-Arts:49.31:17h07
+Les Aubes:50.25:17h07
+Antigone centre:48.98:17h07
+Médiathèque Emile Zola:47.88:17h07
+Nombre d Or:49.47:17h07
+Louis Blanc:49.85:17h07
+Gambetta:51.17:17h07
+Port Marianne:50.8:17h07
+Les Arceaux:49.87:17h07
+Cité Mion:51.01:17h07
+Nouveau Saint-Roch:50.42:17h07
+Renouvier:51.45:17h07
+Odysseum:51.39:17h07
+Saint-Denis:52.3:17h07
+Richter:52.21:17h07
+Charles Flahault:51.69:17h07
+Voltaire:49.91:17h07
+Prés d Arènes:51.16:17h07
+Garcia Lorca:50.32:17h07
+Vert Bois:50.5:17h07
+Malbosc:50.11:17h07
+Occitanie:50.1:17h07
+FacdesSciences:51.53:17h07
+Fac de Lettres:51.02:17h07
+Aiguelongue:51.67:17h07
+Jeu de Mail des Abbés:50.97:17h07
+Euromédecine:51.59:17h07
+Marie Caizergues:51.55:17h07
+Sabines:51.2:17h07
+Celleneuve:52.07:17h07
+Jardin de la Lironde:52.02:17h07
+Père Soulas:50.84:17h07
+Place Viala:51.37:17h07
+Hôtel du Département:51.89:17h07
+Tonnelles:52.38:17h07
+Parvis Jules Ferry - Gare Saint-Roch:52.33:17h07
+Pont de Lattes - Gare Saint-Roch:52.79:17h07
+Deux Ponts - Gare Saint-Roch:53.24:17h07
+Providence - Ovalie:53.17:17h07
+Pérols Etang de l Or:52.6:17h07
+Albert 1er - Cathédrale:52.4:17h07
+Saint-Guilhem - Courreau:52.58:17h07
+Sud De France:51.63:17h07
+Comedie Baudin:51.82:17h07
+Jean de Beins:52.45:17h07
+Rue Jules Ferry - Gare Saint-Roch:66.67:17h37
+Comédie:53.33:17h37
+Hôtel de Ville:45.97:17h37
+Corum:36.56:17h37
+Place Albert 1er - St Charles:39.62:17h37
+Foch:43.43:17h37
+Halles Castellane:49.13:17h37
+Observatoire:53.93:17h37
+Rondelet:55.58:17h37
+Plan Cabanes:55.02:17h37
+Boutonnet:53.8:17h37
+Emile Combes:52.45:17h37
+Beaux-Arts:50.33:17h37
+Les Aubes:51.2:17h37
+Antigone centre:49.04:17h37
+Médiathèque Emile Zola:47.93:17h37
+Nombre d Or:49.52:17h37
+Louis Blanc:49.2:17h37
+Gambetta:50.56:17h37
+Port Marianne:50.22:17h37
+Les Arceaux:49.91:17h37
+Cité Mion:51.05:17h37
+Nouveau Saint-Roch:50.46:17h37
+Renouvier:50.96:17h37
+Odysseum:50.42:17h37
+Saint-Denis:51.37:17h37
+Richter:51.32:17h37
+Charles Flahault:50.38:17h37
+Voltaire:48.64:17h37
+Prés d Arènes:49.94:17h37
+Garcia Lorca:49.13:17h37
+Vert Bois:49.35:17h37
+Malbosc:49.0:17h37
+Occitanie:49.03:17h37
+FacdesSciences:50.48:17h37
+Fac de Lettres:50.01:17h37
+Aiguelongue:50.68:17h37
+Jeu de Mail des Abbés:50.0:17h37
+Euromédecine:50.65:17h37
+Marie Caizergues:50.63:17h37
+Sabines:50.31:17h37
+Celleneuve:51.19:17h37
+Jardin de la Lironde:51.17:17h37
+Père Soulas:50.0:17h37
+Place Viala:51.12:17h37
+Hôtel du Département:51.63:17h37
+Tonnelles:52.13:17h37
+Parvis Jules Ferry - Gare Saint-Roch:51.83:17h37
+Pont de Lattes - Gare Saint-Roch:52.3:17h37
+Deux Ponts - Gare Saint-Roch:52.75:17h37
+Providence - Ovalie:52.7:17h37
+Pérols Etang de l Or:52.14:17h37
+Albert 1er - Cathédrale:51.94:17h37
+Saint-Guilhem - Courreau:52.14:17h37
+Sud De France:51.19:17h37
+Comedie Baudin:51.39:17h37
+Jean de Beins:52.02:17h37
+Rue Jules Ferry - Gare Saint-Roch:66.67:18h07
+Comédie:53.33:18h07
+Hôtel de Ville:41.81:18h07
+Corum:33.44:18h07
+Place Albert 1er - St Charles:37.12:18h07
+Foch:45.52:18h07
+Halles Castellane:49.73:18h07
+Observatoire:54.45:18h07
+Rondelet:56.04:18h07
+Plan Cabanes:55.44:18h07
+Boutonnet:54.18:18h07
+Emile Combes:53.83:18h07
+Beaux-Arts:51.62:18h07
+Les Aubes:52.39:18h07
+Antigone centre:50.15:18h07
+Médiathèque Emile Zola:48.97:18h07
+Nombre d Or:50.5:18h07
+Louis Blanc:50.13:18h07
+Gambetta:51.44:18h07
+Port Marianne:51.05:18h07
+Les Arceaux:50.11:18h07
+Cité Mion:51.24:18h07
+Nouveau Saint-Roch:50.64:18h07
+Renouvier:51.14:18h07
+Odysseum:50.59:18h07
+Saint-Denis:51.53:18h07
+Richter:51.47:18h07
+Charles Flahault:50.53:18h07
+Voltaire:48.79:18h07
+Prés d Arènes:50.08:18h07
+Garcia Lorca:49.27:18h07
+Vert Bois:49.48:18h07
+Malbosc:49.12:18h07
+Occitanie:49.24:18h07
+FacdesSciences:50.69:18h07
+Fac de Lettres:50.21:18h07
+Aiguelongue:50.88:18h07
+Jeu de Mail des Abbés:50.2:18h07
+Euromédecine:50.83:18h07
+Marie Caizergues:50.81:18h07
+Sabines:50.79:18h07
+Celleneuve:51.96:18h07
+Jardin de la Lironde:51.92:18h07
+Père Soulas:51.02:18h07
+Place Viala:51.83:18h07
+Hôtel du Département:52.34:18h07
+Tonnelles:52.82:18h07
+Parvis Jules Ferry - Gare Saint-Roch:52.5:18h07
+Pont de Lattes - Gare Saint-Roch:52.96:18h07
+Deux Ponts - Gare Saint-Roch:53.4:18h07
+Providence - Ovalie:53.33:18h07
+Pérols Etang de l Or:52.76:18h07
+Albert 1er - Cathédrale:52.55:18h07
+Saint-Guilhem - Courreau:52.27:18h07
+Sud De France:51.32:18h07
+Comedie Baudin:51.52:18h07
+Jean de Beins:52.15:18h07
+Rue Jules Ferry - Gare Saint-Roch:66.67:18h37
+Comédie:55.83:18h37
+Hôtel de Ville:43.47:18h37
+Corum:34.69:18h37
+Place Albert 1er - St Charles:38.12:18h37
+Foch:46.35:18h37
+Halles Castellane:50.44:18h37
+Observatoire:55.08:18h37
+Rondelet:56.59:18h37
+Plan Cabanes:55.94:18h37
+Boutonnet:55.4:18h37
+Emile Combes:54.95:18h37
+Beaux-Arts:52.64:18h37
+Les Aubes:53.35:18h37
+Antigone centre:51.04:18h37
+Médiathèque Emile Zola:49.8:18h37
+Nombre d Or:51.29:18h37
+Louis Blanc:50.87:18h37
+Gambetta:52.14:18h37
+Port Marianne:51.72:18h37
+Les Arceaux:51.34:18h37
+Cité Mion:52.41:18h37
+Nouveau Saint-Roch:51.22:18h37
+Renouvier:51.17:18h37
+Odysseum:50.62:18h37
+Saint-Denis:51.56:18h37
+Richter:51.5:18h37
+Charles Flahault:50.56:18h37
+Voltaire:48.81:18h37
+Prés d Arènes:50.1:18h37
+Garcia Lorca:49.29:18h37
+Vert Bois:49.71:18h37
+Malbosc:49.34:18h37
+Occitanie:49.45:18h37
+FacdesSciences:50.89:18h37
+Fac de Lettres:50.4:18h37
+Aiguelongue:50.73:18h37
+Jeu de Mail des Abbés:50.05:18h37
+Euromédecine:50.69:18h37
+Marie Caizergues:50.68:18h37
+Sabines:50.66:18h37
+Celleneuve:51.83:18h37
+Jardin de la Lironde:51.79:18h37
+Père Soulas:50.9:18h37
+Place Viala:51.43:18h37
+Hôtel du Département:51.95:18h37
+Tonnelles:52.44:18h37
+Parvis Jules Ferry - Gare Saint-Roch:52.13:18h37
+Pont de Lattes - Gare Saint-Roch:52.59:18h37
+Deux Ponts - Gare Saint-Roch:53.04:18h37
+Providence - Ovalie:52.98:18h37
+Pérols Etang de l Or:52.42:18h37
+Albert 1er - Cathédrale:52.21:18h37
+Saint-Guilhem - Courreau:52.17:18h37
+Sud De France:51.22:18h37
+Comedie Baudin:51.42:18h37
+Jean de Beins:52.06:18h37
+Rue Jules Ferry - Gare Saint-Roch:58.33:19h07
+Comédie:51.67:19h07
+Hôtel de Ville:40.69:19h07
+Corum:30.52:19h07
+Place Albert 1er - St Charles:35.53:19h07
+Foch:44.19:19h07
+Halles Castellane:48.59:19h07
+Observatoire:53.45:19h07
+Rondelet:55.15:19h07
+Plan Cabanes:55.47:19h07
+Boutonnet:55.73:19h07
+Emile Combes:55.25:19h07
+Beaux-Arts:52.93:19h07
+Les Aubes:54.5:19h07
+Antigone centre:51.7:19h07
+Médiathèque Emile Zola:50.43:19h07
+Nombre d Or:51.14:19h07
+Louis Blanc:50.38:19h07
+Gambetta:51.67:19h07
+Port Marianne:51.28:19h07
+Les Arceaux:50.92:19h07
+Cité Mion:52.01:19h07
+Nouveau Saint-Roch:50.3:19h07
+Renouvier:50.8:19h07
+Odysseum:50.27:19h07
+Saint-Denis:51.22:19h07
+Richter:51.64:19h07
+Charles Flahault:50.24:19h07
+Voltaire:48.51:19h07
+Prés d Arènes:49.81:19h07
+Garcia Lorca:49.01:19h07
+Vert Bois:49.43:19h07
+Malbosc:49.07:19h07
+Occitanie:49.19:19h07
+FacdesSciences:50.64:19h07
+Fac de Lettres:50.16:19h07
+Aiguelongue:50.49:19h07
+Jeu de Mail des Abbés:49.82:19h07
+Euromédecine:50.47:19h07
+Marie Caizergues:50.46:19h07
+Sabines:50.45:19h07
+Celleneuve:51.63:19h07
+Jardin de la Lironde:51.59:19h07
+Père Soulas:50.7:19h07
+Place Viala:51.79:19h07
+Hôtel du Département:52.3:19h07
+Tonnelles:52.78:19h07
+Parvis Jules Ferry - Gare Saint-Roch:52.46:19h07
+Pont de Lattes - Gare Saint-Roch:52.92:19h07
+Deux Ponts - Gare Saint-Roch:53.37:19h07
+Providence - Ovalie:53.3:19h07
+Pérols Etang de l Or:52.73:19h07
+Albert 1er - Cathédrale:52.52:19h07
+Saint-Guilhem - Courreau:52.7:19h07
+Sud De France:51.97:19h07
+Comedie Baudin:52.16:19h07
+Jean de Beins:52.78:19h07
+Rue Jules Ferry - Gare Saint-Roch:58.33:19h37
+Comédie:51.67:19h37
+Hôtel de Ville:40.69:19h37
+Corum:30.52:19h37
+Place Albert 1er - St Charles:35.53:19h37
+Foch:44.19:19h37
+Halles Castellane:48.59:19h37
+Observatoire:53.45:19h37
+Rondelet:55.15:19h37
+Plan Cabanes:53.81:19h37
+Boutonnet:54.22:19h37
+Emile Combes:53.87:19h37
+Beaux-Arts:51.65:19h37
+Les Aubes:53.31:19h37
+Antigone centre:50.18:19h37
+Médiathèque Emile Zola:48.99:19h37
+Nombre d Or:49.79:19h37
+Louis Blanc:48.76:19h37
+Gambetta:50.14:19h37
+Port Marianne:49.82:19h37
+Les Arceaux:49.83:19h37
+Cité Mion:50.97:19h37
+Nouveau Saint-Roch:49.3:19h37
+Renouvier:49.85:19h37
+Odysseum:49.86:19h37
+Saint-Denis:50.82:19h37
+Richter:51.26:19h37
+Charles Flahault:49.87:19h37
+Voltaire:48.15:19h37
+Prés d Arènes:49.46:19h37
+Garcia Lorca:48.27:19h37
+Vert Bois:48.72:19h37
+Malbosc:48.38:19h37
+Occitanie:48.61:19h37
+FacdesSciences:50.08:19h37
+Fac de Lettres:49.61:19h37
+Aiguelongue:49.96:19h37
+Jeu de Mail des Abbés:49.3:19h37
+Euromédecine:49.96:19h37
+Marie Caizergues:49.96:19h37
+Sabines:49.96:19h37
+Celleneuve:51.15:19h37
+Jardin de la Lironde:51.13:19h37
+Père Soulas:50.25:19h37
+Place Viala:51.35:19h37
+Hôtel du Département:52.14:19h37
+Tonnelles:52.63:19h37
+Parvis Jules Ferry - Gare Saint-Roch:52.31:19h37
+Pont de Lattes - Gare Saint-Roch:52.77:19h37
+Deux Ponts - Gare Saint-Roch:53.22:19h37
+Providence - Ovalie:53.16:19h37
+Pérols Etang de l Or:52.59:19h37
+Albert 1er - Cathédrale:52.38:19h37
+Saint-Guilhem - Courreau:52.57:19h37
+Sud De France:51.84:19h37
+Comedie Baudin:52.03:19h37
+Jean de Beins:52.65:19h37
+Rue Jules Ferry - Gare Saint-Roch:50.0:20h07
+Comédie:47.5:20h07
+Hôtel de Ville:37.92:20h07
+Corum:28.44:20h07
+Place Albert 1er - St Charles:33.86:20h07
+Foch:42.8:20h07
+Halles Castellane:47.4:20h07
+Observatoire:52.41:20h07
+Rondelet:54.23:20h07
+Plan Cabanes:53.81:20h07
+Boutonnet:52.7:20h07
+Emile Combes:52.48:20h07
+Beaux-Arts:50.84:20h07
+Les Aubes:52.57:20h07
+Antigone centre:49.48:20h07
+Médiathèque Emile Zola:48.34:20h07
+Nombre d Or:49.17:20h07
+Louis Blanc:48.18:20h07
+Gambetta:49.59:20h07
+Port Marianne:49.3:20h07
+Les Arceaux:49.33:20h07
+Cité Mion:50.5:20h07
+Nouveau Saint-Roch:48.85:20h07
+Renouvier:49.42:20h07
+Odysseum:49.44:20h07
+Saint-Denis:50.42:20h07
+Richter:50.87:20h07
+Charles Flahault:49.5:20h07
+Voltaire:47.79:20h07
+Prés d Arènes:49.12:20h07
+Garcia Lorca:47.93:20h07
+Vert Bois:48.59:20h07
+Malbosc:48.25:20h07
+Occitanie:48.48:20h07
+FacdesSciences:49.96:20h07
+Fac de Lettres:49.73:20h07
+Aiguelongue:50.07:20h07
+Jeu de Mail des Abbés:49.41:20h07
+Euromédecine:50.07:20h07
+Marie Caizergues:50.07:20h07
+Sabines:50.06:20h07
+Celleneuve:51.25:20h07
+Jardin de la Lironde:51.22:20h07
+Père Soulas:50.34:20h07
+Place Viala:51.45:20h07
+Hôtel du Département:52.23:20h07
+Tonnelles:52.72:20h07
+Parvis Jules Ferry - Gare Saint-Roch:52.4:20h07
+Pont de Lattes - Gare Saint-Roch:52.86:20h07
+Deux Ponts - Gare Saint-Roch:53.3:20h07
+Providence - Ovalie:53.24:20h07
+Pérols Etang de l Or:52.67:20h07
+Albert 1er - Cathédrale:52.62:20h07
+Saint-Guilhem - Courreau:52.8:20h07
+Sud De France:51.84:20h07
+Comedie Baudin:52.03:20h07
+Jean de Beins:52.65:20h07
+Rue Jules Ferry - Gare Saint-Roch:50.0:20h37
+Comédie:47.5:20h37
+Hôtel de Ville:37.92:20h37
+Corum:30.52:20h37
+Place Albert 1er - St Charles:34.79:20h37
+Foch:43.57:20h37
+Halles Castellane:48.06:20h37
+Observatoire:52.99:20h37
+Rondelet:54.05:20h37
+Plan Cabanes:53.64:20h37
+Boutonnet:52.55:20h37
+Emile Combes:52.34:20h37
+Beaux-Arts:50.72:20h37
+Les Aubes:52.45:20h37
+Antigone centre:49.79:20h37
+Médiathèque Emile Zola:48.24:20h37
+Nombre d Or:49.08:20h37
+Louis Blanc:48.78:20h37
+Gambetta:50.16:20h37
+Port Marianne:50.16:20h37
+Les Arceaux:50.45:20h37
+Cité Mion:51.56:20h37
+Nouveau Saint-Roch:49.86:20h37
+Renouvier:49.87:20h37
+Odysseum:49.37:20h37
+Saint-Denis:50.36:20h37
+Richter:50.81:20h37
+Charles Flahault:49.44:20h37
+Voltaire:47.74:20h37
+Prés d Arènes:49.06:20h37
+Garcia Lorca:47.88:20h37
+Vert Bois:48.53:20h37
+Malbosc:48.2:20h37
+Occitanie:48.62:20h37
+FacdesSciences:50.09:20h37
+Fac de Lettres:49.39:20h37
+Aiguelongue:49.75:20h37
+Jeu de Mail des Abbés:49.09:20h37
+Euromédecine:49.76:20h37
+Marie Caizergues:49.77:20h37
+Sabines:49.77:20h37
+Celleneuve:50.97:20h37
+Jardin de la Lironde:50.94:20h37
+Père Soulas:50.64:20h37
+Place Viala:51.74:20h37
+Hôtel du Département:52.51:20h37
+Tonnelles:52.99:20h37
+Parvis Jules Ferry - Gare Saint-Roch:52.67:20h37
+Pont de Lattes - Gare Saint-Roch:53.12:20h37
+Deux Ponts - Gare Saint-Roch:53.56:20h37
+Providence - Ovalie:53.49:20h37
+Pérols Etang de l Or:52.92:20h37
+Albert 1er - Cathédrale:52.7:20h37
+Saint-Guilhem - Courreau:52.89:20h37
+Sud De France:51.92:20h37
+Comedie Baudin:52.11:20h37
+Jean de Beins:52.73:20h37
+Rue Jules Ferry - Gare Saint-Roch:50.0:21h07
+Comédie:55.0:21h07
+Hôtel de Ville:42.92:21h07
+Corum:32.19:21h07
+Place Albert 1er - St Charles:36.12:21h07
+Foch:44.68:21h07
+Halles Castellane:49.01:21h07
+Observatoire:53.83:21h07
+Rondelet:54.79:21h07
+Plan Cabanes:55.98:21h07
+Boutonnet:54.68:21h07
+Emile Combes:54.29:21h07
+Beaux-Arts:52.51:21h07
+Les Aubes:54.12:21h07
+Antigone centre:51.35:21h07
+Médiathèque Emile Zola:49.7:21h07
+Nombre d Or:50.45:21h07
+Louis Blanc:50.08:21h07
+Gambetta:51.39:21h07
+Port Marianne:51.32:21h07
+Les Arceaux:51.26:21h07
+Cité Mion:52.34:21h07
+Nouveau Saint-Roch:50.61:21h07
+Renouvier:50.58:21h07
+Odysseum:50.06:21h07
+Saint-Denis:51.02:21h07
+Richter:51.44:21h07
+Charles Flahault:50.05:21h07
+Voltaire:48.33:21h07
+Prés d Arènes:49.63:21h07
+Garcia Lorca:48.43:21h07
+Vert Bois:49.07:21h07
+Malbosc:48.72:21h07
+Occitanie:49.12:21h07
+FacdesSciences:50.58:21h07
+Fac de Lettres:50.1:21h07
+Aiguelongue:50.43:21h07
+Jeu de Mail des Abbés:49.76:21h07
+Euromédecine:50.41:21h07
+Marie Caizergues:50.4:21h07
+Sabines:50.39:21h07
+Celleneuve:51.57:21h07
+Jardin de la Lironde:51.54:21h07
+Père Soulas:50.65:21h07
+Place Viala:51.74:21h07
+Hôtel du Département:52.52:21h07
+Tonnelles:53.0:21h07
+Parvis Jules Ferry - Gare Saint-Roch:52.68:21h07
+Pont de Lattes - Gare Saint-Roch:53.13:21h07
+Deux Ponts - Gare Saint-Roch:53.57:21h07
+Providence - Ovalie:53.5:21h07
+Pérols Etang de l Or:52.92:21h07
+Albert 1er - Cathédrale:52.55:21h07
+Saint-Guilhem - Courreau:52.51:21h07
+Sud De France:51.55:21h07
+Comedie Baudin:51.75:21h07
+Jean de Beins:52.38:21h07
+Rue Jules Ferry - Gare Saint-Roch:41.67:21h37
+Comédie:50.83:21h37
+Hôtel de Ville:40.14:21h37
+Corum:34.27:21h37
+Place Albert 1er - St Charles:37.79:21h37
+Foch:46.07:21h37
+Halles Castellane:50.21:21h37
+Observatoire:54.87:21h37
+Rondelet:55.72:21h37
+Plan Cabanes:56.81:21h37
+Boutonnet:56.19:21h37
+Emile Combes:54.63:21h37
+Beaux-Arts:52.83:21h37
+Les Aubes:54.42:21h37
+Antigone centre:51.62:21h37
+Médiathèque Emile Zola:49.96:21h37
+Nombre d Or:50.7:21h37
+Louis Blanc:49.96:21h37
+Gambetta:51.28:21h37
+Port Marianne:51.22:21h37
+Les Arceaux:51.16:21h37
+Cité Mion:52.24:21h37
+Nouveau Saint-Roch:50.52:21h37
+Renouvier:50.49:21h37
+Odysseum:49.47:21h37
+Saint-Denis:50.46:21h37
+Richter:50.9:21h37
+Charles Flahault:49.53:21h37
+Voltaire:47.82:21h37
+Prés d Arènes:49.56:21h37
+Garcia Lorca:47.96:21h37
+Vert Bois:48.22:21h37
+Malbosc:47.9:21h37
+Occitanie:48.42:21h37
+FacdesSciences:49.89:21h37
+Fac de Lettres:49.66:21h37
+Aiguelongue:50.01:21h37
+Jeu de Mail des Abbés:49.35:21h37
+Euromédecine:50.01:21h37
+Marie Caizergues:49.7:21h37
+Sabines:49.7:21h37
+Celleneuve:50.9:21h37
+Jardin de la Lironde:50.88:21h37
+Père Soulas:50.01:21h37
+Place Viala:51.12:21h37
+Hôtel du Département:51.91:21h37
+Tonnelles:52.4:21h37
+Parvis Jules Ferry - Gare Saint-Roch:52.09:21h37
+Pont de Lattes - Gare Saint-Roch:52.39:21h37
+Deux Ponts - Gare Saint-Roch:52.84:21h37
+Providence - Ovalie:52.79:21h37
+Pérols Etang de l Or:52.22:21h37
+Albert 1er - Cathédrale:51.87:21h37
+Saint-Guilhem - Courreau:51.83:21h37
+Sud De France:50.89:21h37
+Comedie Baudin:51.1:21h37
+Jean de Beins:51.74:21h37
+Rue Jules Ferry - Gare Saint-Roch:41.67:22h07
+Comédie:50.83:22h07
+Hôtel de Ville:40.14:22h07
+Corum:34.27:22h07
+Place Albert 1er - St Charles:37.79:22h07
+Foch:46.07:22h07
+Halles Castellane:50.21:22h07
+Observatoire:54.87:22h07
+Rondelet:55.72:22h07
+Plan Cabanes:56.81:22h07
+Boutonnet:56.19:22h07
+Emile Combes:54.63:22h07
+Beaux-Arts:52.83:22h07
+Les Aubes:54.42:22h07
+Antigone centre:51.62:22h07
+Médiathèque Emile Zola:49.96:22h07
+Nombre d Or:50.7:22h07
+Louis Blanc:49.96:22h07
+Gambetta:51.28:22h07
+Port Marianne:51.22:22h07
+Les Arceaux:51.16:22h07
+Cité Mion:52.24:22h07
+Nouveau Saint-Roch:50.52:22h07
+Renouvier:50.49:22h07
+Odysseum:49.47:22h07
+Saint-Denis:50.46:22h07
+Richter:50.9:22h07
+Charles Flahault:49.53:22h07
+Voltaire:47.82:22h07
+Prés d Arènes:49.56:22h07
+Garcia Lorca:47.96:22h07
+Vert Bois:48.22:22h07
+Malbosc:47.9:22h07
+Occitanie:48.42:22h07
+FacdesSciences:49.89:22h07
+Fac de Lettres:49.66:22h07
+Aiguelongue:50.01:22h07
+Jeu de Mail des Abbés:49.35:22h07
+Euromédecine:50.01:22h07
+Marie Caizergues:49.7:22h07
+Sabines:49.7:22h07
+Celleneuve:50.9:22h07
+Jardin de la Lironde:50.88:22h07
+Père Soulas:50.01:22h07
+Place Viala:51.12:22h07
+Hôtel du Département:51.91:22h07
+Tonnelles:52.4:22h07
+Parvis Jules Ferry - Gare Saint-Roch:51.83:22h07
+Pont de Lattes - Gare Saint-Roch:52.13:22h07
+Deux Ponts - Gare Saint-Roch:52.59:22h07
+Providence - Ovalie:52.54:22h07
+Pérols Etang de l Or:51.98:22h07
+Albert 1er - Cathédrale:51.63:22h07
+Saint-Guilhem - Courreau:51.6:22h07
+Sud De France:50.66:22h07
+Comedie Baudin:50.87:22h07
+Jean de Beins:51.52:22h07
+Rue Jules Ferry - Gare Saint-Roch:41.67:22h37
+Comédie:50.83:22h37
+Hôtel de Ville:40.14:22h37
+Corum:34.27:22h37
+Place Albert 1er - St Charles:37.79:22h37
+Foch:48.16:22h37
+Halles Castellane:51.99:22h37
+Observatoire:56.43:22h37
+Rondelet:57.1:22h37
+Plan Cabanes:58.06:22h37
+Boutonnet:55.81:22h37
+Emile Combes:54.29:22h37
+Beaux-Arts:52.51:22h37
+Les Aubes:54.12:22h37
+Antigone centre:51.35:22h37
+Médiathèque Emile Zola:49.7:22h37
+Nombre d Or:50.82:22h37
+Louis Blanc:50.08:22h37
+Gambetta:51.39:22h37
+Port Marianne:51.32:22h37
+Les Arceaux:51.26:22h37
+Cité Mion:52.34:22h37
+Nouveau Saint-Roch:50.61:22h37
+Renouvier:50.58:22h37
+Odysseum:49.56:22h37
+Saint-Denis:50.54:22h37
+Richter:50.98:22h37
+Charles Flahault:49.6:22h37
+Voltaire:47.89:22h37
+Prés d Arènes:49.63:22h37
+Garcia Lorca:48.03:22h37
+Vert Bois:48.29:22h37
+Malbosc:47.96:22h37
+Occitanie:48.48:22h37
+FacdesSciences:49.95:22h37
+Fac de Lettres:49.72:22h37
+Aiguelongue:50.07:22h37
+Jeu de Mail des Abbés:49.41:22h37
+Euromédecine:50.06:22h37
+Marie Caizergues:49.75:22h37
+Sabines:49.76:22h37
+Celleneuve:50.95:22h37
+Jardin de la Lironde:50.93:22h37
+Père Soulas:50.06:22h37
+Place Viala:51.17:22h37
+Hôtel du Département:51.96:22h37
+Tonnelles:52.45:22h37
+Parvis Jules Ferry - Gare Saint-Roch:51.87:22h37
+Pont de Lattes - Gare Saint-Roch:52.18:22h37
+Deux Ponts - Gare Saint-Roch:52.63:22h37
+Providence - Ovalie:52.58:22h37
+Pérols Etang de l Or:52.02:22h37
+Albert 1er - Cathédrale:51.67:22h37
+Saint-Guilhem - Courreau:51.64:22h37
+Sud De France:50.93:22h37
+Comedie Baudin:51.13:22h37
+Jean de Beins:51.77:22h37
+Rue Jules Ferry - Gare Saint-Roch:50.0:23h07
+Comédie:55.0:23h07
+Hôtel de Ville:38.75:23h07
+Corum:35.31:23h07
+Place Albert 1er - St Charles:37.88:23h07
+Foch:48.23:23h07
+Halles Castellane:52.06:23h07
+Observatoire:56.49:23h07
+Rondelet:57.16:23h07
+Plan Cabanes:58.11:23h07
+Boutonnet:55.85:23h07
+Emile Combes:54.32:23h07
+Beaux-Arts:52.55:23h07
+Les Aubes:54.15:23h07
+Antigone centre:51.38:23h07
+Médiathèque Emile Zola:49.73:23h07
+Nombre d Or:50.48:23h07
+Louis Blanc:49.76:23h07
+Gambetta:51.09:23h07
+Port Marianne:51.03:23h07
+Les Arceaux:50.98:23h07
+Cité Mion:52.07:23h07
+Nouveau Saint-Roch:50.35:23h07
+Renouvier:50.34:23h07
+Odysseum:49.33:23h07
+Saint-Denis:50.31:23h07
+Richter:50.76:23h07
+Charles Flahault:49.4:23h07
+Voltaire:47.69:23h07
+Prés d Arènes:49.44:23h07
+Garcia Lorca:47.84:23h07
+Vert Bois:48.11:23h07
+Malbosc:47.78:23h07
+Occitanie:48.31:23h07
+FacdesSciences:49.79:23h07
+Fac de Lettres:49.56:23h07
+Aiguelongue:49.91:23h07
+Jeu de Mail des Abbés:49.25:23h07
+Euromédecine:49.92:23h07
+Marie Caizergues:49.92:23h07
+Sabines:49.92:23h07
+Celleneuve:51.11:23h07
+Jardin de la Lironde:51.09:23h07
+Père Soulas:50.21:23h07
+Place Viala:51.04:23h07
+Hôtel du Département:51.83:23h07
+Tonnelles:52.32:23h07
+Parvis Jules Ferry - Gare Saint-Roch:52.27:23h07
+Pont de Lattes - Gare Saint-Roch:52.57:23h07
+Deux Ponts - Gare Saint-Roch:53.02:23h07
+Providence - Ovalie:52.96:23h07
+Pérols Etang de l Or:52.39:23h07
+Albert 1er - Cathédrale:52.03:23h07
+Saint-Guilhem - Courreau:51.99:23h07
+Sud De France:51.28:23h07
+Comedie Baudin:51.03:23h07
+Jean de Beins:51.67:23h07
+Rue Jules Ferry - Gare Saint-Roch:50.0:23h37
+Comédie:55.0:23h37
+Hôtel de Ville:38.75:23h37
+Corum:35.31:23h37
+Place Albert 1er - St Charles:38.62:23h37
+Foch:48.85:23h37
+Halles Castellane:52.59:23h37
+Observatoire:56.95:23h37
+Rondelet:57.57:23h37
+Plan Cabanes:58.48:23h37
+Boutonnet:56.19:23h37
+Emile Combes:54.63:23h37
+Beaux-Arts:52.83:23h37
+Les Aubes:54.42:23h37
+Antigone centre:51.62:23h37
+Médiathèque Emile Zola:49.57:23h37
+Nombre d Or:50.33:23h37
+Louis Blanc:49.62:23h37
+Gambetta:50.95:23h37
+Port Marianne:50.91:23h37
+Les Arceaux:50.86:23h37
+Cité Mion:51.96:23h37
+Nouveau Saint-Roch:50.24:23h37
+Renouvier:50.23:23h37
+Odysseum:49.22:23h37
+Saint-Denis:50.22:23h37
+Richter:50.67:23h37
+Charles Flahault:49.31:23h37
+Voltaire:47.61:23h37
+Prés d Arènes:49.35:23h37
+Garcia Lorca:47.76:23h37
+Vert Bois:48.03:23h37
+Malbosc:47.71:23h37
+Occitanie:48.33:23h37
+FacdesSciences:49.8:23h37
+Fac de Lettres:49.58:23h37
+Aiguelongue:49.93:23h37
+Jeu de Mail des Abbés:49.27:23h37
+Euromédecine:49.93:23h37
+Marie Caizergues:49.93:23h37
+Sabines:49.93:23h37
+Celleneuve:51.13:23h37
+Jardin de la Lironde:51.1:23h37
+Père Soulas:49.94:23h37
+Place Viala:50.77:23h37
+Hôtel du Département:51.57:23h37
+Tonnelles:52.07:23h37
+Parvis Jules Ferry - Gare Saint-Roch:52.03:23h37
+Pont de Lattes - Gare Saint-Roch:52.33:23h37
+Deux Ponts - Gare Saint-Roch:52.78:23h37
+Providence - Ovalie:52.72:23h37
+Pérols Etang de l Or:52.16:23h37
+Albert 1er - Cathédrale:51.81:23h37
+Saint-Guilhem - Courreau:51.77:23h37
+Sud De France:51.06:23h37
+Comedie Baudin:50.82:23h37
+Jean de Beins:51.46:23h37
+Rue Jules Ferry - Gare Saint-Roch:50.0:00h07
+Comédie:57.5:00h07
+Hôtel de Ville:40.42:00h07
+Corum:36.56:00h07
+Place Albert 1er - St Charles:39.62:00h07
+Foch:49.68:00h07
+Halles Castellane:50.92:00h07
+Observatoire:55.49:00h07
+Rondelet:59.05:00h07
+Plan Cabanes:58.98:00h07
+Boutonnet:56.65:00h07
+Emile Combes:55.05:00h07
+Beaux-Arts:53.22:00h07
+Les Aubes:54.78:00h07
+Antigone centre:51.96:00h07
+Médiathèque Emile Zola:49.88:00h07
+Nombre d Or:50.62:00h07
+Louis Blanc:50.94:00h07
+Gambetta:52.2:00h07
+Port Marianne:52.09:00h07
+Les Arceaux:51.99:00h07
+Cité Mion:52.47:00h07
+Nouveau Saint-Roch:50.73:00h07
+Renouvier:50.7:00h07
+Odysseum:49.67:00h07
+Saint-Denis:50.65:00h07
+Richter:51.09:00h07
+Charles Flahault:49.71:00h07
+Voltaire:47.99:00h07
+Prés d Arènes:49.73:00h07
+Garcia Lorca:48.12:00h07
+Vert Bois:48.77:00h07
+Malbosc:48.43:00h07
+Occitanie:49.03:00h07
+FacdesSciences:50.48:00h07
+Fac de Lettres:50.47:00h07
+Aiguelongue:50.46:00h07
+Jeu de Mail des Abbés:49.79:00h07
+Euromédecine:50.43:00h07
+Marie Caizergues:50.42:00h07
+Sabines:50.41:00h07
+Celleneuve:51.59:00h07
+Jardin de la Lironde:51.55:00h07
+Père Soulas:50.38:00h07
+Place Viala:51.21:00h07
+Hôtel du Département:52.0:00h07
+Tonnelles:52.49:00h07
+Parvis Jules Ferry - Gare Saint-Roch:52.43:00h07
+Pont de Lattes - Gare Saint-Roch:52.72:00h07
+Deux Ponts - Gare Saint-Roch:53.17:00h07
+Providence - Ovalie:53.11:00h07
+Pérols Etang de l Or:52.54:00h07
+Albert 1er - Cathédrale:52.18:00h07
+Saint-Guilhem - Courreau:52.14:00h07
+Sud De France:51.42:00h07
+Comedie Baudin:50.94:00h07
+Jean de Beins:51.59:00h07
